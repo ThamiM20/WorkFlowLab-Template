@@ -13,9 +13,7 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
-import { Routes } from '@/routes';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2Icon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
@@ -53,39 +51,21 @@ export const ForgotPasswordForm = ({ className }: { className?: string }) => {
   }, [searchParams, form]);
 
   const onSubmit = async (values: z.infer<typeof ForgotPasswordSchema>) => {
-    await authClient.forgetPassword(
-      {
-        email: values.email,
-        redirectTo: `${Routes.ResetPassword}`,
-      },
-      {
-        onRequest: (ctx) => {
-          // console.log('forgotPassword, request:', ctx.url);
-          setIsPending(true);
-          setError('');
-          setSuccess('');
-        },
-        onResponse: (ctx) => {
-          // console.log('forgotPassword, response:', ctx.response);
-          setIsPending(false);
-        },
-        onSuccess: (ctx) => {
-          // console.log('forgotPassword, success:', ctx.data);
-          setSuccess(t('checkEmail'));
-        },
-        onError: (ctx) => {
-          console.error('forgotPassword, error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
-        },
-      }
-    );
+    // Since we're removing authentication, this form will just show a success message
+    setIsPending(true);
+    setError('');
+    setSuccess('');
+    
+    // Simulate API call delay
+    setTimeout(() => {
+      setIsPending(false);
+      setSuccess(t('checkEmail'));
+    }, 1000);
   };
 
   return (
     <AuthCard
       headerLabel={t('title')}
-      bottomButtonLabel={t('backToLogin')}
-      bottomButtonHref={`${Routes.Login}`}
       className={cn('', className)}
     >
       <Form {...form}>

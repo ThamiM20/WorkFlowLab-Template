@@ -7,7 +7,6 @@ import {
   AlertCircleIcon,
   AlertTriangleIcon,
   ClockIcon,
-  CreditCardIcon,
   HelpCircleIcon,
   InfoIcon,
   RefreshCwIcon,
@@ -128,15 +127,10 @@ export function ErrorDisplay({
         // Could open a network diagnostic or help page
         window.open('https://www.google.com', '_blank');
         break;
-      case 'purchase_credits':
-        // Navigate to credits purchase page
-        window.location.href = '/settings/billing';
-        break;
-      case 'check_balance':
-        // Navigate to dashboard
-        window.location.href = '/dashboard';
-        break;
-      case 'sign_in':
+
+
+
+        case 'sign_in':
         // Navigate to sign in
         window.location.href = '/auth/login';
         break;
@@ -195,11 +189,15 @@ export function ErrorDisplay({
                     )}
                   >
                     Type: {error.type}
-                    {'\n'}Severity: {error.severity}
-                    {'\n'}Retryable: {error.retryable ? 'Yes' : 'No'}
-                    {'\n'}Message: {error.message}
+\
+Severity: {error.severity}
+\
+Retryable: {error.retryable ? 'Yes' : 'No'}
+\
+Message: {error.message}
                     {error.originalError &&
-                      `\nOriginal: ${error.originalError.message}`}
+                      `\
+Original: ${error.originalError.message}`}
                   </pre>
                 </details>
               )}
@@ -227,8 +225,6 @@ export function ErrorDisplay({
                 <RefreshCwIcon className="size-4" />
               ) : action.action === 'check_connection' ? (
                 <WifiOffIcon className="size-4" />
-              ) : action.action === 'purchase_credits' ? (
-                <CreditCardIcon className="size-4" />
               ) : action.action === 'sign_in' ? (
                 <ShieldIcon className="size-4" />
               ) : (

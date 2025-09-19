@@ -41,12 +41,12 @@ const animations = {
   pulse: {
     initial: { scale: 1.2, opacity: 0 },
     animate: { scale: [1.2, 1.8, 1.2], opacity: [0, 0.3, 0] },
-    transition: { duration: 1.2, ease: 'easeInOut' },
+    transition: { duration: 1.2, ease: 'easeInOut' as const },
   },
   glow: {
     initial: { scale: 1, opacity: 0 },
     animate: { scale: [1, 1.5], opacity: [0.8, 0] },
-    transition: { duration: 0.8, ease: 'easeOut' },
+    transition: { duration: 0.8, ease: 'easeOut' as const },
   },
   particle: (index: number) => ({
     initial: { x: '50%', y: '50%', scale: 0, opacity: 0 },
@@ -56,7 +56,7 @@ const animations = {
       scale: [0, 1, 0],
       opacity: [0, 1, 0],
     },
-    transition: { duration: 0.8, delay: index * 0.05, ease: 'easeOut' },
+    transition: { duration: 0.8, delay: index * 0.05, ease: 'easeOut' as const },
   }),
 };
 
@@ -223,12 +223,16 @@ function GitHubStarsButton({
                   background:
                     'radial-gradient(circle, rgba(255,215,0,0.4) 0%, rgba(255,215,0,0) 70%)',
                 }}
-                {...animations.pulse}
+                initial={animations.pulse.initial}
+                animate={animations.pulse.animate}
+                transition={animations.pulse.transition}
               />
               <motion.div
                 className="absolute inset-0 rounded-full"
                 style={{ boxShadow: '0 0 10px 2px rgba(255,215,0,0.6)' }}
-                {...animations.glow}
+                initial={animations.glow.initial}
+                animate={animations.glow.animate}
+                transition={animations.glow.transition}
               />
               {[...Array(6)].map((_, i) => (
                 <motion.div

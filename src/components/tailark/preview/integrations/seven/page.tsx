@@ -37,7 +37,7 @@ export default function IntegrationsSection() {
                   <Gemini />
                 </IntegrationCard>
                 <IntegrationCard>
-                  <Replit />
+                  <Gemini />
                 </IntegrationCard>
                 <IntegrationCard>
                   <MagicUI />
@@ -51,7 +51,7 @@ export default function IntegrationsSection() {
                   <Gemini />
                 </IntegrationCard>
                 <IntegrationCard>
-                  <Replit />
+                  <Gemini />
                 </IntegrationCard>
                 <IntegrationCard>
                   <MediaWiki />
@@ -70,7 +70,7 @@ export default function IntegrationsSection() {
             <div>
               <InfiniteSlider gap={24} speed={20} speedOnHover={10}>
                 <IntegrationCard>
-                  <Replit />
+                  <Gemini />
                 </IntegrationCard>
                 <IntegrationCard>
                   <MagicUI />

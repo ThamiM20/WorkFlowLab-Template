@@ -18,7 +18,6 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
@@ -38,7 +37,8 @@ export function UpdateNameCard({ className }: UpdateNameCardProps) {
   const t = useTranslations('Dashboard.settings.profile');
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState<string | undefined>('');
-  const { data: session, refetch } = authClient.useSession();
+  // Since we're removing authentication, we'll use a mock user
+  const [userName, setUserName] = useState('User');
 
   // Create a schema for name validation
   const formSchema = z.object({
@@ -52,59 +52,32 @@ export function UpdateNameCard({ className }: UpdateNameCardProps) {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      name: session?.user?.name || '',
+      name: userName,
     },
   });
 
   useEffect(() => {
-    if (session?.user?.name) {
-      form.setValue('name', session.user.name);
-    }
-  }, [session, form]);
-
-  // Check if user exists after all hooks are initialized
-  const user = session?.user;
-  if (!user) {
-    return null;
-  }
+    form.setValue('name', userName);
+  }, [userName, form]);
 
   // Handle form submission
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     // Don't update if the name hasn't changed
-    if (values.name === session?.user?.name) {
+    if (values.name === userName) {
       console.log('No changes to save');
       return;
     }
 
-    await authClient.updateUser(
-      {
-        name: values.name,
-      },
-      {
-        onRequest: (ctx) => {
-          // console.log('update name, request:', ctx.url);
-          setIsSaving(true);
-          setError('');
-        },
-        onResponse: (ctx) => {
-          // console.log('update name, response:', ctx.response);
-          setIsSaving(false);
-        },
-        onSuccess: (ctx) => {
-          // update name success, user information stored in ctx.data
-          // console.log("update name, success:", ctx.data);
-          toast.success(t('name.success'));
-          refetch();
-          form.reset();
-        },
-        onError: (ctx) => {
-          // update name fail, display the error message
-          console.error('update name error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
-          toast.error(t('name.fail'));
-        },
-      }
-    );
+    // Simulate updating the user's name
+    setIsSaving(true);
+    setError('');
+    
+    setTimeout(() => {
+      setIsSaving(false);
+      setUserName(values.name);
+      toast.success(t('name.success'));
+      form.reset();
+    }, 1000);
   };
 
   return (

@@ -9,7 +9,8 @@ export enum Routes {
   // marketing pages
   FAQ = '/#faq',
   Features = '/#features',
-  Pricing = '/pricing', // change to /#pricing if you want to use the pricing section in homepage
+
+  
   Blog = '/blog',
   Docs = '/docs',
   About = '/about',
@@ -21,22 +22,7 @@ export enum Routes {
   PrivacyPolicy = '/privacy',
   TermsOfService = '/terms',
 
-  // auth routes
-  Login = '/auth/login',
-  Register = '/auth/register',
-  AuthError = '/auth/error',
-  ForgotPassword = '/auth/forgot-password',
-  ResetPassword = '/auth/reset-password',
-
-  // dashboard routes
-  Dashboard = '/dashboard',
-  AdminUsers = '/admin/users',
-  SettingsProfile = '/settings/profile',
-  SettingsBilling = '/settings/billing',
-  SettingsCredits = '/settings/credits',
-  SettingsSecurity = '/settings/security',
-  SettingsNotifications = '/settings/notifications',
-
+  
   // AI routes
   AIText = '/ai/text',
   AIImage = '/ai/image',
@@ -56,7 +42,7 @@ export enum Routes {
   TestimonialsBlocks = '/blocks/testimonials',
   CallToActionBlocks = '/blocks/call-to-action',
   FooterBlocks = '/blocks/footer',
-  PricingBlocks = '/blocks/pricing',
+
   ComparatorBlocks = '/blocks/comparator',
   FAQBlocks = '/blocks/faqs',
   LoginBlocks = '/blocks/login',
@@ -68,23 +54,14 @@ export enum Routes {
 /**
  * The routes that can not be accessed by logged in users
  */
-export const routesNotAllowedByLoggedInUsers = [Routes.Login, Routes.Register];
+export const routesNotAllowedByLoggedInUsers: string[] = [];
 
 /**
  * The routes that are protected and require authentication
  */
-export const protectedRoutes = [
-  Routes.Dashboard,
-  Routes.AdminUsers,
-  Routes.SettingsProfile,
-  Routes.SettingsBilling,
-  Routes.SettingsCredits,
-  Routes.SettingsSecurity,
-  Routes.SettingsNotifications,
-];
+export const protectedRoutes: string[] = [];
 
 /**
  * The default redirect path after logging in
  */
-export const DEFAULT_LOGIN_REDIRECT =
-  websiteConfig.routes.defaultLoginRedirect ?? Routes.Dashboard;
+export const DEFAULT_LOGIN_REDIRECT = Routes.Root;

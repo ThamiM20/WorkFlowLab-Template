@@ -1,11 +1,18 @@
-import { authClient } from '@/lib/auth-client';
-
 export const useSession = () => {
-  const { data: session, error } = authClient.useSession();
-  // console.log('useCurrentUser, session:', session);
-  if (error) {
-    console.error('useSession, error:', error);
-    return null;
-  }
+  // Since we're removing authentication, we'll return mock session data
+  const session = {
+    user: {
+      id: 'user-id',
+      name: 'User',
+      email: 'user@example.com',
+      image: null,
+      role: 'user',
+    },
+    session: {
+      id: 'session-id',
+      expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours from now
+    },
+  };
+  
   return session;
 };

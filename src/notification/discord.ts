@@ -3,17 +3,11 @@ import { defaultMessages } from '@/i18n/messages';
 import { getBaseUrl } from '@/lib/urls/urls';
 
 /**
- * Send a message to Discord when a user makes a purchase
- * @param sessionId The Stripe checkout session ID
- * @param customerId The Stripe customer ID
- * @param userName The username of the customer
- * @param amount The purchase amount in the currency's main unit (e.g., dollars, not cents)
+ * Send a message to Discord
+ * @param message The message to send
  */
 export async function sendMessageToDiscord(
-  sessionId: string,
-  customerId: string,
-  userName: string,
-  amount: number
+  message: string
 ): Promise<void> {
   try {
     const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
@@ -26,39 +20,12 @@ export async function sendMessageToDiscord(
     }
 
     // Format the message
-    const message = {
+    const payload = {
       // You can customize these values later
       username: `${defaultMessages.Metadata.name} Bot`,
       avatar_url: `${getBaseUrl()}${websiteConfig.metadata?.images?.logoLight}`,
-      embeds: [
-        {
-          title: '🎉 New Purchase',
-          color: 0x4caf50, // Green color
-          fields: [
-            {
-              name: 'Username',
-              value: userName,
-              inline: true,
-            },
-            {
-              name: 'Amount',
-              value: `$${amount.toFixed(2)}`,
-              inline: true,
-            },
-            {
-              name: 'Customer ID',
-              value: `\`${customerId}\``,
-              inline: false,
-            },
-            {
-              name: 'Session ID',
-              value: `\`${sessionId}\``,
-              inline: false,
-            },
-          ],
-          timestamp: new Date().toISOString(),
-        },
-      ],
+      content: message,
+      timestamp: new Date().toISOString(),
     };
 
     // Send the webhook request
@@ -67,21 +34,21 @@ export async function sendMessageToDiscord(
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(message),
+      body: JSON.stringify(payload),
     });
 
     if (!response.ok) {
       console.error(
-        `<< Failed to send Discord notification for user ${userName}:`,
+        `<< Failed to send Discord notification:`,
         response
       );
     }
 
     console.log(
-      `<< Successfully sent Discord notification for user ${userName}`
+      `<< Successfully sent Discord notification`
     );
   } catch (error) {
     console.error('<< Failed to send Discord notification:', error);
-    // Don't rethrow the error to avoid interrupting the payment flow
+    
   }
 }

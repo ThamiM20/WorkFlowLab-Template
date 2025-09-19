@@ -1,6 +1,5 @@
 'use client';
 
-import { websiteConfig } from '@/config/website';
 import Script from 'next/script';
 
 /**
@@ -10,10 +9,6 @@ import Script from 'next/script';
  */
 export default function AffonsoScript() {
   if (process.env.NODE_ENV !== 'production') {
-    return null;
-  }
-
-  if (!websiteConfig.features.enableAffonsoAffiliate) {
     return null;
   }
 

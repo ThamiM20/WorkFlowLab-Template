@@ -1,4 +1,8 @@
-import { auth } from '@/lib/auth'; // path to your auth file
-import { toNextJsHandler } from 'better-auth/next-js';
+// This route is no longer needed since we've removed authentication
+export async function GET() {
+  return new Response('Authentication is disabled', { status: 404 });
+}
 
-export const { POST, GET } = toNextJsHandler(auth);
+export async function POST() {
+  return new Response('Authentication is disabled', { status: 404 });
+}

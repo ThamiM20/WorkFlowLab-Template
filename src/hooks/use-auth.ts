@@ -1,4 +1,3 @@
-import { authClient } from '@/lib/auth-client';
 import { useQuery } from '@tanstack/react-query';
 
 // Query keys
@@ -16,14 +15,16 @@ export function useUserAccounts(userId: string | undefined) {
         throw new Error('User ID is required');
       }
 
-      const accounts = await authClient.listAccounts();
-
-      // Check if the response is successful and contains accounts data
-      if ('data' in accounts && Array.isArray(accounts.data)) {
-        return accounts.data;
-      }
-
-      throw new Error('Failed to fetch user accounts');
+      // Since we're removing authentication, we'll return mock data
+      return [
+        {
+          id: 'account-id',
+          userId: userId,
+          provider: 'credential',
+          providerAccountId: 'provider-account-id',
+          email: 'user@example.com',
+        },
+      ];
     },
     enabled: !!userId,
   });

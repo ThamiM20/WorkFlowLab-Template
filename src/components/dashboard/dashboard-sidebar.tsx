@@ -1,7 +1,6 @@
 'use client';
 
 import { SidebarMain } from '@/components/dashboard/sidebar-main';
-import { SidebarUser } from '@/components/dashboard/sidebar-user';
 import {
   Sidebar,
   SidebarContent,
@@ -14,13 +13,11 @@ import {
 } from '@/components/ui/sidebar';
 import { useSidebarLinks } from '@/config/sidebar-config';
 import { LocaleLink } from '@/i18n/navigation';
-import { authClient } from '@/lib/auth-client';
 import { Routes } from '@/routes';
 import { useTranslations } from 'next-intl';
 import type * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Logo } from '../layout/logo';
-import { UpgradeCard } from './upgrade-card';
 
 /**
  * Dashboard sidebar
@@ -30,18 +27,12 @@ export function DashboardSidebar({
 }: React.ComponentProps<typeof Sidebar>) {
   const t = useTranslations();
   const [mounted, setMounted] = useState(false);
-  const { data: session, isPending } = authClient.useSession();
-  const currentUser = session?.user;
   const { state } = useSidebar();
   // console.log('sidebar currentUser:', currentUser);
 
   const sidebarLinks = useSidebarLinks();
-  const filteredSidebarLinks = sidebarLinks.filter((link) => {
-    if (link.authorizeOnly) {
-      return link.authorizeOnly.includes(currentUser?.role || '');
-    }
-    return true;
-  });
+  // Since we're removing authentication, we'll show all links
+  const filteredSidebarLinks = sidebarLinks;
 
   useEffect(() => {
     setMounted(true);
@@ -68,18 +59,14 @@ export function DashboardSidebar({
       </SidebarHeader>
 
       <SidebarContent>
-        {!isPending && mounted && <SidebarMain items={filteredSidebarLinks} />}
+        {mounted && <SidebarMain items={filteredSidebarLinks} />}
       </SidebarContent>
 
       <SidebarFooter className="flex flex-col gap-4">
         {/* Only show UI components when not in loading state */}
-        {!isPending && mounted && (
+        {mounted && (
           <>
-            {/* show upgrade card if user is not a member, and sidebar is not collapsed */}
-            {currentUser && state !== 'collapsed' && <UpgradeCard />}
-
-            {/* show user profile if user is logged in */}
-            {currentUser && <SidebarUser user={currentUser} />}
+            {/* Since we're removing authentication, we won't show user profile */}
           </>
         )}
       </SidebarFooter>

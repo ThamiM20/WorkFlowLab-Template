@@ -5,7 +5,6 @@
     "description": "MkSaaS is the best AI SaaS boilerplate. Make AI SaaS in days, simply and effortlessly"
   },
   "Common": {
-    "premium": "Premium",
     "login": "Log in",
     "logout": "Log out",
     "signUp": "Sign up",
@@ -45,75 +44,8 @@
       "descending": "Desc"
     }
   },
-  "PricingPage": {
-    "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "PricingCard": {
-      "freePrice": "$0",
-      "perMonth": "/month",
-      "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
-    },
-    "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
-    }
-  },
-  "PricePlans": {
-    "free": {
-      "name": "Free",
-      "description": "Basic features for personal use",
-      "features": {
-        "feature-1": "Up to 3 projects",
-        "feature-2": "1 GB storage",
-        "feature-3": "Basic analytics",
-        "feature-4": "Community support"
-      },
-      "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
-      }
-    },
-    "pro": {
-      "name": "Pro",
-      "description": "Advanced features for professionals",
-      "features": {
-        "feature-1": "Unlimited projects",
-        "feature-2": "10 GB storage",
-        "feature-3": "Advanced analytics",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
-      },
-      "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
-      }
-    },
-    "lifetime": {
-      "name": "Lifetime",
-      "description": "Premium features with one-time payment",
-      "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
-      }
-    }
-  },
+
+  
   "CreditPackages": {
     "basic": {
       "name": "Basic",
@@ -122,10 +54,6 @@
     "standard": {
       "name": "Standard",
       "description": "Standard credits package description"
-    },
-    "premium": {
-      "name": "Premium",
-      "description": "Premium credits package description"
     },
     "enterprise": {
       "name": "Enterprise",
@@ -295,26 +223,11 @@
     "title": "MkSaaS Docs",
     "homepage": "Homepage"
   },
-  "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
-    "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
-    "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
-  },
+  
   "Marketing": {
     "navbar": {
       "features": {
         "title": "Features"
-      },
-      "pricing": {
-        "title": "Pricing"
       },
       "blog": {
         "title": "Blog"
@@ -420,9 +333,6 @@
           "footer": {
             "title": "Footer Blocks"
           },
-          "pricing": {
-            "title": "Pricing Blocks"
-          },
           "comparator": {
             "title": "Comparator Blocks"
           },
@@ -450,7 +360,6 @@
         "title": "Product",
         "items": {
           "features": "Features",
-          "pricing": "Pricing",
           "faq": "FAQ"
         }
       },
@@ -482,8 +391,6 @@
     },
     "avatar": {
       "dashboard": "Dashboard",
-      "billing": "Billing",
-      "credits": "Credits",
       "settings": "Settings"
     }
   },
@@ -564,111 +471,6 @@
           "fail": "Failed to update name",
           "saving": "Saving...",
           "save": "Save"
-        }
-      },
-      "billing": {
-        "title": "Billing",
-        "description": "Manage your subscription and billing details",
-        "status": {
-          "active": "Active",
-          "trial": "Trial",
-          "free": "Free",
-          "lifetime": "Lifetime"
-        },
-        "interval": {
-          "month": "month",
-          "year": "year",
-          "oneTime": "one-time"
-        },
-        "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
-        },
-        "CustomerPortalButton": {
-          "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
-        },
-        "price": "Price:",
-        "periodStartDate": "Period start date:",
-        "periodEndDate": "Period end date:",
-        "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
-        "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment successful"
-      },
-      "credits": {
-        "title": "Credits",
-        "description": "Manage your credit transactions",
-        "tabs": {
-          "balance": "Balance",
-          "transactions": "Transactions"
-        },
-        "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
-          "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
-          "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
-          "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
-        },
-        "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
-          "purchase": "Purchase",
-          "processing": "Processing...",
-          "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
-          "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
-          "loading": "Loading...",
-          "pay": "Pay"
-        },
-        "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
-          "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
-          "columns": {
-            "columns": "Columns",
-            "id": "ID",
-            "type": "Type",
-            "description": "Description",
-            "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
-            "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
-          },
-          "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
-          },
-          "detailViewer": {
-            "title": "Credit Transaction Detail",
-            "close": "Close"
-          },
-          "expired": "Expired",
-          "never": "Never"
         }
       },
       "notification": {
@@ -874,11 +676,6 @@
         }
       }
     },
-    "pricing": {
-      "title": "Pricing",
-      "subtitle": "Pricing",
-      "description": "Choose the plan that works best for you"
-    },
     "faqs": {
       "title": "FAQ",
       "subtitle": "Frequently Asked Questions",
@@ -1028,7 +825,6 @@
           "description": "Description",
           "introduction": "Introduction",
           "features": "Features",
-          "pricing": "Pricing",
           "useCases": "Use Cases",
           "screenshot": "Website Screenshot"
         }

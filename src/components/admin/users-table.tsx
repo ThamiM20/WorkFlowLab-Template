@@ -29,7 +29,8 @@ import {
 import type { User } from '@/lib/auth-types';
 import { isDemoWebsite } from '@/lib/demo';
 import { formatDate } from '@/lib/formatter';
-import { getStripeDashboardCustomerUrl } from '@/lib/urls/urls';
+
+
 import { IconCaretDownFilled, IconCaretUpFilled } from '@tabler/icons-react';
 import {
   type ColumnDef,
@@ -276,14 +277,10 @@ export function UsersTable({
         return (
           <div className="flex items-center gap-2 pl-3">
             {user.customerId ? (
-              <a
-                href={getStripeDashboardCustomerUrl(user.customerId)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline hover:underline-offset-4"
-              >
+
+<span>
                 {user.customerId}
-              </a>
+              </span>
             ) : (
               '-'
             )}

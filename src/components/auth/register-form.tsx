@@ -15,9 +15,8 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { websiteConfig } from '@/config/website';
-import { authClient } from '@/lib/auth-client';
 import { getUrlWithLocale } from '@/lib/urls/urls';
-import { DEFAULT_LOGIN_REDIRECT, Routes } from '@/routes';
+import { DEFAULT_LOGIN_REDIRECT } from '@/routes';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { EyeIcon, EyeOffIcon, Loader2Icon } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
@@ -122,51 +121,16 @@ export const RegisterForm = ({
       }
     }
 
-    // 1. if requireEmailVerification is true, callbackURL will be used in the verification email,
-    // the user will be redirected to the callbackURL after the email is verified.
-    // 2. if requireEmailVerification is false, the user will not be redirected to the callbackURL,
-    // we should redirect to the callbackURL manually in the onSuccess callback.
-    await authClient.signUp.email(
-      {
-        email: values.email,
-        password: values.password,
-        name: values.name,
-        callbackURL: callbackUrl,
-      },
-      {
-        onRequest: (ctx) => {
-          // console.log('register, request:', ctx.url);
-          setIsPending(true);
-          setError('');
-          setSuccess('');
-        },
-        onResponse: (ctx) => {
-          // console.log('register, response:', ctx.response);
-          setIsPending(false);
-        },
-        onSuccess: (ctx) => {
-          // sign up success, user information stored in ctx.data
-          // console.log("register, success:", ctx.data);
-          setSuccess(t('checkEmail'));
-
-          // add affonso affiliate
-          // https://affonso.io/app/affiliate-program/connect
-          if (websiteConfig.features.enableAffonsoAffiliate) {
-            console.log('register, affonso affiliate:', values.email);
-            window.Affonso.signup(values.email);
-          }
-        },
-        onError: (ctx) => {
-          // sign up fail, display the error message
-          console.error('register, error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
-          // Reset captcha on registration error
-          if (captchaConfigured) {
-            resetCaptcha();
-          }
-        },
-      }
-    );
+    // Since we're removing authentication, this form will just show a success message
+    setIsPending(true);
+    setError('');
+    setSuccess('');
+    
+    // Simulate API call delay
+    setTimeout(() => {
+      setIsPending(false);
+      setSuccess(t('checkEmail'));
+    }, 1000);
   };
 
   const togglePasswordVisibility = () => {
@@ -176,8 +140,6 @@ export const RegisterForm = ({
   return (
     <AuthCard
       headerLabel={t('createAccount')}
-      bottomButtonLabel={t('signInHint')}
-      bottomButtonHref={`${Routes.Login}`}
     >
       {credentialLoginEnabled && (
         <Form {...form}>

@@ -25,7 +25,7 @@ import { useState } from 'react';
  */
 export default function FeaturesSection() {
   const t = useTranslations('HomePage.features');
-  type ImageKey = 'item-1' | 'item-2' | 'item-3' | 'item-4';
+  type ImageKey = 'item-1' | 'item-2' | 'item-3';
   const [activeItem, setActiveItem] = useState<ImageKey>('item-1');
 
   const images = {
@@ -43,11 +43,6 @@ export default function FeaturesSection() {
       image: '/blocks/mail2-light.png',
       darkImage: '/blocks/mail2.png',
       alt: 'Product Feature Three',
-    },
-    'item-4': {
-      image: '/blocks/payments-light.png',
-      darkImage: '/blocks/payments.png',
-      alt: 'Product Feature Four',
     },
   };
 
@@ -110,17 +105,7 @@ export default function FeaturesSection() {
                   {t('items.item-3.description')}
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-4">
-                <AccordionTrigger>
-                  <div className="flex items-center gap-2 text-base">
-                    <ChartBarIncreasingIcon className="size-4" />
-                    {t('items.item-4.title')}
-                  </div>
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  {t('items.item-4.description')}
-                </AccordionContent>
-              </AccordionItem>
+              
             </Accordion>
           </div>
 

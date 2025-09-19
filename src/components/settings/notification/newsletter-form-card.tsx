@@ -23,12 +23,11 @@ import {
   useSubscribeNewsletter,
   useUnsubscribeNewsletter,
 } from '@/hooks/use-newsletter';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2Icon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import { z } from 'zod';
@@ -49,8 +48,10 @@ export function NewsletterFormCard({ className }: NewsletterFormCardProps) {
   }
 
   const t = useTranslations('Dashboard.settings.notification');
-  const { data: session } = authClient.useSession();
-  const currentUser = session?.user;
+  // Since we're removing authentication, we'll use a mock user
+  const currentUser = {
+    email: 'user@example.com',
+  };
 
   // TanStack Query hooks
   const {
@@ -81,11 +82,6 @@ export function NewsletterFormCard({ className }: NewsletterFormCardProps) {
       form.setValue('subscribed', newsletterStatus.subscribed);
     }
   }, [newsletterStatus, form]);
-
-  // Check if user exists after all hooks are initialized
-  if (!currentUser) {
-    return null;
-  }
 
   // Handle checkbox change
   const handleSubscriptionChange = async (value: boolean) => {
