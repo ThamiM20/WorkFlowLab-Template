@@ -1,15 +1,9 @@
 /**
- * Send a message to Feishu when a user makes a purchase
- * @param sessionId The Stripe checkout session ID
- * @param customerId The Stripe customer ID
- * @param userName The username of the customer
- * @param amount The purchase amount in the currency's main unit (e.g., dollars, not cents)
+ * Send a message to Feishu
+ * @param message The message to send
  */
 export async function sendMessageToFeishu(
-  sessionId: string,
-  customerId: string,
-  userName: string,
-  amount: number
+  message: string
 ): Promise<void> {
   try {
     const webhookUrl = process.env.FEISHU_WEBHOOK_URL;
@@ -22,10 +16,10 @@ export async function sendMessageToFeishu(
     }
 
     // Format the message
-    const message = {
+    const payload = {
       msg_type: 'text',
       content: {
-        text: `🎉 New Purchase\nUsername: ${userName}\nAmount: $${amount.toFixed(2)}\nCustomer ID: ${customerId}\nSession ID: ${sessionId}`,
+        text: message,
       },
     };
 
@@ -35,21 +29,21 @@ export async function sendMessageToFeishu(
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(message),
+      body: JSON.stringify(payload),
     });
 
     if (!response.ok) {
       console.error(
-        `<< Failed to send Feishu notification for user ${userName}:`,
+        `<< Failed to send Feishu notification:`,
         response
       );
     }
 
     console.log(
-      `<< Successfully sent Feishu notification for user ${userName}`
+      `<< Successfully sent Feishu notification`
     );
   } catch (error) {
     console.error('<< Failed to send Feishu notification:', error);
-    // Don't rethrow the error to avoid interrupting the payment flow
+    
   }
 }

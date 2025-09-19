@@ -1,14 +1,10 @@
 'use client';
 
 import { isDemoWebsite } from '@/lib/demo';
-import { Routes } from '@/routes';
 import type { NestedMenuItem } from '@/types';
 import {
   BellIcon,
   CircleUserRoundIcon,
-  CoinsIcon,
-  CreditCardIcon,
-  LayoutDashboardIcon,
   LockKeyholeIcon,
   Settings2Icon,
   SettingsIcon,
@@ -35,60 +31,25 @@ export function useSidebarLinks(): NestedMenuItem[] {
 
   return [
     {
-      title: t('dashboard.title'),
-      icon: <LayoutDashboardIcon className="size-4 shrink-0" />,
-      href: Routes.Dashboard,
-      external: false,
-    },
-    {
-      title: t('admin.title'),
-      icon: <SettingsIcon className="size-4 shrink-0" />,
-      authorizeOnly: isDemo ? ['admin', 'user'] : ['admin'],
-      items: [
-        {
-          title: t('admin.users.title'),
-          icon: <UsersRoundIcon className="size-4 shrink-0" />,
-          href: Routes.AdminUsers,
-          external: false,
-        },
-      ],
-    },
-    {
       title: t('settings.title'),
       icon: <Settings2Icon className="size-4 shrink-0" />,
       items: [
         {
           title: t('settings.profile.title'),
           icon: <CircleUserRoundIcon className="size-4 shrink-0" />,
-          href: Routes.SettingsProfile,
+          href: '/settings/profile',
           external: false,
         },
-        {
-          title: t('settings.billing.title'),
-          icon: <CreditCardIcon className="size-4 shrink-0" />,
-          href: Routes.SettingsBilling,
-          external: false,
-        },
-        ...(websiteConfig.credits.enableCredits
-          ? [
-              {
-                title: t('settings.credits.title'),
-                icon: <CoinsIcon className="size-4 shrink-0" />,
-                href: Routes.SettingsCredits,
-                external: false,
-              },
-            ]
-          : []),
         {
           title: t('settings.security.title'),
           icon: <LockKeyholeIcon className="size-4 shrink-0" />,
-          href: Routes.SettingsSecurity,
+          href: '/settings/security',
           external: false,
         },
         {
           title: t('settings.notification.title'),
           icon: <BellIcon className="size-4 shrink-0" />,
-          href: Routes.SettingsNotifications,
+          href: '/settings/notifications',
           external: false,
         },
       ],

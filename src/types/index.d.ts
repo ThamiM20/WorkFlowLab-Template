@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import type { PricePlan } from '@/payment/types';
+
 import type { CreditPackage } from '@/credits/types';
 
 /**
@@ -18,8 +18,6 @@ export type WebsiteConfig = {
   mail: MailConfig;
   newsletter: NewsletterConfig;
   storage: StorageConfig;
-  payment: PaymentConfig;
-  price: PriceConfig;
   credits: CreditsConfig;
 };
 
@@ -77,11 +75,7 @@ export interface SocialConfig {
  */
 export interface FeaturesConfig {
   enableCrispChat?: boolean;          // Whether to enable the crisp chat
-  enableUpgradeCard?: boolean;        // Whether to enable the upgrade card in the sidebar
   enableUpdateAvatar?: boolean;       // Whether to enable the update avatar in settings
-  enableAffonsoAffiliate?: boolean;   // Whether to enable affonso affiliate
-  enablePromotekitAffiliate?: boolean;   // Whether to enable promotekit affiliate
-  enableDatafastRevenueTrack?: boolean;   // Whether to enable datafast revenue tracking
   enableTurnstileCaptcha?: boolean;   // Whether to enable turnstile captcha
 }
 
@@ -157,25 +151,12 @@ export interface StorageConfig {
 }
 
 /**
- * Payment configuration
- */
-export interface PaymentConfig {
-  provider: 'stripe';                // The payment provider, only stripe is supported for now
-}
-
-/**
- * Price configuration
- */
-export interface PriceConfig {
-  plans: Record<string, PricePlan>;  // Plans indexed by ID
-}
-
-/**
  * Credits configuration
  */
 export interface CreditsConfig {
   enableCredits: boolean;            // Whether to enable credits
-  enablePackagesForFreePlan: boolean;// Whether to enable purchase credits for free plan users
+
+  
   registerGiftCredits: {
     enable: boolean;                 // Whether to enable register gift credits
     amount: number;                  // The amount of credits to give to the user

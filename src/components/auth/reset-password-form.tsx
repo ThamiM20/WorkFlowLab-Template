@@ -14,8 +14,6 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { useLocaleRouter } from '@/i18n/navigation';
-import { authClient } from '@/lib/auth-client';
-import { Routes } from '@/routes';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { EyeIcon, EyeOffIcon, Loader2Icon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
@@ -66,40 +64,21 @@ export const ResetPasswordForm = () => {
   };
 
   const onSubmit = async (values: z.infer<typeof ResetPasswordSchema>) => {
-    await authClient.resetPassword(
-      {
-        newPassword: values.password,
-        token,
-      },
-      {
-        onRequest: (ctx) => {
-          // console.log("resetPassword, request:", ctx.url);
-          setIsPending(true);
-          setError('');
-          setSuccess('');
-        },
-        onResponse: (ctx) => {
-          // console.log("resetPassword, response:", ctx.response);
-          setIsPending(false);
-        },
-        onSuccess: (ctx) => {
-          // console.log("resetPassword, success:", ctx.data);
-          // setSuccess("Password reset successfully");
-          router.push(`${Routes.Login}`);
-        },
-        onError: (ctx) => {
-          console.error('resetPassword, error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
-        },
-      }
-    );
+    // Since we're removing authentication, this form will just show a success message
+    setIsPending(true);
+    setError('');
+    setSuccess('');
+    
+    // Simulate API call delay
+    setTimeout(() => {
+      setIsPending(false);
+      setSuccess(t('backToLogin'));
+    }, 1000);
   };
 
   return (
     <AuthCard
       headerLabel={t('title')}
-      bottomButtonLabel={t('backToLogin')}
-      bottomButtonHref={`${Routes.Login}`}
     >
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">

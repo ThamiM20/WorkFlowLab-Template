@@ -12,7 +12,6 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { websiteConfig } from '@/config/website';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { uploadFileFromBrowser } from '@/storage/client';
 import { User2Icon } from 'lucide-react';
@@ -39,20 +38,15 @@ export function UpdateAvatarCard({ className }: UpdateAvatarCardProps) {
   const t = useTranslations('Dashboard.settings.profile');
   const [isUploading, setIsUploading] = useState(false);
   const [error, setError] = useState<string | undefined>('');
-  const { data: session, refetch } = authClient.useSession();
+  // Since we're removing authentication, we'll use a mock user
   const [avatarUrl, setAvatarUrl] = useState('');
   const [tempAvatarUrl, setTempAvatarUrl] = useState('');
 
-  useEffect(() => {
-    if (session?.user?.image) {
-      setAvatarUrl(session.user.image);
-    }
-  }, [session]);
-
-  const user = session?.user;
-  if (!user) {
-    return null;
-  }
+  // Mock user data
+  const user = {
+    name: 'User',
+    image: avatarUrl,
+  };
 
   const handleUploadClick = () => {
     // Create a hidden file input and trigger it
@@ -85,44 +79,17 @@ export function UpdateAvatarCard({ className }: UpdateAvatarCardProps) {
       const { url } = result;
       console.log('uploadFileFromBrowser, url', url);
 
-      // Update the user's avatar using authClient
-      await authClient.updateUser(
-        {
-          image: url,
-        },
-        {
-          onRequest: () => {
-            // console.log('update avatar, request:', ctx.url);
-          },
-          onResponse: () => {
-            // console.log('update avatar, response:', ctx.response);
-          },
-          onSuccess: () => {
-            // console.log('update avatar, success:', ctx.data);
-            // Set the permanent avatar URL on success
-            setAvatarUrl(url);
-            toast.success(t('avatar.success'));
-            // Refetch the session to get the latest data
-            refetch();
-          },
-          onError: (ctx) => {
-            console.error('update avatar error:', ctx.error);
-            setError(`${ctx.error.status}: ${ctx.error.message}`);
-            // Restore the previous avatar on error
-            if (session?.user?.image) {
-              setAvatarUrl(session.user.image);
-            }
-            toast.error(t('avatar.fail'));
-          },
-        }
-      );
+      // Simulate updating the user's avatar
+      setTimeout(() => {
+        // Set the permanent avatar URL on success
+        setAvatarUrl(url);
+        toast.success(t('avatar.success'));
+      }, 1000);
     } catch (error) {
       console.error('update avatar error:', error);
       setError(error instanceof Error ? error.message : t('avatar.fail'));
       // Restore the previous avatar if there was an error
-      if (session?.user?.image) {
-        setAvatarUrl(session.user.image);
-      }
+      setAvatarUrl('');
       toast.error(t('avatar.fail'));
     } finally {
       setIsUploading(false);

@@ -1,17 +1,17 @@
-import { adminClient, inferAdditionalFields } from 'better-auth/client/plugins';
-import { createAuthClient } from 'better-auth/react';
+import type { User } from 'better-auth';
 import type { auth } from './auth';
 import { getBaseUrl } from './urls/urls';
 
 /**
- * https://www.better-auth.com/docs/installation#create-client-instance
+ * Mock auth client for a content-only site
  */
-export const authClient = createAuthClient({
-  baseURL: getBaseUrl(),
-  plugins: [
-    // https://www.better-auth.com/docs/plugins/admin#add-the-client-plugin
-    adminClient(),
-    // https://www.better-auth.com/docs/concepts/typescript#inferring-additional-fields-on-client
-    inferAdditionalFields<typeof auth>(),
-  ],
-});
+export const authClient = {
+  useSession: () => ({
+    data: null,
+    isPending: false,
+  }),
+  signOut: async () => {
+    // No-op since we're removing authentication
+    return Promise.resolve();
+  },
+};

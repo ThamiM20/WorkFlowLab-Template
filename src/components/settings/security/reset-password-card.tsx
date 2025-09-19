@@ -10,7 +10,6 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { useLocaleRouter } from '@/i18n/navigation';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
 
@@ -39,7 +38,12 @@ interface ResetPasswordCardProps {
 export function ResetPasswordCard({ className }: ResetPasswordCardProps) {
   const t = useTranslations('Dashboard.settings.security.resetPassword');
   const router = useLocaleRouter();
-  const { data: session } = authClient.useSession();
+  // Since we're removing authentication, we'll use mock data
+  const session = {
+    user: {
+      email: 'user@example.com',
+    },
+  };
 
   const handleSetupPassword = () => {
     // Pre-fill the email if available to make it easier for the user

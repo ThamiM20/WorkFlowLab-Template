@@ -1,5 +1,4 @@
 import { getUsersAction } from '@/actions/get-users';
-import { authClient } from '@/lib/auth-client';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import type { SortingState } from '@tanstack/react-table';
 
@@ -58,11 +57,9 @@ export function useBanUser() {
       banReason: string;
       banExpiresIn?: number;
     }) => {
-      return authClient.admin.banUser({
-        userId,
-        banReason,
-        banExpiresIn,
-      });
+      // Since we're removing authentication, we'll simulate the ban operation
+      console.log('Banning user:', userId, banReason, banExpiresIn);
+      return { success: true };
     },
     onSuccess: () => {
       // Invalidate all users queries to refresh the data
@@ -79,9 +76,9 @@ export function useUnbanUser() {
 
   return useMutation({
     mutationFn: async ({ userId }: { userId: string }) => {
-      return authClient.admin.unbanUser({
-        userId,
-      });
+      // Since we're removing authentication, we'll simulate the unban operation
+      console.log('Unbanning user:', userId);
+      return { success: true };
     },
     onSuccess: () => {
       // Invalidate all users queries to refresh the data

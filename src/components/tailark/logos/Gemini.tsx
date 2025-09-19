@@ -35,3 +35,4 @@ export default function Gemini(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+

@@ -1,6 +1,23 @@
-import type { auth } from './auth';
+// Since we're removing authentication, we'll define mock types
+export type Session = {
+  user: User;
+  session: {
+    id: string;
+    expiresAt: Date;
+  };
+};
 
-// https://www.better-auth.com/docs/concepts/typescript#additional-fields
-export type Session = typeof auth.$Infer.Session;
-
-export type User = typeof auth.$Infer.Session.user;
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  emailVerified: boolean;
+  image: string | null;
+  createdAt: Date;
+  updatedAt: Date;
+  role: string | null;
+  banned: boolean | null;
+  banReason: string | null;
+  banExpires: Date | null;
+  customerId: string | null;
+};

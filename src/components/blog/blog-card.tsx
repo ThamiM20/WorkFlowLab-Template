@@ -3,7 +3,7 @@ import { LocaleLink } from '@/i18n/navigation';
 import { formatDate } from '@/lib/formatter';
 import { type BlogType, authorSource, categorySource } from '@/lib/source';
 import Image from 'next/image';
-import { PremiumBadge } from '../premium/premium-badge';
+
 import BlogImage from './blog-image';
 
 interface BlogCardProps {
@@ -30,13 +30,6 @@ export default function BlogCard({ locale, post }: BlogCardProps) {
               alt={title || 'image for blog post'}
               title={title || 'image for blog post'}
             />
-
-            {/* Premium badge - top right */}
-            {post.data.premium && (
-              <div className="absolute top-2 right-2 z-20">
-                <PremiumBadge size="sm" />
-              </div>
-            )}
 
             {/* categories */}
             {blogCategories && blogCategories.length > 0 && (

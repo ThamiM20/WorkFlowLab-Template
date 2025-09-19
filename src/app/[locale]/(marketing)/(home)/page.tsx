@@ -7,7 +7,7 @@ import HeroSection from '@/components/blocks/hero/hero';
 import IntegrationSection from '@/components/blocks/integration/integration';
 import Integration2Section from '@/components/blocks/integration/integration2';
 import LogoCloud from '@/components/blocks/logo-cloud/logo-cloud';
-import PricingSection from '@/components/blocks/pricing/pricing';
+
 import StatsSection from '@/components/blocks/stats/stats';
 import TestimonialsSection from '@/components/blocks/testimonials/testimonials';
 import CrispChat from '@/components/layout/crisp-chat';
@@ -64,7 +64,6 @@ export default async function HomePage(props: HomePageProps) {
 
         <Integration2Section />
 
-        <PricingSection />
 
         <FaqSection />
 

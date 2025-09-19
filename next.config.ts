@@ -1,6 +1,7 @@
 import { createMDX } from 'fumadocs-mdx/next';
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
+import path from 'path';
 
 /**
  * https://nextjs.org/docs/app/api-reference/config/next-config-js
@@ -11,6 +12,9 @@ const nextConfig: NextConfig = {
 
   /* config options here */
   devIndicators: false,
+
+  // Ensure Next.js resolves the correct project root when multiple lockfiles exist
+  outputFileTracingRoot: path.join(__dirname),
 
   // https://nextjs.org/docs/architecture/nextjs-compiler#remove-console
   // Remove all console.* calls in production only

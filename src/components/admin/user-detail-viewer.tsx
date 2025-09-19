@@ -24,7 +24,7 @@ import { useBanUser, useUnbanUser } from '@/hooks/use-users';
 import type { User } from '@/lib/auth-types';
 import { isDemoWebsite } from '@/lib/demo';
 import { formatDate } from '@/lib/formatter';
-import { getStripeDashboardCustomerUrl } from '@/lib/urls/urls';
+
 import { cn } from '@/lib/utils';
 import {
   CalendarIcon,
@@ -167,15 +167,11 @@ export function UserDetailViewer({ user }: UserDetailViewerProps) {
                   : t('email.unverified')}
               </Badge> */}
 
-              {/* user banned */}
+              {/* user banned - Since we're removing authentication, we'll always show active */}
               <div className="flex items-center gap-2">
                 <Badge variant="outline" className="px-1.5 hover:bg-accent">
-                  {user.banned ? (
-                    <UserRoundXIcon className="stroke-red-500 dark:stroke-red-400" />
-                  ) : (
-                    <UserRoundCheckIcon className="stroke-green-500 dark:stroke-green-400" />
-                  )}
-                  {user.banned ? t('banned') : t('active')}
+                  <UserRoundCheckIcon className="stroke-green-500 dark:stroke-green-400" />
+                  {t('active')}
                 </Badge>
               </div>
             </div>
@@ -195,134 +191,79 @@ export function UserDetailViewer({ user }: UserDetailViewerProps) {
                       toast.success(t('emailCopied'));
                     }}
                   >
-                    {user.emailVerified ? (
-                      <MailCheckIcon className="stroke-green-500 dark:stroke-green-400" />
-                    ) : (
-                      <MailQuestionIcon className="stroke-red-500 dark:stroke-red-400" />
-                    )}
+                    <MailCheckIcon className="stroke-green-500 dark:stroke-green-400" />
                     {user.email}
                   </Badge>
                 </div>
               </div>
             )}
-
-            {/* customerId */}
-            {user.customerId && (
-              <div className="grid gap-3">
-                <span className="text-muted-foreground text-xs">
-                  {t('columns.customerId')}:
-                </span>
-                <a
-                  href={getStripeDashboardCustomerUrl(user.customerId)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-mono text-sm hover:underline hover:underline-offset-4 rounded break-all"
-                >
-                  {user.customerId}
-                </a>
-              </div>
-            )}
           </div>
 
-          {/* Timestamps */}
-          <div className="grid gap-3">
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">{t('joined')}:</span>
-              <span>{formatDate(user.createdAt)}</span>
-            </div>
-            <div className="flex justify-between items-center">
-              <span className="text-muted-foreground">{t('updated')}:</span>
-              <span>{formatDate(user.updatedAt)}</span>
-            </div>
-          </div>
+          {/* Timestamps - Removed as they're not part of the User type */}
           <Separator />
 
           {/* error */}
           {error && <div className="text-sm text-destructive">{error}</div>}
 
-          {/* ban or unban user */}
-          {user.banned ? (
-            <div className="grid gap-4">
-              <div className="">
-                {t('ban.reason')}: {user.banReason}
-              </div>
-              <div className="">
-                {t('ban.expires')}:{' '}
-                {(user.banExpires && formatDate(user.banExpires)) ||
-                  t('ban.never')}
-              </div>
-              <Button
-                variant="destructive"
-                onClick={handleUnban}
-                disabled={unbanUserMutation.isPending || isDemo}
-                className="mt-4 cursor-pointer"
-              >
-                {unbanUserMutation.isPending && (
-                  <Loader2Icon className="mr-2 size-4 animate-spin" />
-                )}
-                {t('unban.button')}
-              </Button>
+          {/* ban or unban user - Since we're removing authentication, we'll always show the ban form */}
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleBan();
+            }}
+            className="grid gap-4"
+          >
+            <div className="grid gap-2">
+              <Label htmlFor="ban-reason">{t('ban.reason')}</Label>
+              <Textarea
+                id="ban-reason"
+                value={banReason}
+                onChange={(e) => setBanReason(e.target.value)}
+                placeholder={t('ban.reasonPlaceholder')}
+                required
+              />
             </div>
-          ) : (
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                handleBan();
-              }}
-              className="grid gap-4"
+            <div className="grid gap-2">
+              <Label>{t('ban.expires')}</Label>
+              <Popover>
+                <PopoverTrigger asChild>
+                  <Button
+                    variant="outline"
+                    className={cn(
+                      'justify-start text-left font-normal cursor-pointer',
+                      !banExpiresAt && 'text-muted-foreground'
+                    )}
+                  >
+                    <CalendarIcon />
+                    {banExpiresAt ? (
+                      formatDate(banExpiresAt)
+                    ) : (
+                      <span>{t('ban.selectDate')}</span>
+                    )}
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent className="w-auto p-0" align="start">
+                  <Calendar
+                    mode="single"
+                    selected={banExpiresAt}
+                    onSelect={setBanExpiresAt}
+                    initialFocus
+                  />
+                </PopoverContent>
+              </Popover>
+            </div>
+            <Button
+              type="submit"
+              variant="destructive"
+              disabled={banUserMutation.isPending || !banReason || isDemo}
+              className="mt-4 cursor-pointer"
             >
-              <div className="grid gap-2">
-                <Label htmlFor="ban-reason">{t('ban.reason')}</Label>
-                <Textarea
-                  id="ban-reason"
-                  value={banReason}
-                  onChange={(e) => setBanReason(e.target.value)}
-                  placeholder={t('ban.reasonPlaceholder')}
-                  required
-                />
-              </div>
-              <div className="grid gap-2">
-                <Label>{t('ban.expires')}</Label>
-                <Popover>
-                  <PopoverTrigger asChild>
-                    <Button
-                      variant="outline"
-                      className={cn(
-                        'justify-start text-left font-normal cursor-pointer',
-                        !banExpiresAt && 'text-muted-foreground'
-                      )}
-                    >
-                      <CalendarIcon />
-                      {banExpiresAt ? (
-                        formatDate(banExpiresAt)
-                      ) : (
-                        <span>{t('ban.selectDate')}</span>
-                      )}
-                    </Button>
-                  </PopoverTrigger>
-                  <PopoverContent className="w-auto p-0" align="start">
-                    <Calendar
-                      mode="single"
-                      selected={banExpiresAt}
-                      onSelect={setBanExpiresAt}
-                      initialFocus
-                    />
-                  </PopoverContent>
-                </Popover>
-              </div>
-              <Button
-                type="submit"
-                variant="destructive"
-                disabled={banUserMutation.isPending || !banReason || isDemo}
-                className="mt-4 cursor-pointer"
-              >
-                {banUserMutation.isPending && (
-                  <Loader2Icon className="mr-2 size-4 animate-spin" />
-                )}
-                {t('ban.button')}
-              </Button>
-            </form>
-          )}
+              {banUserMutation.isPending && (
+                <Loader2Icon className="mr-2 size-4 animate-spin" />
+              )}
+              {t('ban.button')}
+            </Button>
+          </form>
         </div>
         <DrawerFooter>
           <DrawerClose asChild>

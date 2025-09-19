@@ -15,11 +15,9 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { websiteConfig } from '@/config/website';
-import { LocaleLink } from '@/i18n/navigation';
-import { authClient } from '@/lib/auth-client';
 import { getUrlWithLocale } from '@/lib/urls/urls';
 import { cn } from '@/lib/utils';
-import { DEFAULT_LOGIN_REDIRECT, Routes } from '@/routes';
+import { DEFAULT_LOGIN_REDIRECT } from '@/routes';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { EyeIcon, EyeOffIcon, Loader2Icon } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
@@ -123,41 +121,16 @@ export const LoginForm = ({
       }
     }
 
-    // 1. if callbackUrl is provided, user will be redirected to the callbackURL after login successfully.
-    // if user email is not verified, a new verification email will be sent to the user with the callbackURL.
-    // 2. if callbackUrl is not provided, we should redirect manually in the onSuccess callback.
-    await authClient.signIn.email(
-      {
-        email: values.email,
-        password: values.password,
-        callbackURL: callbackUrl,
-      },
-      {
-        onRequest: (ctx) => {
-          // console.log("login, request:", ctx.url);
-          setIsPending(true);
-          setError('');
-          setSuccess('');
-        },
-        onResponse: (ctx) => {
-          // console.log("login, response:", ctx.response);
-          setIsPending(false);
-        },
-        onSuccess: (ctx) => {
-          // console.log("login, success:", ctx.data);
-          // setSuccess("Login successful");
-          // router.push(callbackUrl || "/dashboard");
-        },
-        onError: (ctx) => {
-          console.error('login, error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
-          // Reset captcha on login error
-          if (captchaConfigured) {
-            resetCaptcha();
-          }
-        },
-      }
-    );
+    // Since we're removing authentication, this form will just show a success message
+    setIsPending(true);
+    setError('');
+    setSuccess('');
+    
+    // Simulate API call delay
+    setTimeout(() => {
+      setIsPending(false);
+      setSuccess(t('welcomeBack'));
+    }, 1000);
   };
 
   const togglePasswordVisibility = () => {
@@ -167,8 +140,6 @@ export const LoginForm = ({
   return (
     <AuthCard
       headerLabel={t('welcomeBack')}
-      bottomButtonLabel={t('signUpHint')}
-      bottomButtonHref={`${Routes.Register}`}
       className={cn('', className)}
     >
       {credentialLoginEnabled && (
@@ -200,19 +171,6 @@ export const LoginForm = ({
                   <FormItem>
                     <div className="flex justify-between items-center">
                       <FormLabel>{t('password')}</FormLabel>
-                      <Button
-                        size="sm"
-                        variant="link"
-                        asChild
-                        className="px-0 font-normal text-muted-foreground"
-                      >
-                        <LocaleLink
-                          href={`${Routes.ForgotPassword}`}
-                          className="text-xs hover:underline hover:underline-offset-4 hover:text-primary"
-                        >
-                          {t('forgotPassword')}
-                        </LocaleLink>
-                      </Button>
                     </div>
                     <FormControl>
                       <div className="relative">

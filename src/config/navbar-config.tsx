@@ -56,11 +56,6 @@ export function useNavbarLinks(): NestedMenuItem[] {
       href: Routes.Features,
       external: false,
     },
-    {
-      title: t('pricing.title'),
-      href: Routes.Pricing,
-      external: false,
-    },
     ...(websiteConfig.blog.enable
       ? [
           {

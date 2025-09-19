@@ -20,7 +20,6 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { useLocaleRouter } from '@/i18n/navigation';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { EyeIcon, EyeOffIcon } from 'lucide-react';
@@ -52,7 +51,12 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
   const [showNewPassword, setShowNewPassword] = useState(false);
   const [error, setError] = useState<string | undefined>('');
   const router = useLocaleRouter();
-  const { data: session } = authClient.useSession();
+  // Since we're removing authentication, we'll use mock data
+  const session = {
+    user: {
+      id: 'user-id',
+    },
+  };
 
   // Create a schema for password validation
   const formSchema = z.object({
@@ -77,38 +81,16 @@ export function UpdatePasswordCard({ className }: UpdatePasswordCardProps) {
 
   // Handle form submission
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
-    await authClient.changePassword(
-      {
-        currentPassword: values.currentPassword,
-        newPassword: values.newPassword,
-        revokeOtherSessions: true,
-      },
-      {
-        onRequest: (ctx) => {
-          // console.log('update password, request:', ctx.url);
-          setIsSaving(true);
-          setError('');
-        },
-        onResponse: (ctx) => {
-          // console.log('update password, response:', ctx.response);
-          setIsSaving(false);
-        },
-        onSuccess: (ctx) => {
-          // update password success, user information stored in ctx.data
-          // console.log("update password, success:", ctx.data);
-          toast.success(t('success'));
-          router.refresh();
-          form.reset();
-        },
-        onError: (ctx) => {
-          // update password fail, display the error message
-          // { "message": "Invalid password", "code": "INVALID_PASSWORD", "status": 400, "statusText": "BAD_REQUEST" }
-          console.error('update password error:', ctx.error);
-          setError(`${ctx.error.status}: ${ctx.error.message}`);
-          toast.error(t('fail'));
-        },
-      }
-    );
+    // Simulate updating the user's password
+    setIsSaving(true);
+    setError('');
+    
+    setTimeout(() => {
+      setIsSaving(false);
+      toast.success(t('success'));
+      router.refresh();
+      form.reset();
+    }, 1000);
   };
 
   return (

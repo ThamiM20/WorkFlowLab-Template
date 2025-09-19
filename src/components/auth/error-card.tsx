@@ -9,8 +9,8 @@ export const ErrorCard = () => {
   return (
     <AuthCard
       headerLabel={t('title')}
-      bottomButtonHref={`${Routes.Login}`}
-      bottomButtonLabel={t('backToLogin')}
+      bottomButtonLabel=""
+      bottomButtonHref=""
       className="border-none"
     >
       <div className="w-full flex justify-center items-center py-4 gap-2">

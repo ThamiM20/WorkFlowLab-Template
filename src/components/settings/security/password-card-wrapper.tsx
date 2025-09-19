@@ -11,8 +11,6 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
-import { useHasCredentialProvider } from '@/hooks/use-auth';
-import { authClient } from '@/lib/auth-client';
 import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
 
@@ -24,10 +22,16 @@ import { useTranslations } from 'next-intl';
  * - Nothing: if the user has no credential provider and no email
  */
 export function PasswordCardWrapper() {
-  const { data: session } = authClient.useSession();
-  const { hasCredentialProvider, isLoading, error } = useHasCredentialProvider(
-    session?.user?.id
-  );
+  // Since we're removing authentication, we'll use mock data
+  const hasCredentialProvider = true;
+  const isLoading = false;
+  const error = null;
+  const session = {
+    user: {
+      id: 'user-id',
+      email: 'user@example.com',
+    },
+  };
 
   // Handle error state
   if (error) {
