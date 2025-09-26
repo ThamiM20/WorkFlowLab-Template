@@ -14,12 +14,12 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'BlogPage' });
 
   return {
-    title: t('title'),
-    description: t('description'),
+    title: `${t('title')} (Strapi)`,
+    description: `${t('description')} - Powered by Strapi CMS`,
   };
 }
 
-export default async function BlogPage({
+export default async function StrapiBlogPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -30,18 +30,22 @@ export default async function BlogPage({
   let error: string | null = null;
 
   try {
+    console.log('Fetching posts for locale:', locale);
     posts = await strapiPosts.getAll(locale);
+    console.log('Fetched posts from Strapi:', JSON.stringify(posts, null, 2));
   } catch (err) {
     console.error('Error fetching blog posts:', err);
     error = 'Failed to load blog posts';
   }
 
+  console.log('Rendering page with posts:', posts, 'error:', error);
+
   return (
     <div className="container py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold">Blog</h1>
+        <h1 className="text-3xl font-bold">Blog (Strapi)</h1>
         <p className="text-muted-foreground mt-2">
-          Latest news and updates from our team
+          Latest news and updates from our team - Powered by Strapi CMS
         </p>
       </div>
 
