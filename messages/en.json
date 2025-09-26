@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "MkSaaS Demo",
-    "title": "MkSaaS - The Best AI SaaS Boilerplate",
-    "description": "MkSaaS is the best AI SaaS boilerplate. Make AI SaaS in days, simply and effortlessly"
+    "name": "WorkflowLab",
+    "title": "WorkflowLab - The Ultimate SaaS Boilerplate for Content-Driven Websites",
+    "description": "Build content-driven SaaS websites with auth, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more in days."
   },
   "Common": {
     "login": "Log in",
@@ -72,10 +72,10 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
-    "authorName": "MkSaaS",
+    "description": "This is WorkflowLab, an AI SaaS platform built with modern technologies, helping you build your SaaS faster and better.",
+    "authorName": "WorkflowLab",
     "authorBio": "AI SaaS Boilerplate",
-    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
+    "introduction": "👋 Hi there! This is WorkflowLab, an AI SaaS platform built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
     "talkWithMe": "Talk with me",
     "followMe": "Follow me on X"
   },
@@ -220,7 +220,7 @@
     "previousPage": "Previous",
     "nextPage": "Next",
     "chooseLanguage": "Select language",
-    "title": "MkSaaS Docs",
+    "title": "WorkflowLab Docs",
     "homepage": "Homepage"
   },
   
@@ -563,12 +563,12 @@
     }
   },
   "HomePage": {
-    "title": "MkSaaS",
-    "description": "Make AI SaaS in days, simply and effortlessly",
+    "title": "WorkflowLab",
+    "description": "Build content-driven SaaS websites with auth, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more in days.",
     "hero": {
-      "title": "Make AI SaaS in days, simply and effortlessly",
-      "description": "The is a demo website built with MkSaaS, a Next.js SaaS boilerplate to help you build your AI SaaS faster and better.",
-      "introduction": "Introducing MkSaaS Boilerplate",
+      "title": "Build Content-Driven SaaS Websites in Days",
+      "description": "A complete Next.js boilerplate with auth, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more. Focus on your content, we handle the rest.",
+      "introduction": "Introducing WorkflowLab Boilerplate",
       "primary": "Get Started",
       "secondary": "See Demo"
     },
@@ -710,80 +710,80 @@
           "name": "Jonathan Yombo",
           "role": "Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+          "quote": "WorkflowLab is really extraordinary and very practical, no need to break your head. A real gold mine."
         },
         "item-2": {
           "name": "Yves Kalume",
           "role": "GDE - Android",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to WorkflowLab."
         },
         "item-3": {
           "name": "Yucel Faruksahan",
           "role": "Tailkits Creator",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+          "quote": "Great work on WorkflowLab. This is one of the best personal website that I have seen so far :)"
         },
         "item-4": {
           "name": "Anonymous author",
           "role": "Product Manager",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+          "quote": "I downloaded the one of WorkflowLab which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
         },
         "item-5": {
           "name": "Shekinah Tshiokufila",
           "role": "Senior Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+          "quote": "WorkflowLab is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
         },
         "item-6": {
           "name": "Oketa Fred",
           "role": "Fullstack Developer",
           "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+          "quote": "I absolutely love WorkflowLab! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
         },
         "item-7": {
           "name": "Zeki",
           "role": "Founder of ChatExtend",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
         },
         "item-8": {
           "name": "Joseph Kitheka",
           "role": "Fullstack Developer",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+          "quote": "WorkflowLab has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
         },
         "item-9": {
           "name": "Khatab Wedaa",
           "role": "MerakiUI Creator",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+          "quote": "WorkflowLab is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
         },
         "item-10": {
           "name": "Rodrigo Aguilar",
           "role": "TailwindAwesome Creator",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+          "quote": "I love WorkflowLab ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
         },
         "item-11": {
           "name": "Eric Ampire",
           "role": "@GoogleDevExpert for Android",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+          "quote": "WorkflowLab is the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
         },
         "item-12": {
           "name": "Roland Tubonge",
           "role": "Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+          "quote": "WorkflowLab is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
         }
       }
     },
     "stats": {
       "title": "Stats",
-      "subtitle": "MkSaaS in numbers",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "subtitle": "WorkflowLab in numbers",
+      "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly",
       "items": {
         "item-1": {
           "title": "Stars on GitHub"
@@ -798,7 +798,7 @@
     },
     "calltoaction": {
       "title": "Start Building",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly",
       "primaryButton": "Get Started",
       "secondaryButton": "See Demo"
     }
@@ -853,18 +853,25 @@
   },
   "AIImagePage": {
     "title": "AI Image",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIChatPage": {
     "title": "AI Chat",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIVideoPage": {
     "title": "AI Video",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIAudioPage": {
     "title": "AI Audio",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
+  },
+  "SoftwarePage": {
+    "title": "Software",
+    "description": "Discover amazing software tools and services"
+  },
+  "SoftwareDetailPage": {
+    "title": "Software Details"
   }
 }

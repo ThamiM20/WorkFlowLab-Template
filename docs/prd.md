@@ -109,13 +109,19 @@ Monorepo
 
           
 
-### Service Architecture
+
+
+
+
+qwen
+q### Service Architecture
 
 Microservices - The Next.js frontend and Strapi backend will be separate services that communicate via APIs.
-
+`
 ### Testing Requirements
 
-Unit + Integration - Implement unit tests for critical components and integration tests for API endpoints.
+Ucamnt we ust the existing one 
+Init + Integration - Implement unit tests for critical components and integration tests for API endpoints.
 
 ### Additional Technical Assumptions and Requests
 

@@ -4,7 +4,7 @@ import type { WebsiteConfig } from '@/types';
  * website config, without translations
  *
  * docs:
- * https://mksaas.com/docs/config/website
+ * https://workflowlab.com/docs/config/website
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -21,17 +21,17 @@ export const websiteConfig: WebsiteConfig = {
   metadata: {
     images: {
       ogImage: '/og.png',
-      logoLight: '/logo.png',
-      logoDark: '/logo-dark.png',
+      logoLight: '/workflowlab-logo.svg',
+      logoDark: '/workflowlab-logo.svg',
     },
     social: {
-      github: 'https://github.com/MkSaaSHQ',
-      twitter: 'https://mksaas.link/twitter',
-      blueSky: 'https://mksaas.link/bsky',
-      discord: 'https://mksaas.link/discord',
-      mastodon: 'https://mksaas.link/mastodon',
-      linkedin: 'https://mksaas.link/linkedin',
-      youtube: 'https://mksaas.link/youtube',
+      github: 'https://github.com/WorkflowLabHQ',
+      twitter: 'https://workflowlab.link/twitter',
+      blueSky: 'https://workflowlab.link/bsky',
+      discord: 'https://workflowlab.link/discord',
+      mastodon: 'https://workflowlab.link/mastodon',
+      linkedin: 'https://workflowlab.link/linkedin',
+      youtube: 'https://workflowlab.link/youtube',
     },
   },
   features: {
@@ -75,8 +75,8 @@ export const websiteConfig: WebsiteConfig = {
   },
   mail: {
     provider: 'resend',
-    fromEmail: 'MkSaaS <support@mksaas.com>',
-    supportEmail: 'MkSaaS <support@mksaas.com>',
+    fromEmail: 'WorkflowLab <support@workflowlab.com>',
+    supportEmail: 'WorkflowLab <support@workflowlab.com>',
   },
   newsletter: {
     enable: true,

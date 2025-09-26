@@ -12,12 +12,13 @@ export enum Routes {
 
   
   Blog = '/blog',
+  Software = '/software',
   Docs = '/docs',
   About = '/about',
   Contact = '/contact',
   Waitlist = '/waitlist',
   Changelog = '/changelog',
-  Roadmap = 'https://mksaas.link/roadmap',
+  Roadmap = 'https://workflowlab.link/roadmap',
   CookiePolicy = '/cookie',
   PrivacyPolicy = '/privacy',
   TermsOfService = '/terms',
@@ -37,10 +38,9 @@ export enum Routes {
   FeaturesBlocks = '/blocks/features',
   IntegrationsBlocks = '/blocks/integrations',
   ContentBlocks = '/blocks/content',
-  StatsBlocks = '/blocks/stats',
+  
   TeamBlocks = '/blocks/team',
   TestimonialsBlocks = '/blocks/testimonials',
-  CallToActionBlocks = '/blocks/call-to-action',
   FooterBlocks = '/blocks/footer',
 
   ComparatorBlocks = '/blocks/comparator',

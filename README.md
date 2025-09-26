@@ -1,4 +1,4 @@
-# MkSaaS
+# WorkflowLab
 
 Make AI SaaS in a weekend.
 
@@ -7,36 +7,47 @@ The complete Next.js boilerplate for building content-driven websites, with auth
 
 ## Author
 
-This project is created by [Fox](https://x.com/indie_maker_fox), the founder of [MkSaaS](https://mksaas.com) and [Mkdirs](https://mkdirs.com). The official X account for [MkSaaS](https://mksaas.com) is [@mksaascom](https://x.com/mksaascom), you can follow this account for the updates about MkSaaS.
+This project is created by [Fox](https://x.com/indie_maker_fox), the founder of [WorkflowLab](https://workflowlab.com) and [Mkdirs](https://mkdirs.com). The official X account for [WorkflowLab](https://workflowlab.com) is [@workflowlabcom](https://x.com/workflowlabcom), you can follow this account for the updates about WorkflowLab.
 
 ## Documentation
 
-The documentation is available on the [website](https://mksaas.com/docs). It includes guides, tutorials, and detailed explanations of the code. I designed it to be as beginner-friendly as possible, so you can start making money from day one.
+The documentation is available on the [website](https://workflowlab.com/docs). It includes guides, tutorials, and detailed explanations of the code. I designed it to be as beginner-friendly as possible, so you can start making money from day one.
 
 If you found anything that could be improved, please let me know.
 
+## Strapi CMS Integration
+
+This version of WorkflowLab has been modified to use Strapi as a headless CMS for managing content. The project now includes:
+
+- A Strapi CMS instance in the `strapi-cms` directory
+- Pre-configured content types for Software SaaS listings and Blog Posts
+- Environment variables for connecting to Strapi from the Next.js frontend
+- Scripts to run both Next.js and Strapi concurrently
+
+For detailed instructions on setting up and running the Strapi CMS, please refer to [strapi-cms/README.md](strapi-cms/README.md).
+
 ## Links
 
-- 🔥 website: [mksaas.com](https://mksaas.com)
-- 🌐 demo: [demo.mksaas.com](https://demo.mksaas.com)
-- 📚 documentation: [mksaas.com/docs](https://mksaas.com/docs)
-- 🗓️ roadmap: [mksaas roadmap](https://mksaas.link/roadmap)
-- 👨‍💻 discord: [mksaas.link/discord](https://mksaas.link/discord)
-- 📹 video: [mksaas.link/youtube](https://mksaas.link/youtube)
+- 🔥 website: [workflowlab.com](https://workflowlab.com)
+- 🌐 demo: [demo.workflowlab.com](https://demo.workflowlab.com)
+- 📚 documentation: [workflowlab.com/docs](https://workflowlab.com/docs)
+- 🗓️ roadmap: [workflowlab roadmap](https://workflowlab.link/roadmap)
+- 👨‍💻 discord: [workflowlab.link/discord](https://workflowlab.link/discord)
+- 📹 video: [workflowlab.link/youtube](https://workflowlab.link/youtube)
 
 ## Repositories
 
-By default, you should have access to all 5 repositories. If you find that you’re unable to access any of them, please don’t hesitate to reach out to me, and I’ll assist you in resolving the issue.
+By default, you should have access to all 5 repositories. If you find that you're unable to access any of them, please don't hesitate to reach out to me, and I'll assist you in resolving the issue.
 
-- [mksaas-template (ready)](https://github.com/MkSaaSHQ/mksaas-template): https://demo.mksaas.com
-- [mksaas-blog (ready)](https://github.com/MkSaaSHQ/mksaas-blog): https://mksaas.me
-- [mksaas-haitang (ready)](https://github.com/MkSaaSHQ/mksaas-haitang): https://haitang.app
-- [mksaas-outfit (ready)](https://github.com/MkSaaSHQ/mksaas-outfit)
-- [mksaas-app (WIP)](https://github.com/MkSaaSHQ/mksaas-app): https://mksaas.app
+- [workflowlab-template (ready)](https://github.com/WorkflowLabHQ/workflowlab-template): https://demo.workflowlab.com
+- [workflowlab-blog (ready)](https://github.com/WorkflowLabHQ/workflowlab-blog): https://workflowlab.me
+- [workflowlab-haitang (ready)](https://github.com/WorkflowLabHQ/workflowlab-haitang): https://haitang.app
+- [workflowlab-outfit (ready)](https://github.com/WorkflowLabHQ/workflowlab-outfit)
+- [workflowlab-app (WIP)](https://github.com/WorkflowLabHQ/workflowlab-app): https://workflowlab.app
 
 ## Notice
 
-> If you have any questions, please [submit an issue](https://github.com/MkSaaSHQ/mksaas-template/issues/new), or contact me at [support@mksaas.com](mailto:support@mksaas.com), or join our [discord community](https://mksaas.link/discord) and ask for help there.
+> If you have any questions, please [submit an issue](https://github.com/WorkflowLabHQ/workflowlab-template/issues/new), or contact me at [support@workflowlab.com](mailto:support@workflowlab.com), or join our [discord community](https://workflowlab.link/discord) and ask for help there.
 
 > If you want to receive notifications whenever code changes, please click `Watch` button in the top right.
 
