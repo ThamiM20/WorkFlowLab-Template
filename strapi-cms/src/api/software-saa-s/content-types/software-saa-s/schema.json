@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "software_saases",
+  "info": {
+    "singularName": "software-saa-s",
+    "pluralName": "software-saases",
+    "displayName": "Software SaaS"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "longDescription": {
+      "type": "blocks"
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "screenshots": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "pricing": {
+      "type": "enumeration",
+      "enum": [
+        "free",
+        "freemium",
+        "paid",
+        "enterprise "
+      ]
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "published": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
