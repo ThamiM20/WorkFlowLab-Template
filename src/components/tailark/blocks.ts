@@ -293,34 +293,7 @@ export const blocks: Block[] = [
     preview: '/preview/content/six',
     // code: loadCode('app/preview/content/six/page.tsx'),
   },
-  {
-    slug: 'stats',
-    title: 'one',
-    category: 'stats',
-    preview: '/preview/stats/one',
-    // code: loadCode('app/preview/stats/one/page.tsx'),
-  },
-  {
-    slug: 'stats',
-    title: 'two',
-    category: 'stats',
-    preview: '/preview/stats/two',
-    // code: loadCode('app/preview/stats/two/page.tsx'),
-  },
-  {
-    slug: 'stats',
-    title: 'three',
-    category: 'stats',
-    preview: '/preview/stats/three',
-    // code: loadCode('app/preview/stats/three/page.tsx'),
-  },
-  {
-    slug: 'stats',
-    title: 'four',
-    category: 'stats',
-    preview: '/preview/stats/four',
-    // code: loadCode('app/preview/stats/four/page.tsx'),
-  },
+  
   {
     slug: 'team',
     title: 'one',
@@ -377,28 +350,6 @@ export const blocks: Block[] = [
     category: 'testimonials',
     preview: '/preview/testimonials/six',
     // code: loadCode('app/preview/testimonials/six/page.tsx'),
-  },
-
-  {
-    slug: 'call-to-action',
-    title: 'one',
-    category: 'call-to-action',
-    preview: '/preview/call-to-action/one',
-    // code: loadCode('app/preview/call-to-action/one/page.tsx'),
-  },
-  {
-    slug: 'call-to-action',
-    title: 'two',
-    category: 'call-to-action',
-    preview: '/preview/call-to-action/two',
-    // code: loadCode('app/preview/call-to-action/two/page.tsx'),
-  },
-  {
-    slug: 'call-to-action',
-    title: 'three',
-    category: 'call-to-action',
-    preview: '/preview/call-to-action/three',
-    // code: loadCode('app/preview/call-to-action/three/page.tsx'),
   },
 
   {

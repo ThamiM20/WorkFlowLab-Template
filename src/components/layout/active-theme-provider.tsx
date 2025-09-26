@@ -37,7 +37,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
  * default theme with the custom theme in global.css.
  *
  * docs:
- * https://mksaas.com/docs/themes
+ * https://workflowlab.com/docs/themes
  */
 export function ActiveThemeProvider({
   children,
