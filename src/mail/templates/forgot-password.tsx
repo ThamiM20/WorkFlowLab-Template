@@ -35,6 +35,6 @@ export default function ForgotPassword({
 ForgotPassword.PreviewProps = {
   locale: routing.defaultLocale,
   messages: defaultMessages,
-  url: 'https://mksaas.com',
+  url: 'https://workflowlab.com',
   name: 'username',
 };

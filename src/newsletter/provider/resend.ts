@@ -10,7 +10,7 @@ import { Resend } from 'resend';
  * Implementation of the NewsletterProvider interface using Resend
  *
  * docs:
- * https://mksaas.com/docs/newsletter
+ * https://workflowlab.com/docs/newsletter
  */
 export class ResendNewsletterProvider implements NewsletterProvider {
   private resend: Resend;

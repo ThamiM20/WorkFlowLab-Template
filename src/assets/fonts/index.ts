@@ -7,7 +7,7 @@ import {
 
 /**
  * 1. Fonts Documentation
- * https://mksaas.com/docs/fonts
+ * https://workflowlab.com/docs/fonts
  *
  * 2. This file shows how to customize the font by using local font or google font
  *

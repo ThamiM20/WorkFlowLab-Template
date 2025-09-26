@@ -35,6 +35,6 @@ export default function VerifyEmail({
 VerifyEmail.PreviewProps = {
   locale: routing.defaultLocale,
   messages: defaultMessages,
-  url: 'https://mksaas.com',
+  url: 'https://workflowlab.com',
   name: 'username',
 };
