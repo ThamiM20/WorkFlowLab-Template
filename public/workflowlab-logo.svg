@@ -1,0 +1,18 @@
+<svg width="120" height="48" viewBox="0 0 120 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-primary { fill: oklch(0.6271 0.1699 149.2138); } /* Primary color for light mode */
+      .logo-dark-primary { fill: oklch(0.8003 0.1821 151.711); } /* Primary color for dark mode */
+      .logo-text-white { fill: oklch(0.9851 0 0); } /* Primary foreground color */
+    </style>
+  </defs>
+  
+  <!-- Circle with primary color -->
+  <circle cx="24" cy="24" r="18" class="logo-primary" fill="oklch(0.6271 0.1699 149.2138)" />
+  
+  <!-- Letter W inside the circle -->
+  <text x="24" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" class="logo-text-white" text-anchor="middle" fill="oklch(0.9851 0 0)">W</text>
+  
+  <!-- Lab text -->
+  <text x="50" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" class="logo-primary" fill="oklch(0.6271 0.1699 149.2138)" dominant-baseline="middle">Lab</text>
+</svg>

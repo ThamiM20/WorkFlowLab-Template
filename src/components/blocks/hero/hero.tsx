@@ -29,9 +29,7 @@ const transitionVariants = {
 
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
-  const linkIntroduction = 'https://x.com/mksaascom';
-  const linkPrimary = '/#pricing';
-  const linkSecondary = 'https://demo.mksaas.com';
+  const linkIntroduction = 'https://x.com/workflowlab';
 
   return (
     <>
@@ -52,8 +50,8 @@ export default function HeroSection() {
               <Ripple />
 
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
-                {/* introduction */}
-                <AnimatedGroup variants={transitionVariants}>
+                {/* introduction - REMOVED per user request */}
+                {/* <AnimatedGroup variants={transitionVariants}>
                   <LocaleLink
                     href={linkIntroduction}
                     className="hover:bg-accent group mx-auto flex w-fit items-center gap-2 rounded-full border p-1 pl-4"
@@ -73,7 +71,7 @@ export default function HeroSection() {
                       </div>
                     </div>
                   </LocaleLink>
-                </AnimatedGroup>
+                </AnimatedGroup> */}
 
                 {/* title */}
                 <TextEffect
@@ -113,72 +111,12 @@ export default function HeroSection() {
                   }}
                   className="mt-12 flex flex-row items-center justify-center gap-4"
                 >
-                  <div
-                    key={1}
-                    className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5"
-                  >
-                    <Button
-                      asChild
-                      size="lg"
-                      className="rounded-xl px-5 text-base"
-                    >
-                      <LocaleLink href={linkPrimary}>
-                        <span className="text-nowrap">{t('primary')}</span>
-                      </LocaleLink>
-                    </Button>
-                  </div>
-                  <Button
-                    key={2}
-                    asChild
-                    size="lg"
-                    variant="outline"
-                    className="h-10.5 rounded-xl px-5"
-                  >
-                    <LocaleLink href={linkSecondary}>
-                      <span className="text-nowrap">{t('secondary')}</span>
-                    </LocaleLink>
-                  </Button>
+                  {/* Removed buttons as requested */}
                 </AnimatedGroup>
               </div>
             </div>
 
-            {/* images */}
-            <AnimatedGroup
-              variants={{
-                container: {
-                  visible: {
-                    transition: {
-                      staggerChildren: 0.05,
-                      delayChildren: 0.75,
-                    },
-                  },
-                },
-                ...transitionVariants,
-              }}
-            >
-              <div className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
-                <div
-                  aria-hidden
-                  className="bg-linear-to-b to-muted/50 absolute inset-0 z-10 from-transparent from-35%"
-                />
-                <div className="inset-shadow-2xs ring-muted/50 dark:inset-shadow-white/20 bg-muted/50 relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
-                  <Image
-                    className="bg-muted/50 relative hidden rounded-2xl dark:block"
-                    src="/blocks/music.png"
-                    alt="app screen"
-                    width={2796}
-                    height={2008}
-                  />
-                  <Image
-                    className="z-2 border-border/25 relative rounded-2xl border dark:hidden"
-                    src="/blocks/music-light.png"
-                    alt="app screen"
-                    width={2796}
-                    height={2008}
-                  />
-                </div>
-              </div>
-            </AnimatedGroup>
+            {/* images - REMOVED per user request */}
           </div>
         </section>
       </main>

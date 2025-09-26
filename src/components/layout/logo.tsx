@@ -7,28 +7,32 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 export function Logo({ className }: { className?: string }) {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  const logoLight = websiteConfig.metadata.images?.logoLight ?? '/logo.png';
-  const logoDark = websiteConfig.metadata.images?.logoDark ?? logoLight;
-
-  // During server-side rendering and initial client render, always use logoLight
-  // This prevents hydration mismatch
-  const logo = mounted && theme === 'dark' ? logoDark : logoLight;
-
-  // Only show theme-dependent UI after hydration to prevent mismatch
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   return (
-    <Image
-      src={logo}
-      alt="Logo"
-      title="Logo"
-      width={96}
-      height={96}
-      className={cn('size-8 rounded-md', className)}
-    />
+    <div className={cn('flex items-center', className)}>
+      <svg 
+        width="60" 
+        height="24" 
+        viewBox="0 0 120 48" 
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-auto h-6"
+      >
+        <defs>
+          <style>
+            {`.logo-primary { fill: var(--primary, oklch(0.6271 0.1699 149.2138)); }
+            .logo-text { fill: var(--foreground, oklch(0.1448 0 0)); }
+            .logo-text-white { fill: var(--primary-foreground, oklch(0.9851 0 0)); }`}
+          </style>
+        </defs>
+        
+        {/* Circle with primary color */}
+        <circle cx="24" cy="24" r="18" className="logo-primary" />
+        
+        {/* Letter W inside the circle */}
+        <text x="24" y="30" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" className="logo-text-white" textAnchor="middle">W</text>
+        
+        {/* Lab text */}
+        <text x="50" y="30" fontFamily="Arial, sans-serif" fontSize="18" fontWeight="bold" className="logo-primary" dominantBaseline="middle">Lab</text>
+      </svg>
+    </div>
   );
 }

@@ -59,8 +59,8 @@ export function Navbar({ scroll }: NavBarProps) {
     >
       <Container className="px-4">
         {/* desktop navbar */}
-        <nav className="hidden lg:flex">
-          {/* logo and name */}
+        <nav className="hidden lg:flex items-center">
+          {/* logo and name - left aligned */}
           <div className="flex items-center">
             <LocaleLink href="/" className="flex items-center space-x-2">
               <Logo />
@@ -70,10 +70,10 @@ export function Navbar({ scroll }: NavBarProps) {
             </LocaleLink>
           </div>
 
-          {/* menu links */}
-          <div className="flex-1 flex items-center justify-center space-x-2">
+          {/* menu links - centered */}
+          <div className="flex items-center justify-center flex-grow">
             <NavigationMenu className="relative">
-              <NavigationMenuList className="flex items-center">
+              <NavigationMenuList className="flex items-center space-x-2">
                 {menuLinks?.map((item, index) =>
                   item.items ? (
                     <NavigationMenuItem key={index} className="relative">
@@ -206,7 +206,7 @@ export function Navbar({ scroll }: NavBarProps) {
             </NavigationMenu>
           </div>
 
-          {/* navbar right show mode switcher and locale switcher only */}
+          {/* navbar right - right aligned */}
           <div className="flex items-center gap-x-4">
             <ModeSwitcher />
             <LocaleSwitcher />

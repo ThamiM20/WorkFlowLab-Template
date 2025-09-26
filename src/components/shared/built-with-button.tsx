@@ -1,4 +1,4 @@
-import { MkSaaSLogo } from '@/components/layout/logo-mksaas';
+import { WorkflowLabLogo } from '@/components/layout/logo-workflowlab';
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
@@ -7,7 +7,7 @@ export default function BuiltWithButton() {
   return (
     <Link
       target="_blank"
-      href="https://mksaas.com?utm_source=built-with-mksaas"
+      href="https://workflowlab.com?utm_source=built-with-workflowlab"
       className={cn(
         buttonVariants({ variant: 'outline', size: 'sm' }),
         'border border-border px-4 rounded-md'
@@ -15,9 +15,9 @@ export default function BuiltWithButton() {
     >
       <span>Built with</span>
       <span>
-        <MkSaaSLogo className="size-5 rounded-full" />
+        <WorkflowLabLogo className="size-5 rounded-full" />
       </span>
-      <span className="font-semibold">MkSaaS</span>
+      <span className="font-semibold">WorkflowLab</span>
     </Link>
   );
 }
