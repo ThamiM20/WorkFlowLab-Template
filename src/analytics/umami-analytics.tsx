@@ -6,7 +6,7 @@ import Script from 'next/script';
  * Umami Analytics
  *
  * https://umami.is
- * https://mksaas.com/docs/analytics#umami
+ * https://workflowlab.com/docs/analytics#umami
  */
 export function UmamiAnalytics() {
   if (process.env.NODE_ENV !== 'production') {

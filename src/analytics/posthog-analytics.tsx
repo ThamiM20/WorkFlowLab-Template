@@ -9,7 +9,7 @@ import { useEffect } from 'react';
  *
  * https://posthog.com
  * https://posthog.com/docs/libraries/next-js?tab=PostHog+provider
- * https://mksaas.com/docs/analytics#posthog
+ * https://workflowlab.com/docs/analytics#posthog
  */
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   const posthogKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;

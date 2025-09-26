@@ -4,7 +4,7 @@ import { OpenPanelComponent } from '@openpanel/nextjs';
  * OpenPanel Analytics (https://openpanel.dev)
  *
  * https://openpanel.dev
- * https://mksaas.com/docs/analytics#openpanel
+ * https://workflowlab.com/docs/analytics#openpanel
  * https://docs.openpanel.dev/docs/sdks/nextjs#options
  */
 export default function OpenPanelAnalytics() {
