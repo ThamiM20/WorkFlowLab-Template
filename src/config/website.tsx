@@ -58,6 +58,50 @@ export const websiteConfig: WebsiteConfig = {
       en: {
         flag: '🇺🇸',
         name: 'English',
+      zh: {
+        flag: '🇨🇳',
+        name: 'Chinese',
+      es: {
+        flag: '🇪🇸',
+        name: 'Spanish',
+      ar: {
+        flag: '🇸🇦',
+        name: 'Arabic',
+      pt: {
+        flag: '🇧🇷',
+        name: 'Portuguese',
+      id: {
+        flag: '🇮🇩',
+        name: 'Indonesian',
+      fr: {
+        flag: '🇫🇷',
+        name: 'French',
+      ja: {
+        flag: '🇯🇵',
+        name: 'Japanese',
+      ru: {
+        flag: '🇷🇺',
+        name: 'Russian',
+      de: {
+        flag: '🇩🇪',
+        name: 'German',
+      it: {
+        flag: '🇮🇹',
+        name: 'Italian',
+      hi: {
+        flag: '🇮🇳',
+        name: 'Hindi',
+      },
+      },
+      },
+      },
+      },
+      },
+      },
+      },
+      },
+      },
+      },
       },
       zh: {
         flag: '🇨🇳',

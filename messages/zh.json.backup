@@ -1,0 +1,849 @@
+{
+  \"Metadata\": {\n    \"name\": \"WorkflowLab 模板\",\n    \"title\": \"WorkflowLab - 用于内容驱动网站的终极 SaaS 模板\",\n
+    "description": "使用认证、国际化、新闻通讯、仪表板、博客、文档、区块、主题、SEO 等功能，在几天内构建内容驱动的 SaaS 网站。"
+  },
+  "Common": {
+    "login": "登录",
+    "logout": "退出",
+    "signUp": "注册",
+    "language": "切换语言",
+    "mode": {
+      "label": "切换模式",
+      "light": "浅色模式",
+      "dark": "深色模式",
+      "system": "跟随系统"
+    },
+    "theme": {
+      "label": "切换主题",
+      "default": "默认",
+      "blue": "蓝色",
+      "green": "绿色",
+      "amber": "橙色",
+      "neutral": "中性"
+    },
+    "copy": "复制",
+    "save": "保存",
+    "saving": "保存中...",
+    "loading": "加载中...",
+    "cancel": "取消",
+    "logoutFailed": "退出失败",
+    "table": {
+      "totalRecords": "总共 {count} 条记录",
+      "noResults": "无结果",
+      "loading": "加载中...",
+      "columns": "列",
+      "rowsPerPage": "每页行数",
+      "page": "页",
+      "firstPage": "第一页",
+      "lastPage": "最后一页",
+      "nextPage": "下一页",
+      "previousPage": "上一页",
+      "ascending": "升序",
+      "descending": "降序"
+    }
+  },
+
+  
+  "CreditPackages": {
+    "basic": {
+      "name": "基础版",
+      "description": "基础积分套餐描述"
+    },
+    "standard": {
+      "name": "标准版",
+      "description": "标准积分套餐描述"
+    },
+    "enterprise": {
+      "name": "企业版",
+      "description": "企业积分套餐描述"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "抱歉，您访问的页面不存在。",
+    "backToHome": "返回首页"
+  },
+  "ErrorPage": {
+    "title": "糟糕！出错了！",
+    "tryAgain": "再试一次",
+    "backToHome": "返回首页"
+  },
+  "AboutPage": {
+    "title": "关于我们",
+    "description": "这是 WorkflowLab，一个使用现代技术构建的 AI SaaS 模板，帮助您更快更好地构建 SaaS。",
+    "authorName": "WorkflowLab",
+    "authorBio": "AI SaaS 模板",
+    "introduction": "👋 您好！这是 WorkflowLab，一个使用现代技术构建的 AI SaaS 模板，帮助您更快更好地构建 SaaS。如果您有任何问题，欢迎联系我们。",
+    "talkWithMe": "与我交流",
+    "followMe": "在 X 上关注我"
+  },
+  "ChangelogPage": {
+    "title": "更新日志",
+    "description": "了解我们产品的最新变化",
+    "subtitle": "了解我们产品的最新变化"
+  },
+  "ContactPage": {
+    "title": "联系我们",
+    "description": "我们将帮助您找到适合您业务的方案",
+    "subtitle": "我们将帮助您找到适合您业务的方案",
+    "form": {
+      "title": "联系我们",
+      "description": "如果您有任何问题或反馈，请联系我们的团队",
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "消息",
+      "submit": "提交",
+      "submitting": "提交中...",
+      "success": "消息发送成功",
+      "fail": "消息发送失败",
+      "nameMinLength": "姓名至少需要3个字符",
+      "nameMaxLength": "姓名不能超过30个字符",
+      "emailValidation": "请输入有效的邮箱地址",
+      "messageMinLength": "消息至少需要10个字符",
+      "messageMaxLength": "消息不能超过500个字符"
+    }
+  },
+  "WaitlistPage": {
+    "title": "等候名单",
+    "description": "加入我们的等候名单以获取产品发布通知",
+    "subtitle": "加入我们的等候名单以获取产品发布通知",
+    "form": {
+      "title": "加入等候名单",
+      "description": "我们将在产品发布时通知您",
+      "email": "邮箱",
+      "subscribe": "订阅",
+      "subscribing": "订阅中...",
+      "success": "订阅成功",
+      "fail": "订阅失败",
+      "emailValidation": "请输入有效的邮箱地址"
+    }
+  },
+  "Newsletter": {
+    "title": "新闻通讯",
+    "subtitle": "加入社区",
+    "description": "订阅我们的新闻通讯以获取最新消息和更新",
+    "form": {
+      "email": "邮箱",
+      "subscribe": "订阅",
+      "subscribing": "订阅中...",
+      "success": "订阅成功",
+      "fail": "订阅失败",
+      "emailValidation": "请输入有效的邮箱地址"
+    }
+  },
+  "AuthPage": {
+    "login": {
+      "title": "登录",
+      "welcomeBack": "欢迎回来",
+      "email": "邮箱",
+      "password": "密码",
+      "signIn": "登录",
+      "signUpHint": "还没有账户？注册",
+      "forgotPassword": "忘记密码？",
+      "signInWithGoogle": "使用 Google 登录",
+      "signInWithGitHub": "使用 GitHub 登录",
+      "showPassword": "显示密码",
+      "hidePassword": "隐藏密码",
+      "or": "或继续使用",
+      "emailRequired": "请输入您的邮箱",
+      "passwordRequired": "请输入您的密码",
+      "captchaInvalid": "验证码验证失败",
+      "captchaError": "验证码验证错误"
+    },
+    "register": {
+      "title": "注册",
+      "createAccount": "创建账户",
+      "name": "姓名",
+      "email": "邮箱",
+      "password": "密码",
+      "signUp": "注册",
+      "signInHint": "已有账户？登录",
+      "checkEmail": "请查看您的邮箱收件箱",
+      "showPassword": "显示密码",
+      "hidePassword": "隐藏密码",
+      "nameRequired": "请输入您的姓名",
+      "emailRequired": "请输入您的邮箱",
+      "passwordRequired": "请输入您的密码",
+      "captchaInvalid": "验证码验证失败",
+      "captchaError": "验证码验证错误"
+    },
+    "forgotPassword": {
+      "title": "忘记密码",
+      "email": "邮箱",
+      "send": "发送重置链接",
+      "backToLogin": "返回登录",
+      "checkEmail": "请查看您的邮箱收件箱",
+      "emailRequired": "请输入您的邮箱"
+    },
+    "resetPassword": {
+      "title": "重置密码",
+      "password": "密码",
+      "reset": "重置密码",
+      "backToLogin": "返回登录",
+      "showPassword": "显示密码",
+      "hidePassword": "隐藏密码",
+      "minLength": "密码至少需要8个字符"
+    },
+    "error": {
+      "title": "糟糕！出错了！",
+      "tryAgain": "请再试一次。",
+      "backToLogin": "返回登录",
+      "checkEmail": "请查看您的邮箱收件箱"
+    },
+    "common": {
+      "termsOfService": "服务条款",
+      "privacyPolicy": "隐私政策",
+      "byClickingContinue": "点击继续即表示您同意我们的 ",
+      "and": " 和 "
+    }
+  },
+  "BlogPage": {
+    "title": "博客",
+    "description": "来自我们团队的最新消息和更新",
+    "subtitle": "来自我们团队的最新消息和更新",
+    "author": "作者",
+    "categories": "分类",
+    "tableOfContents": "目录",
+    "readTime": "{minutes} 分钟阅读",
+    "all": "全部",
+    "noPostsFound": "未找到文章",
+    "allPosts": "所有文章",
+    "morePosts": "更多文章"
+  },
+  "DocsPage": {
+    "toc": "目录",
+    "search": "搜索文档",
+    "lastUpdate": "最后更新于",
+    "searchNoResult": "无结果",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
+    "chooseLanguage": "选择语言",
+    "title": "WorkflowLab 文档",
+    "homepage": "首页"
+  },
+  
+  "Marketing": {
+    "navbar": {
+      "features": {
+        "title": "功能"
+      },
+      "blog": {
+        "title": "博客"
+      },
+      "docs": {
+        "title": "文档"
+      },
+      "ai": {
+        "title": "AI 工具",
+        "items": {
+          "text": {
+            "title": "AI 文本",
+            "description": "展示如何使用 AI 编写精彩文本"
+          },
+          "image": {
+            "title": "AI 图片",
+            "description": "展示如何使用 AI 生成精美图片"
+          },
+          "chat": {
+            "title": "AI 聊天",
+            "description": "展示如何使用 AI 与客户聊天"
+          },
+          "video": {
+            "title": "AI 视频",
+            "description": "展示如何使用 AI 生成精彩视频"
+          },
+          "audio": {
+            "title": "AI 音频",
+            "description": "展示如何使用 AI 生成优美音频"
+          }
+        }
+      },
+      "pages": {
+        "title": "页面",
+        "items": {
+          "about": {
+            "title": "关于我们",
+            "description": "了解更多关于我们的公司、使命和价值观"
+          },
+          "contact": {
+            "title": "联系我们",
+            "description": "联系我们的团队以获取支持或咨询"
+          },
+          "waitlist": {
+            "title": "等候名单",
+            "description": "加入我们的等候名单以获取最新消息和更新"
+          },
+          "changelog": {
+            "title": "更新日志",
+            "description": "查看我们产品的最新更新"
+          },
+          "roadmap": {
+            "title": "路线图",
+            "description": "探索我们的未来计划和即将推出的功能"
+          },
+          "cookiePolicy": {
+            "title": "Cookie 政策",
+            "description": "我们如何在网站上使用 Cookie"
+          },
+          "privacyPolicy": {
+            "title": "隐私政策",
+            "description": "我们如何保护和处理您的数据"
+          },
+          "termsOfService": {
+            "title": "服务条款",
+            "description": "您与我们公司之间的法律协议"
+          }
+        }
+      },
+      "blocks": {
+        "title": "区块",
+        "items": {
+          "magicui": {
+            "title": "MagicUI 区块"
+          },
+          "hero-section": {
+            "title": "英雄区块"
+          },
+          "logo-cloud": {
+            "title": "Logo 云区块"
+          },
+          "integrations": {
+            "title": "集成区块"
+          },
+          "features": {
+            "title": "功能区块"
+          },
+          "content": {
+            "title": "内容区块"
+          },
+          
+          "team": {
+            "title": "团队区块"
+          },
+          "testimonials": {
+            "title": "推荐区块"
+          },
+          
+          "footer": {
+            "title": "页脚区块"
+          },
+          "comparator": {
+            "title": "比较器区块"
+          },
+          "faq": {
+            "title": "常见问题区块"
+          },
+          "login": {
+            "title": "登录区块"
+          },
+          "signup": {
+            "title": "注册区块"
+          },
+          "forgot-password": {
+            "title": "忘记密码区块"
+          },
+          "contact": {
+            "title": "联系区块"
+          }
+        }
+      }
+    },
+    "footer": {
+      "tagline": "在几天内轻松构建您的 AI SaaS，简单且毫不费力",
+      "product": {
+        "title": "产品",
+        "items": {
+          "features": "功能",
+          "faq": "常见问题"
+        }
+      },
+      "resources": {
+        "title": "资源",
+        "items": {
+          "blog": "博客",
+          "docs": "文档",
+          "changelog": "更新日志",
+          "roadmap": "路线图"
+        }
+      },
+      "company": {
+        "title": "公司",
+        "items": {
+          "about": "关于我们",
+          "contact": "联系我们",
+          "waitlist": "等候名单"
+        }
+      },
+      "legal": {
+        "title": "法律",
+        "items": {
+          "cookiePolicy": "Cookie 政策",
+          "privacyPolicy": "隐私政策",
+          "termsOfService": "服务条款"
+        }
+      }
+    },
+    "avatar": {
+      "dashboard": "仪表板",
+      "settings": "设置"
+    }
+  },
+  "Dashboard": {
+    "dashboard": {
+      "title": "仪表板"
+    },
+    "admin": {
+      "title": "管理员",
+      "users": {
+        "title": "用户",
+        "fakeData": "注意：演示数据，部分功能已禁用",
+        "error": "获取用户失败",
+        "search": "搜索用户...",
+        "columns": {
+          "columns": "列",
+          "name": "姓名",
+          "email": "邮箱",
+          "role": "角色",
+          "createdAt": "创建时间",
+          "customerId": "客户 ID",
+          "status": "状态",
+          "banReason": "封禁原因",
+          "banExpires": "封禁到期时间"
+        },
+        "admin": "管理员",
+        "user": "用户",
+        "email": {
+          "verified": "邮箱已验证",
+          "unverified": "邮箱未验证"
+        },
+        "emailCopied": "邮箱已复制到剪贴板",
+        "banned": "已封禁",
+        "active": "活跃",
+        "joined": "加入于",
+        "updated": "更新于",
+        "ban": {
+          "reason": "封禁原因",
+          "reasonPlaceholder": "输入封禁此用户的原因",
+          "defaultReason": "垃圾信息",
+          "never": "永不",
+          "expires": "封禁到期时间",
+          "selectDate": "选择日期",
+          "button": "封禁用户",
+          "success": "用户已被封禁",
+          "error": "封禁用户失败"
+        },
+        "unban": {
+          "button": "解封用户",
+          "success": "用户已被解封",
+          "error": "解封用户失败"
+        },
+        "close": "关闭"
+      }
+    },
+    "settings": {
+      "title": "设置",
+      "profile": {
+        "title": "个人资料",
+        "description": "管理您的账户信息",
+        "avatar": {
+          "title": "头像",
+          "description": "点击上传按钮上传自定义头像",
+          "recommendation": "头像是可选的，但强烈推荐",
+          "uploading": "上传中...",
+          "uploadAvatar": "上传头像",
+          "success": "头像更新成功",
+          "fail": "头像更新失败"
+        },
+        "name": {
+          "title": "姓名",
+          "description": "请输入您的显示姓名",
+          "placeholder": "输入您的姓名",
+          "minLength": "请至少使用3个字符",
+          "maxLength": "请最多使用30个字符",
+          "hint": "请为您的姓名使用3-30个字符",
+          "success": "姓名更新成功",
+          "fail": "姓名更新失败",
+          "saving": "保存中...",
+          "save": "保存"
+        }
+      },
+      "notification": {
+        "title": "通知",
+        "description": "管理您的通知偏好设置",
+        "newsletter": {
+          "title": "新闻通讯订阅",
+          "description": "管理您的新闻通讯订阅偏好",
+          "label": "订阅新闻通讯",
+          "hint": "您可以随时更改您的订阅偏好",
+          "emailRequired": "订阅新闻通讯需要邮箱",
+          "subscribeSuccess": "成功订阅新闻通讯",
+          "subscribeFail": "订阅新闻通讯失败",
+          "unsubscribeSuccess": "成功取消订阅新闻通讯",
+          "unsubscribeFail": "取消订阅新闻通讯失败",
+          "error": "更新您的订阅时发生错误"
+        }
+      },
+      "security": {
+        "title": "安全",
+        "description": "管理您的安全设置",
+        "updatePassword": {
+          "title": "更改密码",
+          "description": "输入您的当前密码和新密码",
+          "currentPassword": "当前密码",
+          "currentRequired": "需要当前密码",
+          "newPassword": "新密码",
+          "newMinLength": "密码至少需要8个字符",
+          "hint": "请为密码使用至少8个字符",
+          "showPassword": "显示密码",
+          "hidePassword": "隐藏密码",
+          "success": "密码更新成功",
+          "fail": "密码更新失败",
+          "saving": "保存中...",
+          "save": "保存"
+        },
+        "resetPassword": {
+          "title": "重置密码",
+          "description": "重置密码以启用邮箱登录",
+          "info": "重置您的密码将允许您使用邮箱和密码登录，以及您的社交登录方式。您将收到一封包含重置密码说明的邮件",
+          "button": "重置密码"
+        },
+        "deleteAccount": {
+          "title": "删除账户",
+          "description": "永久删除您的账户及其所有内容",
+          "warning": "此操作不可逆，请谨慎操作",
+          "button": "删除账户",
+          "confirmTitle": "删除账户",
+          "confirmDescription": "您确定要删除您的账户吗？此操作无法撤销。",
+          "confirm": "删除",
+          "cancel": "取消",
+          "deleting": "删除中...",
+          "success": "账户删除成功",
+          "fail": "账户删除失败"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "升级",
+      "description": "升级到专业版以访问所有功能",
+      "button": "升级"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} 团队",
+      "copyright": "©️ {year} 保留所有权利。"
+    },
+    "verifyEmail": {
+      "title": "您好，{name}。",
+      "body": "请点击下面的链接验证您的邮箱地址。",
+      "confirmEmail": "确认邮箱",
+      "subject": "验证您的邮箱"
+    },
+    "forgotPassword": {
+      "title": "您好，{name}。",
+      "body": "请点击下面的链接重置您的密码。",
+      "resetPassword": "重置密码",
+      "subject": "重置您的密码"
+    },
+    "subscribeNewsletter": {
+      "body": "感谢您订阅新闻通讯。我们将随时为您更新最新消息和更新。",
+      "subject": "感谢您的订阅"
+    },
+    "contactMessage": {
+      "name": "姓名：{name}",
+      "email": "邮箱：{email}",
+      "message": "消息：{message}",
+      "subject": "来自网站的联系消息"
+    }
+  },
+  "HomePage": {
+    "title": "WorkflowLab",
+    "description": "在几天内轻松构建您的 AI SaaS，简单且毫不费力",
+    "hero": {
+      "title": "在几天内轻松构建您的 AI SaaS，简单且毫不费力",
+      "description": "这是一个使用 WorkflowLab 构建的演示网站，WorkflowLab 是一个 Next.js SaaS 模板，帮助您更快更好地构建 AI SaaS。",
+      "introduction": "介绍 WorkflowLab 模板",
+      "primary": "开始使用",
+      "secondary": "查看演示"
+    },
+    "logocloud": {
+      "title": "您喜爱的公司是我们的合作伙伴"
+    },
+    "integration": {
+      "title": "集成",
+      "subtitle": "与您喜爱的工具集成",
+      "description": "与流行的平台和服务无缝连接，增强您的工作流程。",
+      "learnMore": "了解更多",
+      "items": {
+        "item-1": {
+          "title": "Google Gemini",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-2": {
+          "title": "Replit",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-3": {
+          "title": "MagicUI",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-4": {
+          "title": "VSCodium",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-5": {
+          "title": "MediaWiki",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        },
+        "item-6": {
+          "title": "Google PaLM",
+          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+        }
+      }
+    },
+    "integration2": {
+      "title": "与您喜爱的工具集成",
+      "description": "与流行的平台和服务无缝连接，增强您的工作流程。",
+      "primaryButton": "开始使用",
+      "secondaryButton": "查看演示"
+    },
+    "features": {
+      "title": "功能",
+      "subtitle": "您产品的功能",
+      "description": "在此处编写您产品的描述",
+      "items": {
+        "item-1": {
+          "title": "产品功能一",
+          "description": "请在此处详细描述功能一，尽可能详细，使其对用户更具吸引力"
+        },
+        "item-2": {
+          "title": "产品功能二",
+          "description": "请在此处详细描述功能二，尽可能详细，使其对用户更具吸引力"
+        },
+        "item-3": {
+          "title": "产品功能三",
+          "description": "请在此处详细描述功能三，尽可能详细，使其对用户更具吸引力"
+        },
+        "item-4": {
+          "title": "产品功能四",
+          "description": "请在此处详细描述功能四，尽可能详细，使其对用户更具吸引力"
+        }
+      }
+    },
+    "features2": {
+      "title": "功能2",
+      "subtitle": "您产品的功能",
+      "description": "在此处编写您产品的描述",
+      "feature-1": "产品功能一",
+      "feature-2": "产品功能二",
+      "feature-3": "产品功能三",
+      "feature-4": "产品功能四"
+    },
+    "features3": {
+      "title": "功能3",
+      "subtitle": "您产品的功能",
+      "description": "在此处编写您产品的描述",
+      "items": {
+        "item-1": {
+          "title": "产品功能一",
+          "description": "请在此处详细描述功能一"
+        },
+        "item-2": {
+          "title": "产品功能二",
+          "description": "请在此处详细描述功能二"
+        },
+        "item-3": {
+          "title": "产品功能三",
+          "description": "请在此处详细描述功能三"
+        },
+        "item-4": {
+          "title": "产品功能四",
+          "description": "请在此处详细描述功能四"
+        },
+        "item-5": {
+          "title": "产品功能五",
+          "description": "请在此处详细描述功能五"
+        },
+        "item-6": {
+          "title": "产品功能六",
+          "description": "请在此处详细描述功能六"
+        }
+      }
+    },
+    "faqs": {
+      "title": "常见问题",
+      "subtitle": "常见问题解答",
+      "items": {
+        "item-1": {
+          "question": "您提供免费试用吗？",
+          "answer": "是的，我们提供7天免费试用。"
+        },
+        "item-2": {
+          "question": "如何取消订阅？",
+          "answer": "您可以通过访问账单页面取消订阅。"
+        },
+        "item-3": {
+          "question": "我可以更改方案吗？",
+          "answer": "是的，您可以随时通过访问账单页面更改方案。"
+        },
+        "item-4": {
+          "question": "退款政策是什么？",
+          "answer": "如果您对我们的产品不满意，我们提供30天退款保证。"
+        },
+        "item-5": {
+          "question": "找不到您要找的内容？",
+          "answer": "请联系我们的客户支持团队 support@workflowlab.com"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "推荐",
+      "subtitle": "我们的客户怎么说",
+      "items": {
+        "item-1": {
+          "name": "Jonathan Yombo",
+          "role": "软件工程师",
+          "image": "https://randomuser.me/api/portraits/men/1.jpg",
+          "quote": "WorkflowLab 真的非常出色且实用，无需费脑筋。这真是一个金矿。"
+        },
+        "item-2": {
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
+          "image": "https://randomuser.me/api/portraits/men/6.jpg",
+          "quote": "没有网页设计经验的我，只需几分钟就能用 tailwindcss 重新设计整个网站，这都要感谢 WorkflowLab。"
+        },
+        "item-3": {
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits 创始人",
+          "image": "https://randomuser.me/api/portraits/men/7.jpg",
+          "quote": "WorkflowLab 模板做得很好。这是我见过的最好的个人网站之一 :)"
+        },
+        "item-4": {
+          "name": "匿名作者",
+          "role": "产品经理",
+          "image": "https://randomuser.me/api/portraits/men/8.jpg",
+          "quote": "我下载了其中一个 WorkflowLab 模板，它在开始时非常清晰易懂，您可以修改代码/区块以完美适应您页面的目的。"
+        },
+        "item-5": {
+          "name": "Shekinah Tshiokufila",
+          "role": "高级软件工程师",
+          "image": "https://randomuser.me/api/portraits/men/4.jpg",
+          "quote": "WorkflowLab 正在重新定义网页设计的标准，这些区块为那些热爱美但可能缺乏实施时间的人提供了一种简单高效的方式。"
+        },
+        "item-6": {
+          "name": "Oketa Fred",
+          "role": "全栈开发工程师",
+          "image": "https://randomuser.me/api/portraits/men/2.jpg",
+          "quote": "我 absolutely love WorkflowLab！组件区块设计精美且易于使用，这让创建一个美观的网站变得轻而易举。"
+        },
+        "item-7": {
+          "name": "Zeki",
+          "role": "ChatExtend 创始人",
+          "image": "https://randomuser.me/api/portraits/men/5.jpg",
+          "quote": "WorkflowLab 是简洁性和多功能性的完美融合，使我们能够创建既美观又用户友好的 UI。"
+        },
+        "item-8": {
+          "name": "Joseph Kitheka",
+          "role": "全栈开发工程师",
+          "image": "https://randomuser.me/api/portraits/men/9.jpg",
+          "quote": "WorkflowLab 彻底改变了我开发网页应用的方式。他们广泛的 UI 组件、区块和模板集合显著加速了我的工作流程。"
+        },
+        "item-9": {
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI 创始人",
+          "image": "https://randomuser.me/api/portraits/men/10.jpg",
+          "quote": "WorkflowLab 是一个优雅、简洁且响应式的 tailwind css 组件，它对快速启动您的项目非常有帮助。"
+        },
+        "item-10": {
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome 创始人",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "quote": "我喜欢 WorkflowLab ❤️。组件区块结构良好、易于使用且设计精美。这使得在短时间内拥有一个美观的网站变得非常容易。"
+        },
+        "item-11": {
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
+          "image": "https://randomuser.me/api/portraits/men/12.jpg",
+          "quote": "WorkflowLab 模板是任何想要在没有网页设计经验的情况下创建美观且实用的网站的人的完美解决方案。"
+        },
+        "item-12": {
+          "name": "Roland Tubonge",
+          "role": "软件工程师",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "quote": "WorkflowLab 设计得如此精美，即使网络设计知识非常贫乏，您也能创造奇迹。让自己被它吸引吧！"
+        }
+      }
+    },
+    \n  },
+  "AITextPage": {
+    "title": "AI 文本演示",
+    "description": "使用 AI 分析网页内容以提取关键信息、功能和见解",
+    "content": "网页内容分析器",
+    "subtitle": "输入网站 URL 以获取其内容的 AI 驱动分析",
+    "analyzer": {
+      "title": "网页内容分析器",
+      "description": "使用 AI 分析任何网站内容以提取结构化信息",
+      "placeholder": "输入网站 URL（例如 https://example.com）",
+      "button": "分析网站",
+      "loading": {
+        "scraping": "抓取网站内容...",
+        "analyzing": "使用 AI 分析内容..."
+      },
+      "results": {
+        "title": "分析结果",
+        "newAnalysis": "分析另一个网站",
+        "sections": {
+          "title": "标题",
+          "description": "描述",
+          "introduction": "介绍",
+          "features": "功能",
+          "useCases": "使用案例",
+          "screenshot": "网站截图"
+        }
+      },
+      "errors": {
+        "invalidUrl": "请输入以 http:// 或 https:// 开头的有效 URL",
+        "analysisError": "分析网站失败。请再试一次。",
+        "networkError": "网络错误。请检查您的连接并再试一次。",
+        "insufficientCredits": "积分不足。请购买更多积分以继续。"
+      }
+    },
+    "features": {
+      "scraping": {
+        "title": "智能网页抓取",
+        "description": "先进的网页抓取技术从任何网站提取干净、结构化的内容"
+      },
+      "analysis": {
+        "title": "AI 驱动分析",
+        "description": "智能 AI 分析提取关键见解、功能和结构化信息"
+      },
+      "results": {
+        "title": "结构化结果",
+        "description": "获得有组织、易于阅读的结果，包含清晰的部分和可操作的见解"
+      }
+    }
+  },
+  "AIImagePage": {
+    "title": "AI 图片",
+    "description": "WorkflowLab 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+  },
+  "AIChatPage": {
+    "title": "AI 聊天",
+    "description": "WorkflowLab 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+  },
+  "AIVideoPage": {
+    "title": "AI 视频",
+    "description": "WorkflowLab 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+  },
+  "AIAudioPage": {
+    "title": "AI 音频",
+    "description": "WorkflowLab 让您在几天内轻松构建您的 AI SaaS，简单且毫不费力"
+  },
+  "SoftwarePage": {
+    "title": "软件",
+    "description": "发现令人惊叹的软件工具和服务"
+  },
+  "SoftwareDetailPage": {
+    "title": "软件详情"
+  }
+}

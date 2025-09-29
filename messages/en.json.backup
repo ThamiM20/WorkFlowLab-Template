@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "WorkflowLab",
-    "title": "WorkflowLab - Your Catalog of Essential Software Tools & Services",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow."
+    "name": "WorkflowLab Template",
+    "title": "WorkflowLab - The Ultimate SaaS Boilerplate for Content-Driven Websites",
+    "description": "Build content-driven SaaS websites with auth, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more in days."
   },
   "Common": {
     "login": "Log in",
@@ -72,10 +72,10 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity.",
+    "description": "This is WorkflowLab, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
     "authorName": "WorkflowLab",
-    "authorBio": "Software Tools Catalog",
-    "introduction": "👋 Hi there! This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity. If you have any questions, welcome to contact me.",
+    "authorBio": "AI SaaS Boilerplate",
+    "introduction": "👋 Hi there! This is WorkflowLab, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
     "talkWithMe": "Talk with me",
     "followMe": "Follow me on X"
   },
@@ -318,18 +318,14 @@
           "content": {
             "title": "Content Blocks"
           },
-          "stats": {
-            "title": "Stats Blocks"
-          },
+          
           "team": {
             "title": "Team Blocks"
           },
           "testimonials": {
             "title": "Testimonials Blocks"
           },
-          "callToAction": {
-            "title": "Call to Action Blocks"
-          },
+          
           "footer": {
             "title": "Footer Blocks"
           },
@@ -355,7 +351,7 @@
       }
     },
     "footer": {
-      "tagline": "Discover software tools to enhance your workflow, simply and effortlessly",
+      "tagline": "Make AI SaaS in days, simply and effortlessly",
       "product": {
         "title": "Product",
         "items": {
@@ -562,14 +558,8 @@
       "subject": "Contact Message from Website"
     }
   },
-  "HomePage": {
-    "title": "WorkflowLab",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow.",
-    "hero": {
-      "title": "Your Catalog of Essential Software Tools",
-      "description": "A comprehensive marketplace of software tools and services to help you build, manage, and optimize your digital workflow. Find the right solution for every need.",
-      "introduction": "Introducing WorkflowLab",
-      "primary": "Explore Tools",
+  \"HomePage\": {\n    \"title\": \"WorkflowLab Template\",\n    \"description\": \"Build content-driven SaaS websites with auth, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more in days.\",\n    \"hero\": {\n      \"title\": \"Build Content-Driven SaaS Websites in Days\",\n      \"description\": \"A complete Next.js boilerplate with auth, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more. Focus on your content, we handle the rest.\",\n      \"introduction\": \"Introducing WorkflowLab Boilerplate\",\n
+      "primary": "Get Started",
       "secondary": "See Demo"
     },
     "logocloud": {
@@ -681,20 +671,20 @@
       "subtitle": "Frequently Asked Questions",
       "items": {
         "item-1": {
-          "question": "How do I find the right software for my needs?",
-          "answer": "Use our search and filtering tools to browse our extensive catalog by category, functionality, and user ratings."
+          "question": "Do you offer a free trial?",
+          "answer": "Yes, we offer a 7-day free trial."
         },
         "item-2": {
-          "question": "Are the tools in your catalog free to use?",
-          "answer": "Our catalog includes both free and paid tools. Each tool listing clearly indicates its pricing model."
+          "question": "How do I cancel my subscription?",
+          "answer": "You can cancel your subscription by visiting the billing page."
         },
         "item-3": {
-          "question": "How do I integrate tools from the catalog into my workflow?",
-          "answer": "Each tool listing includes detailed integration instructions and documentation for seamless setup."
+          "question": "Can I change my plan?",
+          "answer": "Yes, you can change your plan at any time by visiting the billing page."
         },
         "item-4": {
-          "question": "Can I contribute my own tools to the catalog?",
-          "answer": "Yes, we welcome contributions from developers. Please contact us through our partner program for more information."
+          "question": "What is the refund policy?",
+          "answer": "We offer a 30-day money-back guarantee if you are not happy with our product."
         },
         "item-5": {
           "question": "Can't find what you're looking for?",
@@ -707,102 +697,80 @@
       "subtitle": "What our customers are saying",
       "items": {
         "item-1": {
-          "name": "Alex Johnson",
-          "role": "Product Manager",
+          "name": "Jonathan Yombo",
+          "role": "Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "WorkflowLab is really extraordinary and very practical, with an extensive catalog of tools to choose from. A real gold mine for developers."
+          "quote": "WorkflowLab is really extraordinary and very practical, no need to break your head. A real gold mine."
         },
         "item-2": {
-          "name": "Sarah Chen",
-          "role": "DevOps Engineer",
+          "name": "Yves Kalume",
+          "role": "GDE - Android",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With WorkflowLab's comprehensive software catalog, I found the perfect tools to streamline my development process."
+          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to WorkflowLab."
         },
         "item-3": {
-          "name": "Marcus Williams",
-          "role": "CTO",
+          "name": "Yucel Faruksahan",
+          "role": "Tailkits Creator",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on WorkflowLab's software catalog. It's one of the best curated collections of development tools I've seen so far :)"
+          "quote": "Great work on WorkflowLab template. This is one of the best personal website that I have seen so far :)"
         },
         "item-4": {
-          "name": "Elena Rodriguez",
-          "role": "UX Designer",
+          "name": "Anonymous author",
+          "role": "Product Manager",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I found exactly the tools I needed in WorkflowLab's catalog which are very clear to understand and easy to integrate into my projects."
+          "quote": "I downloaded the one of WorkflowLab template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
         },
         "item-5": {
-          "name": "James Wilson",
-          "role": "Lead Developer",
+          "name": "Shekinah Tshiokufila",
+          "role": "Senior Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "WorkflowLab is redefining the standard of software discovery, with their catalog providing an easy and efficient way to find tools for any development need."
+          "quote": "WorkflowLab is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
         },
         "item-6": {
-          "name": "Priya Sharma",
+          "name": "Oketa Fred",
           "role": "Fullstack Developer",
           "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love WorkflowLab! The software tools are beautifully designed and easy to implement, which makes building great applications a breeze."
+          "quote": "I absolutely love WorkflowLab! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
         },
         "item-7": {
-          "name": "David Kim",
-          "role": "Startup Founder",
+          "name": "Zeki",
+          "role": "Founder of ChatExtend",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to discover tools that are as powerful as they are user-friendly."
+          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
         },
         "item-8": {
-          "name": "Fatima Ahmed",
-          "role": "Engineering Manager",
+          "name": "Joseph Kitheka",
+          "role": "Fullstack Developer",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "WorkflowLab has transformed the way I build applications. Their extensive catalog of software tools has significantly accelerated my development workflow."
+          "quote": "WorkflowLab has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
         },
         "item-9": {
-          "name": "Robert Taylor",
-          "role": "DevOps Specialist",
+          "name": "Khatab Wedaa",
+          "role": "MerakiUI Creator",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "WorkflowLab is an elegant, comprehensive software catalog that's very helpful for finding the right tools to start your projects fast."
+          "quote": "WorkflowLab is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
         },
         "item-10": {
-          "name": "Isabella Garcia",
-          "role": "Frontend Developer",
+          "name": "Rodrigo Aguilar",
+          "role": "TailwindAwesome Creator",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love WorkflowLab ❤️. The software tools are well-structured, simple to implement, and beautifully designed. It makes finding the right solutions quick and easy."
+          "quote": "I love WorkflowLab ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
         },
         "item-11": {
-          "name": "Kofi Mensah",
-          "role": "Tech Lead",
+          "name": "Eric Ampire",
+          "role": "@GoogleDevExpert for Android",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "WorkflowLab is the perfect solution for anyone who wants to find powerful software tools without spending time researching."
+          "quote": "WorkflowLab templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
         },
         "item-12": {
-          "name": "Emma Thompson",
-          "role": "Solutions Architect",
+          "name": "Roland Tubonge",
+          "role": "Software Engineer",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "WorkflowLab has an impressive collection of tools that solve real problems. Let yourself be amazed by the quality of solutions available!"
+          "quote": "WorkflowLab is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
         }
       }
     },
-    "stats": {
-      "title": "Stats",
-      "subtitle": "WorkflowLab in numbers",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
-      "items": {
-        "item-1": {
-          "title": "Tools in Catalog"
-        },
-        "item-2": {
-          "title": "Active Users"
-        },
-        "item-3": {
-          "title": "Powered Workflows"
-        }
-      }
-    },
-    "calltoaction": {
-      "title": "Start Discovering",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
-      "primaryButton": "Explore Tools",
-      "secondaryButton": "See Demo"
-    }
-  },
+    \n  },
   "AITextPage": {
     "title": "AI Text Demo",
     "description": "Analyze web content with AI to extract key information, features, and insights",
@@ -853,19 +821,19 @@
   },
   "AIImagePage": {
     "title": "AI Image",
-    "description": "Discover AI image tools in our software catalog to enhance your workflow"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIChatPage": {
     "title": "AI Chat",
-    "description": "Discover AI chat tools in our software catalog to enhance your workflow"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIVideoPage": {
     "title": "AI Video",
-    "description": "Discover AI video tools in our software catalog to enhance your workflow"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "AIAudioPage": {
     "title": "AI Audio",
-    "description": "Discover AI audio tools in our software catalog to enhance your workflow"
+    "description": "WorkflowLab lets you make AI SaaS in days, simply and effortlessly"
   },
   "SoftwarePage": {
     "title": "Software",

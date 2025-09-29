@@ -23,6 +23,12 @@ export function useNavbarLinks(): NestedMenuItem[] {
   const t = useTranslations('Marketing.navbar');
 
   return [
+    {
+      title: 'Software',
+      href: Routes.Software,
+      external: false,
+      icon: <SquareCodeIcon className="size-4 shrink-0" />,
+    },
     ...(websiteConfig.blog.enable
       ? [
           {
@@ -33,11 +39,5 @@ export function useNavbarLinks(): NestedMenuItem[] {
           },
         ]
       : []),
-    {
-      title: 'Software',
-      href: Routes.Software,
-      external: false,
-      icon: <SquareCodeIcon className="size-4 shrink-0" />,
-    },
   ];
 }
