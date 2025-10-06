@@ -31,18 +31,11 @@ export async function generateMetadata({
     };
   }
 
-  // Check if post attributes exist
-  if (!post.attributes) {
-    return {
-      title: 'Invalid Post Data',
-    };
-  }
-
-  const t = await getTranslations({ locale, namespace: 'BlogPostPage' });
+  const t = await getTranslations({ locale, namespace: 'BlogPage' });
 
   return {
-    title: `${post.attributes.title} | ${t('title')}`,
-    description: post.attributes.description,
+    title: `${post.title} | ${t('title')}`,
+    description: post.description,
   };
 }
 
@@ -77,18 +70,7 @@ export default async function StrapiBlogPostPage({
     );
   }
 
-  // Check if post attributes exist
-  if (!post.attributes) {
-    return (
-      <div className="container py-8">
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 text-red-800">
-          Invalid post data
-        </div>
-      </div>
-    );
-  }
-
-  const { title, description, content, date, image, categories, writer } = post.attributes;
+  const { title, description, content, date, image, categories, writer } = post;
 
   // Format the date
   const formattedDate = date 
@@ -129,10 +111,10 @@ export default async function StrapiBlogPostPage({
           )}
         </header>
 
-        {image?.data?.attributes?.url && (
+        {image?.url && (
           <div className="mb-8">
             <img
-              src={`${process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337'}${image.data.attributes.url}`}
+              src={`${process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337'}${image.url}`}
               alt={`${title} image`}
               width={800}
               height={400}

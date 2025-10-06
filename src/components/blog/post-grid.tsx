@@ -32,7 +32,7 @@ function PostCard({ post, locale }: PostCardProps) {
 
   return (
     <Link
-      href={`/${locale}/strapi-blog/${slug}`}
+      href={`/${locale}/blog/${slug}`}
       className="block rounded-lg border p-6 transition-all hover:shadow-md"
     >
       <div className="flex flex-col gap-4">
