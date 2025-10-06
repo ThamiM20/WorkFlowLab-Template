@@ -1,4 +1,4 @@
-﻿{
+{
   "Metadata": {
     "name": "WorkflowLab",
     "title": "WorkflowLab - Your Catalog of Essential Software Tools & Services",
@@ -45,7 +45,7 @@
     }
   },
 
-
+  
   "CreditPackages": {
     "basic": {
       "name": "Basic",
@@ -99,7 +99,7 @@
       "success": "Message sent successfully",
       "fail": "Failed to send message",
       "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must be at least 30 characters",
+      "nameMaxLength": "Name must not exceed 30 characters",
       "emailValidation": "Please enter a valid email address",
       "messageMinLength": "Message must be at least 10 characters",
       "messageMaxLength": "Message must not exceed 500 characters"
@@ -274,7 +274,7 @@
             "description": "Join our waitlist for latest news and updates"
           },
           "software": {
-            "title": "Catalog",
+            "title": "Software Catalog",
             "description": "Discover amazing tools"
           },
 
@@ -433,7 +433,7 @@
         "unban": {
           "button": "Unban User",
           "success": "User has been unbanned",
-          "error": "Failed to unbanned user"
+          "error": "Failed to unban user"
         },
         "close": "Close"
       }
@@ -457,7 +457,7 @@
           "description": "Please enter your display name",
           "placeholder": "Enter your name",
           "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use at least 30 characters",
+          "maxLength": "Please use 30 characters at maximum",
           "hint": "Please use 3-30 characters for your name",
           "success": "Name updated successfully",
           "fail": "Failed to update name",
@@ -556,7 +556,7 @@
   },
   "HomePage": {
     "softwareCatalog": {
-      "title": "Catalog",
+      "title": "Software Catalog",
       "subtitle": "Discover amazing tools",
       "description": "Explore our collection of software tools and services"
     },
@@ -713,25 +713,19 @@
           "name": "Sarah Chen",
           "role": "DevOps Engineer",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With WorkflowLab's comprehensive Catalog, I found the perfect tools to streamline my development process."
+          "quote": "With WorkflowLab's comprehensive software catalog, I found the perfect tools to streamline my development process."
         },
         "item-3": {
           "name": "Marcus Williams",
           "role": "CTO",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on WorkflowLab's Catalog. It's one of the best curated collections of development tools I've seen so far :)"
+          "quote": "Great work on WorkflowLab's software catalog. It's one of the best curated collections of development tools I've seen so far :)"
         },
         "item-4": {
           "name": "Elena Rodriguez",
           "role": "UX Designer",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
           "quote": "I found exactly the tools I needed in WorkflowLab's catalog which are very clear to understand and easy to integrate into my projects."
-        },
-        "item-5": {
-          "name": "James Wilson",
-          "role": "Lead Developer",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "WorkflowLab is redefining the standard of software discovery, with their catalog providing an easy and efficient way to find tools for any development need."
         },
         "item-5": {
           "name": "James Wilson",
@@ -761,7 +755,7 @@
           "name": "Robert Taylor",
           "role": "DevOps Specialist",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "WorkflowLab is an elegant, comprehensive Catalog that's very helpful for finding the right tools to start your projects fast."
+          "quote": "WorkflowLab is an elegant, comprehensive software catalog that's very helpful for finding the right tools to start your projects fast."
         },
         "item-10": {
           "name": "Isabella Garcia",

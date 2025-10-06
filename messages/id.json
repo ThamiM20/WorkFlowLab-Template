@@ -1,582 +1,580 @@
-{
+﻿{
   "Metadata": {
     "name": "WorkflowLab",
-    "title": "WorkflowLab - Your Catalog of Essential Software Tools & Services",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow."
+    "title": "WorkflowLab - Katalog Alat dan Layanan Perangkat Lunak Esensial Anda",
+    "description": "Temukan dan jelajahi katalog komprehensif alat dan layanan perangkat lunak yang dirancang untuk menyederhanakan alur kerja Anda."
   },
   "Common": {
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
+    "login": "Masuk",
+    "logout": "Keluar",
+    "signUp": "Daftar",
+    "language": "Ubah bahasa",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "Alihkan mode",
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem"
     },
     "theme": {
-      "label": "Toggle theme",
+      "label": "Alihkan tema",
       "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
+      "blue": "Biru",
+      "green": "Hijau",
       "amber": "Amber",
-      "neutral": "Neutral"
+      "neutral": "Netral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Salin",
+    "saving": "Menyimpan...",
+    "save": "Simpan",
+    "loading": "Memuat...",
+    "cancel": "Batal",
+    "logoutFailed": "Gagal keluar",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
+      "totalRecords": "Total {count} rekaman",
+      "noResults": "Tidak ada hasil",
+      "loading": "Memuat...",
+      "columns": "Kolom",
+      "rowsPerPage": "Baris per halaman",
+      "page": "Halaman",
+      "firstPage": "Halaman Pertama",
+      "lastPage": "Halaman Terakhir",
+      "nextPage": "Halaman Berikutnya",
+      "previousPage": "Halaman Sebelumnya",
       "ascending": "Asc",
       "descending": "Desc"
     }
   },
   "CreditPackages": {
     "basic": {
-      "name": "Basic",
-      "description": "Basic credits package description"
+      "name": "Dasar",
+      "description": "Deskripsi paket kredit dasar"
     },
     "standard": {
-      "name": "Standard",
-      "description": "Standard credits package description"
+      "name": "Standar",
+      "description": "Deskripsi paket kredit standar"
     },
     "enterprise": {
-      "name": "Enterprise",
-      "description": "Enterprise credits package description"
+      "name": "Perusahaan",
+      "description": "Deskripsi paket kredit perusahaan"
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Maaf, halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke beranda"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Ada yang salah!",
+    "tryAgain": "Coba lagi",
+    "backToHome": "Kembali ke beranda"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity.",
+    "title": "Tentang",
+    "description": "Ini adalah WorkflowLab, katalog komprehensif alat dan layanan perangkat lunak yang dirancang untuk menyederhanakan alur kerja Anda dan meningkatkan produktivitas.",
     "authorName": "WorkflowLab",
-    "authorBio": "Software Tools Catalog",
-    "introduction": "👋 Hi there! This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "authorBio": "Katalog Alat Perangkat Lunak",
+    "introduction": "👋 Halo! Ini adalah WorkflowLab, katalog komprehensif alat dan layanan perangkat lunak yang dirancang untuk menyederhanakan alur kerja Anda dan meningkatkan produktivitas. Jika Anda memiliki pertanyaan, silakan hubungi saya.",
+    "talkWithMe": "Berbicara dengan saya",
+    "followMe": "Ikuti saya di X"
   },
   "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "title": "Catatan Perubahan",
+    "description": "Tetap terkini dengan perubahan terbaru dalam produk kami",
+    "subtitle": "Tetap terkini dengan perubahan terbaru dalam produk kami"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "title": "Kontak",
+    "description": "Kami akan membantu Anda menemukan rencana yang tepat untuk bisnis Anda",
+    "subtitle": "Kami akan membantu Anda menemukan rencana yang tepat untuk bisnis Anda",
     "form": {
-      "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
-      "name": "Name",
+      "title": "Hubungi Kami",
+      "description": "Jika Anda memiliki pertanyaan atau masukan, silakan hubungi tim kami",
+      "name": "Nama",
       "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "submitting": "Submitting...",
-      "success": "Message sent successfully",
-      "fail": "Failed to send message",
-      "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must not exceed 30 characters",
-      "emailValidation": "Please enter a valid email address",
-      "messageMinLength": "Message must be at least 10 characters",
-      "messageMaxLength": "Message must not exceed 500 characters"
+      "message": "Pesan",
+      "submit": "Kirim",
+      "submitting": "Mengirim...",
+      "success": "Pesan berhasil dikirim",
+      "fail": "Gagal mengirim pesan",
+      "nameMinLength": "Nama harus terdiri dari minimal 3 karakter",
+      "nameMaxLength": "Nama tidak boleh melebihi 30 karakter",
+      "emailValidation": "Silakan masukkan alamat email yang valid",
+      "messageMinLength": "Pesan harus terdiri dari minimal 10 karakter",
+      "messageMaxLength": "Pesan tidak boleh melebihi 500 karakter"
     }
   },
   "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
+    "title": "Daftar Tunggu",
+    "description": "Bergabunglah dengan daftar tunggu kami untuk peluncuran produk kami",
+    "subtitle": "Bergabunglah dengan daftar tunggu kami untuk peluncuran produk kami",
     "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
+      "title": "Bergabung dengan Daftar Tunggu Kami",
+      "description": "Kami akan memberi tahu Anda ketika kami meluncurkan produk kami",
       "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "subscribe": "Berlangganan",
+      "subscribing": "Berlangganan...",
+      "success": "Berhasil berlangganan",
+      "fail": "Gagal berlangganan",
+      "emailValidation": "Silakan masukkan alamat email yang valid"
     }
   },
   "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "title": "Buletin",
+    "subtitle": "Bergabunglah dengan komunitas",
+    "description": "Berlangganan buletin kami untuk mendapatkan berita dan pembaruan terbaru",
     "form": {
       "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "subscribe": "Berlangganan",
+      "subscribing": "Berlangganan...",
+      "success": "Berhasil berlangganan",
+      "fail": "Gagal berlangganan",
+      "emailValidation": "Silakan masukkan alamat email yang valid"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
+      "title": "Masuk",
+      "welcomeBack": "Selamat datang kembali",
       "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "signInWithGitHub": "Sign In with GitHub",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "password": "Kata Sandi",
+      "signIn": "Masuk",
+      "signUpHint": "Belum punya akun? Daftar",
+      "forgotPassword": "Lupa Kata Sandi?",
+      "signInWithGoogle": "Masuk dengan Google",
+      "signInWithGitHub": "Masuk dengan GitHub",
+      "showPassword": "Tampilkan kata sandi",
+      "hidePassword": "Sembunyikan kata sandi",
+      "or": "Atau lanjutkan dengan",
+      "emailRequired": "Silakan masukkan email Anda",
+      "passwordRequired": "Silakan masukkan kata sandi Anda",
+      "captchaInvalid": "Verifikasi captcha gagal",
+      "captchaError": "Kesalahan verifikasi captcha"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
+      "title": "Daftar",
+      "createAccount": "Buat akun",
+      "name": "Nama",
       "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "password": "Kata Sandi",
+      "signUp": "Daftar",
+      "signInHint": "Sudah punya akun? Masuk",
+      "checkEmail": "Silakan periksa kotak masuk email Anda",
+      "showPassword": "Tampilkan kata sandi",
+      "hidePassword": "Sembunyikan kata sandi",
+      "nameRequired": "Silakan masukkan nama Anda",
+      "emailRequired": "Silakan masukkan email Anda",
+      "passwordRequired": "Silakan masukkan kata sandi Anda",
+      "captchaInvalid": "Verifikasi captcha gagal",
+      "captchaError": "Kesalahan verifikasi captcha"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
+      "title": "Lupa Kata Sandi",
       "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox",
-      "emailRequired": "Please enter your email"
+      "send": "Kirim tautan reset",
+      "backToLogin": "Kembali ke login",
+      "checkEmail": "Silakan periksa kotak masuk email Anda",
+      "emailRequired": "Silakan masukkan email Anda"
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "Password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters"
+      "title": "Reset Kata Sandi",
+      "password": "Kata Sandi",
+      "reset": "Reset kata sandi",
+      "backToLogin": "Kembali ke login",
+      "showPassword": "Tampilkan kata sandi",
+      "hidePassword": "Sembunyikan kata sandi",
+      "minLength": "Kata sandi harus terdiri dari minimal 8 karakter"
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Ada yang salah!",
+      "tryAgain": "Silakan coba lagi.",
+      "backToLogin": "Kembali ke login",
+      "checkEmail": "Silakan periksa kotak masuk email Anda"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Syarat Layanan",
+      "privacyPolicy": "Kebijakan Privasi",
+      "byClickingContinue": "Dengan mengklik lanjutkan, Anda menyetujui ",
+      "and": " dan "
     }
   },
   "BlogPage": {
     "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
+    "description": "Berita dan pembaruan terbaru dari tim kami",
+    "subtitle": "Berita dan pembaruan terbaru dari tim kami",
+    "author": "Penulis",
+    "categories": "Kategori",
+    "tableOfContents": "Daftar Isi",
+    "readTime": "{minutes} menit baca",
+    "all": "Semua",
+    "noPostsFound": "Tidak ada postingan ditemukan",
+    "allPosts": "Semua Postingan",
+    "morePosts": "Postingan Lainnya"
   },
   "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "WorkflowLab Docs",
-    "homepage": "Homepage"
+    "toc": "Daftar Isi",
+    "search": "Cari dokumen",
+    "lastUpdate": "Terakhir diperbarui pada",
+    "searchNoResult": "Tidak ada hasil",
+    "previousPage": "Sebelumnya",
+    "nextPage": "Berikutnya",
+    "chooseLanguage": "Pilih bahasa",
+    "title": "Dokumen WorkflowLab",
+    "homepage": "Beranda"
   },
   "Marketing": {
     "navbar": {
       "features": {
-        "title": "Features"
+        "title": "Fitur"
       },
       "blog": {
         "title": "Blog"
       },
       "docs": {
-        "title": "Docs"
+        "title": "Dokumen"
       },
       "ai": {
-        "title": "AI Tools",
+        "title": "Alat AI",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "Teks AI",
+            "description": "Tunjukkan cara menggunakan AI untuk menulis teks yang menakjubkan"
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "Gambar AI",
+            "description": "Tunjukkan cara menggunakan AI untuk menghasilkan gambar yang indah"
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "Chat AI",
+            "description": "Tunjukkan cara menggunakan AI untuk mengobrol dengan pelanggan Anda"
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "Video AI",
+            "description": "Tunjukkan cara menggunakan AI untuk menghasilkan video yang luar biasa"
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "Audio AI",
+            "description": "Tunjukkan cara menggunakan AI untuk menghasilkan audio yang luar biasa"
           }
         }
       },
       "pages": {
-        "title": "Pages",
+        "title": "Halaman",
         "items": {
           "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
+            "title": "Tentang",
+            "description": "Pelajari lebih lanjut tentang perusahaan, misi, dan nilai kami"
           },
           "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
+            "title": "Kontak",
+            "description": "Hubungi tim kami untuk dukungan atau pertanyaan"
           },
           "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
+            "title": "Daftar Tunggu",
+            "description": "Bergabunglah dengan daftar tunggu kami untuk berita dan pembaruan terbaru"
           },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
+          "software": {
+            "title": "Katalog",
+            "description": "Temukan alat-alat hebat"
           },
           "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
+            "title": "Kebijakan Cookie",
+            "description": "Bagaimana kami menggunakan cookie di situs web kami"
           },
           "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
+            "title": "Kebijakan Privasi",
+            "description": "Bagaimana kami melindungi dan menangani data Anda"
           },
           "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
+            "title": "Syarat Layanan",
+            "description": "Perjanjian hukum antara Anda dan perusahaan kami"
           }
         }
       },
       "blocks": {
-        "title": "Blocks",
+        "title": "Blok",
         "items": {
           "magicui": {
-            "title": "MagicUI Blocks"
+            "title": "Blok MagicUI"
           },
           "hero-section": {
-            "title": "Hero Blocks"
+            "title": "Blok Hero"
           },
           "logo-cloud": {
-            "title": "Logo Cloud Blocks"
+            "title": "Blok Awan Logo"
           },
           "integrations": {
-            "title": "Integrations Blocks"
+            "title": "Blok Integrasi"
           },
           "features": {
-            "title": "Features Blocks"
+            "title": "Blok Fitur"
           },
           "content": {
-            "title": "Content Blocks"
+            "title": "Blok Konten"
           },
           "stats": {
-            "title": "Stats Blocks"
+            "title": "Blok Statistik"
           },
           "team": {
-            "title": "Team Blocks"
+            "title": "Blok Tim"
           },
           "testimonials": {
-            "title": "Testimonials Blocks"
+            "title": "Blok Testimoni"
           },
           "callToAction": {
-            "title": "Call to Action Blocks"
+            "title": "Blok Ajakan Bertindak"
           },
           "footer": {
-            "title": "Footer Blocks"
+            "title": "Blok Footer"
           },
           "comparator": {
-            "title": "Comparator Blocks"
+            "title": "Blok Pembanding"
           },
           "faq": {
-            "title": "FAQ Blocks"
+            "title": "Blok FAQ"
           },
           "login": {
-            "title": "Login Blocks"
+            "title": "Blok Masuk"
           },
           "signup": {
-            "title": "Signup Blocks"
+            "title": "Blok Daftar"
           },
           "forgot-password": {
-            "title": "Forgot Password Blocks"
+            "title": "Blok Lupa Kata Sandi"
           },
           "contact": {
-            "title": "Contact Blocks"
+            "title": "Blok Kontak"
           }
         }
       }
     },
     "footer": {
-      "tagline": "Discover software tools to enhance your workflow, simply and effortlessly",
+      "tagline": "Temukan alat perangkat lunak untuk meningkatkan alur kerja Anda, secara sederhana dan tanpa usaha",
       "product": {
-        "title": "Product",
+        "title": "Produk",
         "items": {
-          "features": "Features",
+          "features": "Fitur",
           "faq": "FAQ"
         }
       },
       "resources": {
-        "title": "Resources",
+        "title": "Sumber Daya",
         "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "blog": "Blog"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Perusahaan",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Tentang",
+          "contact": "Kontak",
+          "waitlist": "Daftar Tunggu"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Hukum",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Kebijakan Cookie",
+          "privacyPolicy": "Kebijakan Privasi",
+          "termsOfService": "Syarat Layanan"
         }
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
-      "settings": "Settings"
+      "dashboard": "Dasbor",
+      "settings": "Pengaturan"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Dasbor"
     },
     "admin": {
       "title": "Admin",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Pengguna",
+        "fakeData": "Catatan: Data palsu untuk demonstrasi, beberapa fitur dinonaktifkan",
+        "error": "Gagal mendapatkan pengguna",
+        "search": "Cari pengguna...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
+          "columns": "Kolom",
+          "name": "Nama",
           "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "role": "Peran",
+          "createdAt": "Dibuat Pada",
+          "customerId": "ID Pelanggan",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Alasan Blokir",
+          "banExpires": "Kadaluarsa Blokir"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Pengguna",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Email Terverifikasi",
+          "unverified": "Email Belum Terverifikasi"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "Email disalin ke papan klip",
+        "banned": "Diblokir",
+        "active": "Aktif",
+        "joined": "Bergabung pada",
+        "updated": "Diperbarui pada",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "Alasan Blokir",
+          "reasonPlaceholder": "Masukkan alasan untuk memblokir pengguna ini",
+          "defaultReason": "Spam",
+          "never": "Tidak Pernah",
+          "expires": "Kadaluarsa Blokir",
+          "selectDate": "Pilih Tanggal",
+          "button": "Blokir Pengguna",
+          "success": "Pengguna telah diblokir",
+          "error": "Gagal memblokir pengguna"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Buka Blokir Pengguna",
+          "success": "Pengguna telah dibuka blokirnya",
+          "error": "Gagal membuka blokir pengguna"
         },
-        "close": "Close"
+        "close": "Tutup"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Pengaturan",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Kelola informasi akun Anda",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Klik tombol unggah untuk mengunggah yang kustom",
+          "recommendation": "Avatar bersifat opsional tetapi sangat direkomendasikan",
+          "uploading": "Mengunggah...",
+          "uploadAvatar": "Unggah Avatar",
+          "success": "Avatar berhasil diperbarui",
+          "fail": "Gagal memperbarui avatar"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Nama",
+          "description": "Silakan masukkan nama tampilan Anda",
+          "placeholder": "Masukkan nama Anda",
+          "minLength": "Silakan gunakan minimal 3 karakter",
+          "maxLength": "Silakan gunakan maksimal 30 karakter",
+          "hint": "Silakan gunakan 3-30 karakter untuk nama Anda",
+          "success": "Nama berhasil diperbarui",
+          "fail": "Gagal memperbarui nama",
+          "saving": "Menyimpan...",
+          "save": "Simpan"
         }
       },
       "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
+        "title": "Notifikasi",
+        "description": "Kelola preferensi notifikasi Anda",
         "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
+          "title": "Langganan Buletin",
+          "description": "Kelola preferensi langganan buletin Anda",
+          "label": "Berlangganan buletin",
+          "hint": "Anda dapat mengubah preferensi langganan kapan saja",
+          "emailRequired": "Email diperlukan untuk berlangganan buletin",
+          "subscribeSuccess": "Berhasil berlangganan buletin",
+          "subscribeFail": "Gagal berlangganan buletin",
+          "unsubscribeSuccess": "Berhasil berhenti berlangganan buletin",
+          "unsubscribeFail": "Gagal berhenti berlangganan buletin",
+          "error": "Terjadi kesalahan saat memperbarui langganan Anda"
         }
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Keamanan",
+        "description": "Kelola pengaturan keamanan Anda",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Ubah Kata Sandi",
+          "description": "Masukkan kata sandi saat ini dan kata sandi baru",
+          "currentPassword": "Kata Sandi Saat Ini",
+          "currentRequired": "Kata sandi saat ini diperlukan",
+          "newPassword": "Kata Sandi Baru",
+          "newMinLength": "Kata sandi harus terdiri dari minimal 8 karakter",
+          "hint": "Silakan gunakan minimal 8 karakter untuk kata sandi",
+          "showPassword": "Tampilkan kata sandi",
+          "hidePassword": "Sembunyikan kata sandi",
+          "success": "Kata sandi berhasil diperbarui",
+          "fail": "Gagal memperbarui kata sandi",
+          "saving": "Menyimpan...",
+          "save": "Simpan"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Reset Kata Sandi",
+          "description": "Reset kata sandi untuk mengaktifkan login email",
+          "info": "Meriset kata sandi Anda akan memungkinkan Anda masuk menggunakan email dan kata sandi Anda selain metode login sosial Anda. Anda akan menerima email dengan instruksi untuk meriset kata sandi Anda",
+          "button": "Reset Kata Sandi"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Hapus Akun",
+          "description": "Hapus permanen akun Anda dan semua isinya",
+          "warning": "Tindakan ini tidak dapat dibatalkan, jadi harap lanjutkan dengan hati-hati",
+          "button": "Hapus Akun",
+          "confirmTitle": "Hapus Akun",
+          "confirmDescription": "Apakah Anda yakin ingin menghapus akun Anda? Tindakan ini tidak dapat dibatalkan.",
+          "confirm": "Hapus",
+          "cancel": "Batal",
+          "deleting": "Menghapus...",
+          "success": "Akun berhasil dihapus",
+          "fail": "Gagal menghapus akun"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
-      "button": "Upgrade"
+      "title": "Tingkatkan",
+      "description": "Tingkatkan ke Pro untuk mengakses semua fitur",
+      "button": "Tingkatkan"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "team": "Tim {name}",
+      "copyright": "©️ {year} Hak Cipta Dilindungi."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hai, {name}.",
+      "body": "Silakan klik tautan di bawah untuk memverifikasi alamat email Anda.",
+      "confirmEmail": "Konfirmasi email",
+      "subject": "Verifikasi email Anda"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to reset your password.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your password"
+      "title": "Hai, {name}.",
+      "body": "Silakan klik tautan di bawah untuk meriset kata sandi Anda.",
+      "resetPassword": "Reset kata sandi",
+      "subject": "Reset kata sandi Anda"
     },
     "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "body": "Terima kasih telah berlangganan buletin. Kami akan terus memberi Anda pembaruan berita dan informasi terbaru.",
+      "subject": "Terima kasih telah berlangganan"
     },
     "contactMessage": {
-      "name": "Name: {name}",
+      "name": "Nama: {name}",
       "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "message": "Pesan: {message}",
+      "subject": "Pesan Kontak dari Situs Web"
     }
   },
   "HomePage": {
+    "softwareCatalog": {
+      "title": "Katalog",
+      "subtitle": "Temukan alat-alat hebat",
+      "description": "Jelajahi koleksi alat dan layanan perangkat lunak kami"
+    },
     "title": "WorkflowLab",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow.",
+    "description": "Temukan dan jelajahi katalog komprehensif alat dan layanan perangkat lunak yang dirancang untuk menyederhanakan alur kerja Anda.",
     "hero": {
-      "title": "Your Catalog of Essential Software Tools",
-      "description": "A comprehensive marketplace of software tools and services to help you build, manage, and optimize your digital workflow. Find the right solution for every need.",
-      "introduction": "Introducing WorkflowLab",
-      "primary": "Explore Tools",
-      "secondary": "See Demo"
+      "title": "Katalog Alat Perangkat Lunak Esensial Anda",
+      "description": "Pasar komprehensif alat dan layanan perangkat lunak untuk membantu Anda membangun, mengelola, dan mengoptimalkan alur kerja digital Anda. Temukan solusi yang tepat untuk setiap kebutuhan.",
+      "introduction": "Memperkenalkan WorkflowLab",
+      "primary": "Jelajahi Alat",
+      "secondary": "Lihat Demo"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "Perusahaan favorit Anda adalah mitra kami"
     },
     "integration": {
-      "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
+      "title": "Integrasi",
+      "subtitle": "Integrasikan dengan alat favorit Anda",
+      "description": "Hubungkan dengan mulus dengan platform dan layanan populer untuk meningkatkan alur kerja Anda.",
+      "learnMore": "Pelajari Lebih Lanjut",
       "items": {
         "item-1": {
           "title": "Google Gemini",
@@ -605,270 +603,270 @@
       }
     },
     "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "Integrasikan dengan alat favorit Anda",
+      "description": "Hubungkan dengan mulus dengan platform dan layanan populer untuk meningkatkan alur kerja Anda.",
+      "primaryButton": "Mulai",
+      "secondaryButton": "Lihat Demo"
     },
     "features": {
-      "title": "Features",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Fitur",
+      "subtitle": "Fitur produk Anda",
+      "description": "Tulis deskripsi produk Anda di sini",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here, make it as detailed as possible, make it more attractive to users"
+          "title": "Fitur Produk Satu",
+          "description": "Silakan tulis deskripsi rinci fitur satu di sini, buatlah senyak terperinci mungkin, buatlah lebih menarik bagi pengguna"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here, make it as detailed as possible, make it more attractive to users"
+          "title": "Fitur Produk Dua",
+          "description": "Silakan tulis deskripsi rinci fitur dua di sini, buatlah senyak terperinci mungkin, buatlah lebih menarik bagi pengguna"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here, make it as detailed as possible, make it more attractive to users"
+          "title": "Fitur Produk Tiga",
+          "description": "Silakan tulis deskripsi rinci fitur tiga di sini, buatlah senyak terperinci mungkin, buatlah lebih menarik bagi pengguna"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here, make it as detailed as possible, make it more attractive to users"
+          "title": "Fitur Produk Empat",
+          "description": "Silakan tulis deskripsi rinci fitur empat di sini, buatlah senyak terperinci mungkin, buatlah lebih menarik bagi pengguna"
         }
       }
     },
     "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
+      "title": "Fitur2",
+      "subtitle": "Fitur produk Anda",
+      "description": "Tulis deskripsi produk Anda di sini",
+      "feature-1": "Fitur Produk Satu",
+      "feature-2": "Fitur Produk Dua",
+      "feature-3": "Fitur Produk Tiga",
+      "feature-4": "Fitur Produk Empat"
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Fitur3",
+      "subtitle": "Fitur produk Anda",
+      "description": "Tulis deskripsi produk Anda di sini",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "Fitur Produk Satu",
+          "description": "Silakan tulis deskripsi rinci fitur satu di sini"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "Fitur Produk Dua",
+          "description": "Silakan tulis deskripsi rinci fitur dua di sini"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "Fitur Produk Tiga",
+          "description": "Silakan tulis deskripsi rinci fitur tiga di sini"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "Fitur Produk Empat",
+          "description": "Silakan tulis deskripsi rinci fitur empat di sini"
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "Fitur Produk Lima",
+          "description": "Silakan tulis deskripsi rinci fitur lima di sini"
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "Fitur Produk Enam",
+          "description": "Silakan tulis deskripsi rinci fitur enam di sini"
         }
       }
     },
     "faqs": {
       "title": "FAQ",
-      "subtitle": "Frequently Asked Questions",
+      "subtitle": "Pertanyaan yang Sering Diajukan",
       "items": {
         "item-1": {
-          "question": "How do I find the right software for my needs?",
-          "answer": "Use our search and filtering tools to browse our extensive catalog by category, functionality, and user ratings."
+          "question": "Bagaimana cara menemukan perangkat lunak yang tepat untuk kebutuhan saya?",
+          "answer": "Gunakan alat pencarian dan penyaringan kami untuk menjelajahi katalog luas kami berdasarkan kategori, fungsionalitas, dan penilaian pengguna."
         },
         "item-2": {
-          "question": "Are the tools in your catalog free to use?",
-          "answer": "Our catalog includes both free and paid tools. Each tool listing clearly indicates its pricing model."
+          "question": "Apakah alat-alat di katalog Anda gratis untuk digunakan?",
+          "answer": "Katalog kami mencakup alat gratis dan berbayar. Setiap daftar alat dengan jelas menunjukkan model harga mereka."
         },
         "item-3": {
-          "question": "How do I integrate tools from the catalog into my workflow?",
-          "answer": "Each tool listing includes detailed integration instructions and documentation for seamless setup."
+          "question": "Bagaimana cara mengintegrasikan alat dari katalog ke dalam alur kerja saya?",
+          "answer": "Setiap daftar alat mencakup instruksi integrasi rinci dan dokumentasi untuk pengaturan yang mulus."
         },
         "item-4": {
-          "question": "Can I contribute my own tools to the catalog?",
-          "answer": "Yes, we welcome contributions from developers. Please contact us through our partner program for more information."
+          "question": "Bisakah saya berkontribusi dengan alat saya sendiri ke katalog?",
+          "answer": "Ya, kami menyambut kontribusi dari pengembang. Silakan hubungi kami melalui program mitra kami untuk informasi lebih lanjut."
         },
         "item-5": {
-          "question": "Can't find what you're looking for?",
-          "answer": "Please contact our customer support team at support@workflowlab.com"
+          "question": "Tidak dapat menemukan apa yang Anda cari?",
+          "answer": "Silakan hubungi tim dukungan pelanggan kami di support@workflowlab.com"
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
+      "title": "Testimoni",
+      "subtitle": "Apa kata pelanggan kami",
       "items": {
         "item-1": {
           "name": "Alex Johnson",
-          "role": "Product Manager",
+          "role": "Manajer Produk",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "WorkflowLab is really extraordinary and very practical, with an extensive catalog of tools to choose from. A real gold mine for developers."
+          "quote": "WorkflowLab benar-benar luar biasa dan sangat praktis, dengan katalog alat yang luas untuk dipilih. Benar-benar tambang emas bagi pengembang."
         },
         "item-2": {
           "name": "Sarah Chen",
-          "role": "DevOps Engineer",
+          "role": "Insinyur DevOps",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With WorkflowLab's comprehensive software catalog, I found the perfect tools to streamline my development process."
+          "quote": "Dengan katalog perangkat lunak komprehensif WorkflowLab, saya menemukan alat yang sempurna untuk menyederhanakan proses pengembangan saya."
         },
         "item-3": {
           "name": "Marcus Williams",
           "role": "CTO",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on WorkflowLab's software catalog. It's one of the best curated collections of development tools I've seen so far :)"
+          "quote": "Kerja bagus pada katalog perangkat lunak WorkflowLab. Ini adalah salah satu koleksi terkurasi terbaik dari alat pengembangan yang pernah saya lihat sejauh ini :)"
         },
         "item-4": {
           "name": "Elena Rodriguez",
-          "role": "UX Designer",
+          "role": "Desainer UX",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I found exactly the tools I needed in WorkflowLab's catalog which are very clear to understand and easy to integrate into my projects."
+          "quote": "Saya menemukan alat yang tepat untuk kebutuhan saya di katalog WorkflowLab yang sangat jelas untuk dipahami dan mudah diintegrasikan ke dalam proyek saya."
         },
         "item-5": {
           "name": "James Wilson",
-          "role": "Lead Developer",
+          "role": "Pengembang Utama",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "WorkflowLab is redefining the standard of software discovery, with their catalog providing an easy and efficient way to find tools for any development need."
+          "quote": "WorkflowLab sedang mendefinisikan ulang standar penemuan perangkat lunak, dengan katalog mereka menyediakan cara yang mudah dan efisien untuk menemukan alat untuk setiap kebutuhan pengembangan."
         },
         "item-6": {
           "name": "Priya Sharma",
-          "role": "Fullstack Developer",
+          "role": "Pengembang Fullstack",
           "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love WorkflowLab! The software tools are beautifully designed and easy to implement, which makes building great applications a breeze."
+          "quote": "Saya benar-benar menyukai WorkflowLab! Alat perangkat lunaknya indah dirancang dan mudah diimplementasikan, yang membuat pembuatan aplikasi hebat menjadi mudah."
         },
         "item-7": {
           "name": "David Kim",
-          "role": "Startup Founder",
+          "role": "Pendiri Startup",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to discover tools that are as powerful as they are user-friendly."
+          "quote": "WorkflowLab adalah fusi sempurna dari kesederhanaan dan keberagaman, memungkinkan kami menemukan alat yang sekuat dan sebersahaja mereka."
         },
         "item-8": {
           "name": "Fatima Ahmed",
-          "role": "Engineering Manager",
+          "role": "Manajer Teknik",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "WorkflowLab has transformed the way I build applications. Their extensive catalog of software tools has significantly accelerated my development workflow."
+          "quote": "WorkflowLab telah mengubah cara saya membangun aplikasi. Katalog perangkat lunak luas mereka telah secara signifikan mempercepat alur kerja pengembangan saya."
         },
         "item-9": {
           "name": "Robert Taylor",
-          "role": "DevOps Specialist",
+          "role": "Spesialis DevOps",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "WorkflowLab is an elegant, comprehensive software catalog that's very helpful for finding the right tools to start your projects fast."
+          "quote": "WorkflowLab adalah katalog perangkat lunak yang elegan dan komprehensif yang sangat membantu untuk menemukan alat yang tepat untuk memulai proyek Anda dengan cepat."
         },
         "item-10": {
           "name": "Isabella Garcia",
-          "role": "Frontend Developer",
+          "role": "Pengembang Frontend",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love WorkflowLab ❤️. The software tools are well-structured, simple to implement, and beautifully designed. It makes finding the right solutions quick and easy."
+          "quote": "Saya menyukai WorkflowLab ❤️. Alat perangkat lunaknya terstruktur dengan baik, mudah diimplementasikan, dan indah dirancang. Ini membuat menemukan solusi yang tepat menjadi cepat dan mudah."
         },
         "item-11": {
           "name": "Kofi Mensah",
           "role": "Tech Lead",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "WorkflowLab is the perfect solution for anyone who wants to find powerful software tools without spending time researching."
+          "quote": "WorkflowLab adalah solusi sempurna untuk siapa pun yang ingin menemukan alat perangkat lunak yang kuat tanpa menghabiskan waktu untuk penelitian."
         },
         "item-12": {
           "name": "Emma Thompson",
-          "role": "Solutions Architect",
+          "role": "Arsitek Solusi",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "WorkflowLab has an impressive collection of tools that solve real problems. Let yourself be amazed by the quality of solutions available!"
+          "quote": "WorkflowLab memiliki koleksi alat yang mengesankan yang memecahkan masalah nyata. Biarkan diri Anda terpesona oleh kualitas solusi yang tersedia!"
         }
       }
     },
     "stats": {
-      "title": "Stats",
-      "subtitle": "WorkflowLab in numbers",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
+      "title": "Statistik",
+      "subtitle": "WorkflowLab dalam angka",
+      "description": "WorkflowLab menyediakan Anda alat perangkat lunak esensial untuk meningkatkan alur kerja Anda, secara sederhana dan tanpa usaha",
       "items": {
         "item-1": {
-          "title": "Tools in Catalog"
+          "title": "Alat di Katalog"
         },
         "item-2": {
-          "title": "Active Users"
+          "title": "Pengguna Aktif"
         },
         "item-3": {
-          "title": "Powered Workflows"
+          "title": "Alur Kerja Didukung"
         }
       }
     },
     "calltoaction": {
-      "title": "Start Discovering",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
-      "primaryButton": "Explore Tools",
-      "secondaryButton": "See Demo"
+      "title": "Mulai Menjelajah",
+      "description": "WorkflowLab menyediakan Anda alat perangkat lunak esensial untuk meningkatkan alur kerja Anda, secara sederhana dan tanpa usaha",
+      "primaryButton": "Jelajahi Alat",
+      "secondaryButton": "Lihat Demo"
     }
   },
   "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "title": "Demo Teks AI",
+    "description": "Analisis konten web dengan AI untuk mengekstrak informasi penting, fitur, dan wawasan",
+    "content": "Penganalisis Konten Web",
+    "subtitle": "Masukkan URL situs web untuk mendapatkan analisis berbasis AI dari kontennya",
     "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
+      "title": "Penganalisis Konten Web",
+      "description": "Analisis konten situs web apa pun menggunakan AI untuk mengekstrak informasi terstruktur",
+      "placeholder": "Masukkan URL situs web (misalnya, https://example.com)",
+      "button": "Analisis Situs Web",
       "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
+        "scraping": "Mengekstrak konten situs web...",
+        "analyzing": "Menganalisis konten dengan AI..."
       },
       "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
+        "title": "Hasil Analisis",
+        "newAnalysis": "Analisis Situs Web Lainnya",
         "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
+          "title": "Judul",
+          "description": "Deskripsi",
+          "introduction": "Pendahuluan",
+          "features": "Fitur",
+          "useCases": "Kasus Penggunaan",
+          "screenshot": "Tangkapan Layar Situs Web"
         }
       },
       "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+        "invalidUrl": "Silakan masukkan URL yang valid dimulai dengan http:// atau https://",
+        "analysisError": "Gagal menganalisis situs web. Silakan coba lagi.",
+        "networkError": "Kesalahan jaringan. Silakan periksa koneksi Anda dan coba lagi.",
+        "insufficientCredits": "Kredit tidak mencukupi. Silakan beli lebih banyak kredit untuk melanjutkan."
       }
     },
     "features": {
       "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+        "title": "Ekstraksi Web Cerdas",
+        "description": "Teknologi ekstraksi web tingkat lanjut mengekstrak konten bersih dan terstruktur dari situs web mana pun"
       },
       "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+        "title": "Analisis Berbasis AI",
+        "description": "Analisis AI cerdas mengekstrak wawasan penting, fitur, dan informasi terstruktur"
       },
       "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+        "title": "Hasil Terstruktur",
+        "description": "Dapatkan hasil yang terorganisir, mudah dibaca dengan bagian yang jelas dan wawasan yang dapat ditindaklanjuti"
       }
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "Discover AI image tools in our software catalog to enhance your workflow"
+    "title": "Gambar AI",
+    "description": "Temukan alat gambar AI di katalog perangkat lunak kami untuk meningkatkan alur kerja Anda"
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "Discover AI chat tools in our software catalog to enhance your workflow"
+    "title": "Chat AI",
+    "description": "Temukan alat chat AI di katalog perangkat lunak kami untuk meningkatkan alur kerja Anda"
   },
   "AIVideoPage": {
-    "title": "AI Video",
-    "description": "Discover AI video tools in our software catalog to enhance your workflow"
+    "title": "Video AI",
+    "description": "Temukan alat video AI di katalog perangkat lunak kami untuk meningkatkan alur kerja Anda"
   },
   "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "Discover AI audio tools in our software catalog to enhance your workflow"
+    "title": "Audio AI",
+    "description": "Temukan alat audio AI di katalog perangkat lunak kami untuk meningkatkan alur kerja Anda"
   },
   "SoftwarePage": {
-    "title": "Software",
-    "description": "Discover amazing software tools and services"
+    "title": "Perangkat Lunak",
+    "description": "Temukan alat dan layanan perangkat lunak yang luar biasa"
   },
   "SoftwareDetailPage": {
-    "title": "Software Details"
+    "title": "Detail Perangkat Lunak"
   }
 }

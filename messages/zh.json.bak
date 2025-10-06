@@ -1,4 +1,4 @@
-﻿{
+{
   "Metadata": {
     "name": "WorkflowLab",
     "title": "WorkflowLab - 您的必备软件工具和服务目录",
@@ -271,7 +271,7 @@
             "description": "加入我们的等待列表以获取最新消息和更新"
           },
           "software": {
-            "title": "目录",
+            "title": "软件目录",
             "description": "发现惊人的工具"
           },
 
@@ -553,7 +553,7 @@
   },
   "HomePage": {
     "softwareCatalog": {
-      "title": "目录",
+      "title": "软件目录",
       "subtitle": "发现惊人的工具",
       "description": "探索我们的软件工具和服务集合"
     },

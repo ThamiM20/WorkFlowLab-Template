@@ -1,582 +1,577 @@
 {
   "Metadata": {
-    "name": "WorkflowLab",
-    "title": "WorkflowLab - Your Catalog of Essential Software Tools & Services",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow."
+    "name": "مختبر سير العمل",
+    "title": "مختبر سير العمل - دليلك الشامل لأدوات وخدمات البرمجيات الأساسية",
+    "description": "اكتشف واستعرض دليلًا شاملاً لأدوات وخدمات البرمجيات المصممة لتبسيط سير العمل الخاص بك."
   },
   "Common": {
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "signUp": "إنشاء حساب",
+    "language": "تبديل اللغة",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "تبديل الوضع",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "النظام"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "تبديل السمة",
+      "default": "افتراضي",
+      "blue": "أزرق",
+      "green": "أخضر",
+      "amber": "عنبر",
+      "neutral": "محايد"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "نسخ",
+    "saving": "جاري الحفظ...",
+    "save": "حفظ",
+    "loading": "جاري التحميل...",
+    "cancel": "إلغاء",
+    "logoutFailed": "فشل في تسجيل الخروج",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
+      "totalRecords": "إجمالي السجلات {count}",
+      "noResults": "لا نتائج",
+      "loading": "جاري التحميل...",
+      "columns": "الأعمدة",
+      "rowsPerPage": "صفوف في الصفحة",
+      "page": "الصفحة",
+      "firstPage": "الصفحة الأولى",
+      "lastPage": "الصفحة الأخيرة",
+      "nextPage": "الصفحة التالية",
+      "previousPage": "الصفحة السابقة",
+      "ascending": "تصاعدي",
+      "descending": "تنازلي"
     }
   },
   "CreditPackages": {
     "basic": {
-      "name": "Basic",
-      "description": "Basic credits package description"
+      "name": "أساسي",
+      "description": "وصف حزمة الرصيد الأساسية"
     },
     "standard": {
-      "name": "Standard",
-      "description": "Standard credits package description"
+      "name": "قياسي",
+      "description": "وصف حزمة الرصيد القياسية"
     },
     "enterprise": {
-      "name": "Enterprise",
-      "description": "Enterprise credits package description"
+      "name": "الشركات",
+      "description": "وصف حزمة رصيد المؤسسة"
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "عذرًا، الصفحة التي تبحث عنها غير موجودة.",
+    "backToHome": "العودة إلى الرئيسية"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "عفوًا! حدث خطأ ما!",
+    "tryAgain": "المحاولة مرة أخرى",
+    "backToHome": "العودة إلى الرئيسية"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity.",
-    "authorName": "WorkflowLab",
-    "authorBio": "Software Tools Catalog",
-    "introduction": "👋 Hi there! This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "title": "حول",
+    "description": "هذا هو مختبر سير العمل، دليلًا شاملاً لأدوات وخدمات البرمجيات المصممة لتبسيط سير العمل الخاص بك وتعزيز الإنتاجية.",
+    "authorName": "مختبر سير العمل",
+    "authorBio": "دليل أدوات البرمجيات",
+    "introduction": "👋 مرحباً! هذا هو مختبر سير العمل، دليلًا شاملاً لأدوات وخدمات البرمجيات المصممة لتبسيط سير العمل الخاص بك وتعزيز الإنتاجية. إذا كانت لديك أي أسئلة، مرحبًا بك في الاتصال بي.",
+    "talkWithMe": "التحدث معي",
+    "followMe": "تابعوني على X"
   },
   "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "title": "سجل التغييرات",
+    "description": "ابق على اطلاع بأحدث التغييرات في منتجنا",
+    "subtitle": "ابق على اطلاع بأحدث التغييرات في منتجنا"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "title": "اتصل",
+    "description": "سنساعدك في العثور على الخطة المناسبة لعملك",
+    "subtitle": "سنساعدك في العثور على الخطة المناسبة لعملك",
     "form": {
-      "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "submitting": "Submitting...",
-      "success": "Message sent successfully",
-      "fail": "Failed to send message",
-      "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must not exceed 30 characters",
-      "emailValidation": "Please enter a valid email address",
-      "messageMinLength": "Message must be at least 10 characters",
-      "messageMaxLength": "Message must not exceed 500 characters"
+      "title": "اتصل بنا",
+      "description": "إذا كانت لديك أي أسئلة أو ملاحظات، يرجى التواصل مع فريقنا",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "message": "الرسالة",
+      "submit": "إرسال",
+      "submitting": "جاري الإرسال...",
+      "success": "تم إرسال الرسالة بنجاح",
+      "fail": "فشل إرسال الرسالة",
+      "nameMinLength": "يجب أن يكون الاسم مكونًا من 3 أحرف على الأقل",
+      "nameMaxLength": "يجب أن يكون الاسم مكونًا من 30 حرفًا على الأقل",
+      "emailValidation": "الرجاء إدخال بريد إلكتروني صحيح",
+      "messageMinLength": "يجب أن تكون الرسالة مكونة من 10 أحرف على الأقل",
+      "messageMaxLength": "يجب ألا تتجاوز الرسالة 500 حرف"
     }
   },
   "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
+    "title": "قائمة الانتظار",
+    "description": "انضم إلى قائمة الانتظار لإطلاق منتجنا",
+    "subtitle": "انضم إلى قائمة الانتظار لإطلاق منتجنا",
     "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "title": "الانضمام إلى قائمة الانتظار لدينا",
+      "description": "سنقوم بإخطارك عند إطلاق منتجنا",
+      "email": "البريد الإلكتروني",
+      "subscribe": "الاشتراك",
+      "subscribing": "جاري الاشتراك...",
+      "success": "تم الاشتراك بنجاح",
+      "fail": "فشل الاشتراك",
+      "emailValidation": "الرجاء إدخال بريد إلكتروني صحيح"
     }
   },
   "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "title": "النشرة الإخبارية",
+    "subtitle": "الانضمام إلى المجتمع",
+    "description": "اشترك في نشرتنا الإخبارية للحصول على آخر الأخبار والتحديثات",
     "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "email": "البريد الإلكتروني",
+      "subscribe": "الاشتراك",
+      "subscribing": "جاري الاشتراك...",
+      "success": "تم الاشتراك بنجاح",
+      "fail": "فشل الاشتراك",
+      "emailValidation": "الرجاء إدخال بريد إلكتروني صحيح"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "signInWithGitHub": "Sign In with GitHub",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "تسجيل الدخول",
+      "welcomeBack": "مرحبًا بعودتك",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "signIn": "تسجيل الدخول",
+      "signUpHint": "لا تملك حساب؟ إنشاء حساب",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "signInWithGoogle": "تسجيل الدخول باستخدام Google",
+      "signInWithGitHub": "تسجيل الدخول باستخدام GitHub",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "or": "أو المتابعة باستخدام",
+      "emailRequired": "الرجاء إدخال بريدك الإلكتروني",
+      "passwordRequired": "الرجاء إدخال كلمة المرور",
+      "captchaInvalid": "فشل التحقق من كلمة التحقق",
+      "captchaError": "خطأ في التحقق من كلمة التحقق"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "التسجيل",
+      "createAccount": "إنشاء حساب",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "signUp": "إنشاء حساب",
+      "signInHint": "هل تملك حساب بالفعل؟ تسجيل الدخول",
+      "checkEmail": "الرجاء التحقق من بريدك الإلكتروني",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "nameRequired": "الرجاء إدخال اسمك",
+      "emailRequired": "الرجاء إدخال بريدك الإلكتروني",
+      "passwordRequired": "الرجاء إدخال كلمة المرور",
+      "captchaInvalid": "فشل التحقق من كلمة التحقق",
+      "captchaError": "خطأ في التحقق من كلمة التحقق"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox",
-      "emailRequired": "Please enter your email"
+      "title": "نسيت كلمة المرور",
+      "email": "البريد الإلكتروني",
+      "send": "إرسال رابط إعادة التعيين",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "checkEmail": "الرجاء التحقق من بريدك الإلكتروني",
+      "emailRequired": "الرجاء إدخال بريدك الإلكتروني"
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "Password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters"
+      "title": "إعادة تعيين كلمة المرور",
+      "password": "كلمة المرور",
+      "reset": "إعادة تعيين كلمة المرور",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "minLength": "يجب أن تكون كلمة المرور مكونة من 8 أحرف على الأقل"
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "عفوًا! حدث خطأ ما!",
+      "tryAgain": "الرجاء المحاولة مرة أخرى.",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "checkEmail": "الرجاء التحقق من بريدك الإلكتروني"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "شروط الخدمة",
+      "privacyPolicy": "سياسة الخصوصية",
+      "byClickingContinue": "بالنقر على المتابعة، فإنك توافق على",
+      "and": "و"
     }
   },
   "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
+    "title": "المدونة",
+    "description": "آخر الأخبار والتحديثات من فريقنا",
+    "subtitle": "آخر الأخبار والتحديثات من فريقنا",
+    "author": "الكاتب",
+    "categories": "الفئات",
+    "tableOfContents": "جدول المحتويات",
+    "readTime": "قراءة تستغرق {minutes} دقيقة",
+    "all": "الكل",
+    "noPostsFound": "لا توجد مشاركات",
+    "allPosts": "جميع المشاركات",
+    "morePosts": "المزيد من المشاركات"
   },
   "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "WorkflowLab Docs",
-    "homepage": "Homepage"
+    "toc": "جدول المحتويات",
+    "search": "البحث في المستندات",
+    "lastUpdate": "آخر تحديث في",
+    "searchNoResult": "لا نتائج",
+    "previousPage": "السابق",
+    "nextPage": "التالي",
+    "chooseLanguage": "تحديد اللغة",
+    "title": "مستندات مختبر سير العمل",
+    "homepage": "الصفحة الرئيسية"
   },
   "Marketing": {
     "navbar": {
       "features": {
-        "title": "Features"
+        "title": "الميزات"
       },
       "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
+        "title": "المدونة"
       },
       "ai": {
-        "title": "AI Tools",
+        "title": "أدوات الذكاء الاصطناعي",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "نص الذكاء الاصطناعي",
+            "description": "اعرض كيفية استخدام الذكاء الاصطناعي لكتابة نصوص مذهلة"
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "صورة الذكاء الاصطناعي",
+            "description": "اعرض كيفية استخدام الذكاء الاصطناعي لإنشاء صور جميلة"
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "محادثة الذكاء الاصطناعي",
+            "description": "اعرض كيفية استخدام الذكاء الاصطناعي للدردشة مع عملائك"
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "فيديو الذكاء الاصطناعي",
+            "description": "اعرض كيفية استخدام الذكاء الاصطناعي لإنشاء فيديوهات رائعة"
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "صوت الذكاء الاصطناعي",
+            "description": "اعرض كيفية استخدام الذكاء الاصطناعي لإنشاء صوتيات رائعة"
           }
         }
       },
       "pages": {
-        "title": "Pages",
+        "title": "الصفحات",
         "items": {
           "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
+            "title": "حول",
+            "description": "详细了解 عن شركتنا ورسالتنا وقيمنا"
           },
           "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
+            "title": "اتصل بنا",
+            "description": "اتصل بفريقنا للحصول على الدعم أو الاستفسارات"
           },
           "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
+            "title": "قائمة الانتظار",
+            "description": "انضم إلى قائمة الانتظار لدينا للحصول على آخر الأخبار والتحديثات"
           },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
+          "software": {
+            "title": "الكتالوج",
+            "description": "اكتشف أدوات مذهلة"
           },
           "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
+            "title": "سياسة الكوكيز",
+            "description": "كيف نستخدم الكوكيز على موقعنا"
           },
           "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
+            "title": "سياسة الخصوصية",
+            "description": "كيف نحمي وندير بياناتك"
           },
           "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
+            "title": "شروط الخدمة",
+            "description": "الاتفاق القانوني بينك وبين شركتنا"
           }
         }
       },
       "blocks": {
-        "title": "Blocks",
+        "title": "الكتل",
         "items": {
           "magicui": {
-            "title": "MagicUI Blocks"
+            "title": "كتل MagicUI"
           },
           "hero-section": {
-            "title": "Hero Blocks"
+            "title": "كتل القسم البطل"
           },
           "logo-cloud": {
-            "title": "Logo Cloud Blocks"
+            "title": "كتل سحابة الشعارات"
           },
           "integrations": {
-            "title": "Integrations Blocks"
+            "title": "كتل التكاملات"
           },
           "features": {
-            "title": "Features Blocks"
+            "title": "كتل الميزات"
           },
           "content": {
-            "title": "Content Blocks"
+            "title": "كتل المحتوى"
           },
           "stats": {
-            "title": "Stats Blocks"
+            "title": "كتل الإحصائيات"
           },
           "team": {
-            "title": "Team Blocks"
+            "title": "كتل الفريق"
           },
           "testimonials": {
-            "title": "Testimonials Blocks"
+            "title": "كتل الشهادات"
           },
           "callToAction": {
-            "title": "Call to Action Blocks"
+            "title": "كتل دعوة الإجراء"
           },
           "footer": {
-            "title": "Footer Blocks"
+            "title": "كتل التذييل"
           },
           "comparator": {
-            "title": "Comparator Blocks"
+            "title": "كتل المقارنة"
           },
           "faq": {
-            "title": "FAQ Blocks"
+            "title": "كتل الأسئلة الشائعة"
           },
           "login": {
-            "title": "Login Blocks"
+            "title": "كتل تسجيل الدخول"
           },
           "signup": {
-            "title": "Signup Blocks"
+            "title": "كتل التسجيل"
           },
           "forgot-password": {
-            "title": "Forgot Password Blocks"
+            "title": "كتل نسيت كلمة المرور"
           },
           "contact": {
-            "title": "Contact Blocks"
+            "title": "كتل الاتصال"
           }
         }
       }
     },
     "footer": {
-      "tagline": "Discover software tools to enhance your workflow, simply and effortlessly",
+      "tagline": "اكتشف أدوات البرمجيات لتحسين سير العمل الخاص بك، ببساطة وسهولة",
       "product": {
-        "title": "Product",
+        "title": "المنتج",
         "items": {
-          "features": "Features",
-          "faq": "FAQ"
+          "features": "الميزات",
+          "faq": "الأسئلة الشائعة"
         }
       },
       "resources": {
-        "title": "Resources",
+        "title": "المصادر",
         "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "blog": "المدونة"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "الشركة",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "حول",
+          "contact": "اتصل",
+          "waitlist": "قائمة الانتظار"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "القانوني",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "سياسة الكوكيز",
+          "privacyPolicy": "سياسة الخصوصية",
+          "termsOfService": "شروط الخدمة"
         }
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
-      "settings": "Settings"
+      "dashboard": "لوحة التحكم",
+      "settings": "الإعدادات"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "لوحة التحكم"
     },
     "admin": {
-      "title": "Admin",
+      "title": "الإدارة",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "المستخدمون",
+        "fakeData": "ملاحظة: بيانات وهمية للعرض، بعض الميزات معطلة",
+        "error": "فشل في الحصول على المستخدمين",
+        "search": "البحث عن المستخدمين...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "الأعمدة",
+          "name": "الاسم",
+          "email": "البريد الإلكتروني",
+          "role": "الدور",
+          "createdAt": "تم إنشاؤه في",
+          "customerId": "معرّف العميل",
+          "status": "الحالة",
+          "banReason": "سبب الحظر",
+          "banExpires": "ينتهي الحظر"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "مشرف",
+        "user": "مستخدم",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "تم التحقق من البريد الإلكتروني",
+          "unverified": "البريد الإلكتروني لم يتم التحقق منه"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "تم نسخ البريد الإلكتروني إلى الحافظة",
+        "banned": "محظور",
+        "active": "نشط",
+        "joined": "انضم في",
+        "updated": "تم التحديث في",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "سبب الحظر",
+          "reasonPlaceholder": "أدخل سبب حظر هذا المستخدم",
+          "defaultReason": "الرسائل العشوائية",
+          "never": "أبدًا",
+          "expires": "ينتهي الحظر",
+          "selectDate": "تحديد التاريخ",
+          "button": "حظر المستخدم",
+          "success": "تم حظر المستخدم",
+          "error": "فشل في حظر المستخدم"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "رفع الحظر عن المستخدم",
+          "success": "تم رفع الحظر عن المستخدم",
+          "error": "فشل في رفع الحظر عن المستخدم"
         },
-        "close": "Close"
+        "close": "إغلاق"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "الإعدادات",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "الملف الشخصي",
+        "description": "إدارة معلومات حسابك",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "الصورة الرمزية",
+          "description": "انقر على زر التحميل لتحميل واحدة مخصصة",
+          "recommendation": "الصورة الرمزية اختيارية ولكن يُوصى بها بشدة",
+          "uploading": "جاري التحميل...",
+          "uploadAvatar": "تحميل الصورة الرمزية",
+          "success": "تم تحديث الصورة الرمزية بنجاح",
+          "fail": "فشل في تحديث الصورة الرمزية"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "الاسم",
+          "description": "الرجاء إدخال اسم العرض الخاص بك",
+          "placeholder": "أدخل اسمك",
+          "minLength": "الرجاء استخدام 3 أحرف على الأقل",
+          "maxLength": "الرجاء استخدام 30 حرفًا على الأقل",
+          "hint": "الرجاء استخدام 3-30 حرفًا لاسمك",
+          "success": "تم تحديث الاسم بنجاح",
+          "fail": "فشل في تحديث الاسم",
+          "saving": "جاري الحفظ...",
+          "save": "حفظ"
         }
       },
       "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
+        "title": "الإشعارات",
+        "description": "إدارة تفضيلات الإشعارات الخاصة بك",
         "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
+          "title": "اشتراك النشرة الإخبارية",
+          "description": "إدارة تفضيلات اشتراك النشرة الإخبارية الخاصة بك",
+          "label": "الاشتراك في النشرة الإخبارية",
+          "hint": "يمكنك تغيير تفضيلات الاشتراك الخاصة بك في أي وقت",
+          "emailRequired": "البريد الإلكتروني مطلوب للاشتراك في النشرة الإخبارية",
+          "subscribeSuccess": "تم الاشتراك في النشرة الإخبارية بنجاح",
+          "subscribeFail": "فشل الاشتراك في النشرة الإخبارية",
+          "unsubscribeSuccess": "تم إلغاء الاشتراك من النشرة الإخبارية بنجاح",
+          "unsubscribeFail": "فشل إلغاء الاشتراك من النشرة الإخبارية",
+          "error": "حدث خطأ أثناء تحديث اشتراكك"
         }
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "الأمن",
+        "description": "إدارة إعدادات الأمان الخاصة بك",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "تغيير كلمة المرور",
+          "description": "أدخل كلمة المرور الحالية وكلمة المرور الجديدة",
+          "currentPassword": "كلمة المرور الحالية",
+          "currentRequired": "كلمة المرور الحالية مطلوبة",
+          "newPassword": "كلمة المرور الجديدة",
+          "newMinLength": "يجب أن تكون كلمة المرور مكونة من 8 أحرف على الأقل",
+          "hint": "الرجاء استخدام 8 أحرف على الأقل لكلمة المرور",
+          "showPassword": "إظهار كلمة المرور",
+          "hidePassword": "إخفاء كلمة المرور",
+          "success": "تم تحديث كلمة المرور بنجاح",
+          "fail": "فشل في تحديث كلمة المرور",
+          "saving": "جاري الحفظ...",
+          "save": "حفظ"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "إعادة تعيين كلمة المرور",
+          "description": "إعادة تعيين كلمة المرور لتمكين تسجيل الدخول بالبريد الإلكتروني",
+          "info": "سيسمح لك إعادة تعيين كلمة المرور بتسجيل الدخول باستخدام بريدك الإلكتروني وكلمة المرور بالإضافة إلى طرق تسجيل الدخول الاجتماعية. ستتلقى بريدًا إلكترونيًا يحتوي على تعليمات لإعادة تعيين كلمة المرور",
+          "button": "إعادة تعيين كلمة المرور"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "حذف الحساب",
+          "description": "إزالة حسابك وجميع محتوياته بشكل دائم",
+          "warning": "هذا الإجراء غير قابل للعكس، لذا يرجى المتابعة بحذر",
+          "button": "حذف الحساب",
+          "confirmTitle": "حذف الحساب",
+          "confirmDescription": "هل أنت متأكد أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+          "confirm": "حذف",
+          "cancel": "إلغاء",
+          "deleting": "جاري الحذف...",
+          "success": "تم حذف الحساب بنجاح",
+          "fail": "فشل في حذف الحساب"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
-      "button": "Upgrade"
+      "title": "الترقية",
+      "description": "الترقية إلى الإصدار الاحترافي للوصول إلى جميع الميزات",
+      "button": "الترقية"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "team": "فريق {name}",
+      "copyright": "©️ {year} جميع الحقوق محفوظة."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "مرحبًا، {name}.",
+      "body": "الرجاء النقر على الرابط أدناه لتأكيد عنوان بريدك الإلكتروني.",
+      "confirmEmail": "تأكيد البريد الإلكتروني",
+      "subject": "التحقق من بريدك الإلكتروني"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to reset your password.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your password"
+      "title": "مرحبًا، {name}.",
+      "body": "الرجاء النقر على الرابط أدناه لإعادة تعيين كلمة المرور الخاصة بك.",
+      "resetPassword": "إعادة تعيين كلمة المرور",
+      "subject": "إعادة تعيين كلمة المرور الخاصة بك"
     },
     "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "body": "شكرًا لك على الاشتراك في النشرة الإخبارية. سنحتفظ بك دائمًا محدثًا بأحدث الأخبار والتحديثات.",
+      "subject": "شكرًا لاشتراكك"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "الاسم: {name}",
+      "email": "البريد الإلكتروني: {email}",
+      "message": "الرسالة: {message}",
+      "subject": "رسالة اتصال من الموقع"
     }
   },
   "HomePage": {
-    "title": "WorkflowLab",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow.",
+    "softwareCatalog": {
+      "title": "الكتالوج",
+      "subtitle": "اكتشف أدوات مذهلة",
+      "description": "استعرض مجموعتنا من أدوات وخدمات البرمجيات"
+    },
+    "title": "مختبر سير العمل",
+    "description": "اكتشف واستعرض دليلًا شاملاً لأدوات وخدمات البرمجيات المصممة لتبسيط سير العمل الخاص بك.",
     "hero": {
-      "title": "Your Catalog of Essential Software Tools",
-      "description": "A comprehensive marketplace of software tools and services to help you build, manage, and optimize your digital workflow. Find the right solution for every need.",
-      "introduction": "Introducing WorkflowLab",
-      "primary": "Explore Tools",
-      "secondary": "See Demo"
+      "title": "مختبر سير العمل لدليل أدوات البرمجيات الأساسية",
+      "description": "سوق شامل لأدوات وخدمات البرمجيات للمساعدة في إنشاء وإدارة وتحسين سير عملك الرقمي. اعثر على الحل الصحيح لكل احتياجاتك.",
+      "introduction": "مقدمة لمختبر سير العمل",
+      "primary": "استكشاف الأدوات",
+      "secondary": "عرض العرض التوضيحي"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "شركاتك المفضلة هي شركاءنا"
     },
     "integration": {
-      "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
+      "title": "التكاملات",
+      "subtitle": "التكامل مع أدواتك المفضلة",
+      "description": "الاتصال بسلاسة مع المنصات والخدمات الشعبية لتعزيز سير عملك.",
+      "learnMore": "معرفة المزيد",
       "items": {
         "item-1": {
           "title": "Google Gemini",
@@ -605,270 +600,270 @@
       }
     },
     "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "التكامل مع أدواتك المفضلة",
+      "description": "الاتصال بسلاسة مع المنصات والخدمات الشعبية لتعزيز سير عملك.",
+      "primaryButton": "البدء",
+      "secondaryButton": "عرض العرض التوضيحي"
     },
     "features": {
-      "title": "Features",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "الميزات",
+      "subtitle": "ميزات منتجك",
+      "description": "اكتب وصف منتجك هنا",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here, make it as detailed as possible, make it more attractive to users"
+          "title": "ميزة المنتج الأولى",
+          "description": "الرجاء كتابة وصف مفصل للميزة الأولى هنا، قم بجعله مفصلًا قدر الإمكان، واجعله أكثر جذبًا للمستخدمين"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here, make it as detailed as possible, make it more attractive to users"
+          "title": "ميزة المنتج الثانية",
+          "description": "الرجاء كتابة وصف مفصل للميزة الثانية هنا، قم بجعله مفصلًا قدر الإمكان، واجعله أكثر جذبًا للمستخدمين"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here, make it as detailed as possible, make it more attractive to users"
+          "title": "ميزة المنتج الثالثة",
+          "description": "الرجاء كتابة وصف مفصل للميزة الثالثة هنا، قم بجعله مفصلًا قدر الإمكان، واجعله أكثر جذبًا للمستخدمين"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here, make it as detailed as possible, make it more attractive to users"
+          "title": "ميزة المنتج الرابعة",
+          "description": "الرجاء كتابة وصف مفصل للميزة الرابعة هنا، قم بجعله مفصلًا قدر الإمكان، واجعله أكثر جذبًا للمستخدمين"
         }
       }
     },
     "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
+      "title": "الميزات 2",
+      "subtitle": "ميزات منتجك",
+      "description": "اكتب وصف منتجك هنا",
+      "feature-1": "ميزة المنتج الأولى",
+      "feature-2": "ميزة المنتج الثانية",
+      "feature-3": "ميزة المنتج الثالثة",
+      "feature-4": "ميزة المنتج الرابعة"
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "الميزات 3",
+      "subtitle": "ميزات منتجك",
+      "description": "اكتب وصف منتجك هنا",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "ميزة المنتج الأولى",
+          "description": "الرجاء كتابة وصف مفصل للميزة الأولى هنا"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "ميزة المنتج الثانية",
+          "description": "الرجاء كتابة وصف مفصل للميزة الثانية هنا"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "ميزة المنتج الثالثة",
+          "description": "الرجاء كتابة وصف مفصل للميزة الثالثة هنا"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "ميزة المنتج الرابعة",
+          "description": "الرجاء كتابة وصف مفصل للميزة الرابعة هنا"
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "ميزة المنتج الخامسة",
+          "description": "الرجاء كتابة وصف مفصل للميزة الخامسة هنا"
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "ميزة المنتج السادسة",
+          "description": "الرجاء كتابة وصف مفصل للميزة السادسة هنا"
         }
       }
     },
     "faqs": {
-      "title": "FAQ",
-      "subtitle": "Frequently Asked Questions",
+      "title": "الأسئلة الشائعة",
+      "subtitle": "الأسئلة المكررة",
       "items": {
         "item-1": {
-          "question": "How do I find the right software for my needs?",
-          "answer": "Use our search and filtering tools to browse our extensive catalog by category, functionality, and user ratings."
+          "question": "كيف أجد البرنامج المناسب لاحتياجاتي؟",
+          "answer": "استخدم أدوات البحث والتصفية لدينا لتصفح دليلنا الشامل حسب الفئة والوظيفة وتقييمات المستخدمين."
         },
         "item-2": {
-          "question": "Are the tools in your catalog free to use?",
-          "answer": "Our catalog includes both free and paid tools. Each tool listing clearly indicates its pricing model."
+          "question": "هل الأدوات في دليلك مجانية الاستخدام؟",
+          "answer": "يشمل دليلنا أدوات مجانية ومدفوعة. يشير كل إدراج أداة بوضوح إلى نموذج التسعير الخاص به."
         },
         "item-3": {
-          "question": "How do I integrate tools from the catalog into my workflow?",
-          "answer": "Each tool listing includes detailed integration instructions and documentation for seamless setup."
+          "question": "كيف أدمج الأدوات من الدليل في سير العمل الخاص بي؟",
+          "answer": "يحتوي كل إدراج أداة على تعليمات تكامل مفصلة وتوثيق لتسهيل الإعداد."
         },
         "item-4": {
-          "question": "Can I contribute my own tools to the catalog?",
-          "answer": "Yes, we welcome contributions from developers. Please contact us through our partner program for more information."
+          "question": "هل يمكنني المساهمة بأدواتي الخاصة في الدليل؟",
+          "answer": "نعم، نرحب بالمساهمات من المطورين. يرجى الاتصال بنا من خلال برنامج الشريك لدينا لمزيد من المعلومات."
         },
         "item-5": {
-          "question": "Can't find what you're looking for?",
-          "answer": "Please contact our customer support team at support@workflowlab.com"
+          "question": "لا يمكنني العثور على ما تبحث عنه؟",
+          "answer": "يرجى الاتصال بفريق دعم العملاء لدينا على support@workflowlab.com"
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
+      "title": "الشهادات",
+      "subtitle": "ما يقوله عملاؤنا",
       "items": {
         "item-1": {
           "name": "Alex Johnson",
-          "role": "Product Manager",
+          "role": "مدير المنتج",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "WorkflowLab is really extraordinary and very practical, with an extensive catalog of tools to choose from. A real gold mine for developers."
+          "quote": "مختبر سير العمل استثنائي حقًا وعملي جدًا، مع دليل شامل للأدوات للاختيار من بينها. كنز حقيقي للمطورين."
         },
         "item-2": {
           "name": "Sarah Chen",
-          "role": "DevOps Engineer",
+          "role": "مهندس DevOps",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With WorkflowLab's comprehensive software catalog, I found the perfect tools to streamline my development process."
+          "quote": "مع دليل مختبر سير العمل الشامل، وجدت الأدوات المثالية لتبسيط عملية تطويري."
         },
         "item-3": {
           "name": "Marcus Williams",
-          "role": "CTO",
+          "role": "المدير التقني",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on WorkflowLab's software catalog. It's one of the best curated collections of development tools I've seen so far :)"
+          "quote": "عمل رائع على دليل مختبر سير العمل. إنه أحد أفضل مجموعات أدوات التطوير المنسقة التي رأيتها حتى الآن :)"
         },
         "item-4": {
           "name": "Elena Rodriguez",
-          "role": "UX Designer",
+          "role": "مصمم تجربة المستخدم",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I found exactly the tools I needed in WorkflowLab's catalog which are very clear to understand and easy to integrate into my projects."
+          "quote": "وجدت بالضبط الأدوات التي أحتاجها في دليل مختبر سير العمل والتي تكون واضحة جدًا للفهم وسهلة التكامل في مشاريعي."
         },
         "item-5": {
           "name": "James Wilson",
-          "role": "Lead Developer",
+          "role": "المطور الرئيسي",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "WorkflowLab is redefining the standard of software discovery, with their catalog providing an easy and efficient way to find tools for any development need."
+          "quote": "مختبر سير العمل يعيد تعريف معيار اكتشاف البرمجيات، مع توفير دليلهم وسيلة سهلة وفعالة للعثور على أدوات لأي احتياجات تطوير."
         },
         "item-6": {
           "name": "Priya Sharma",
-          "role": "Fullstack Developer",
+          "role": "مطور متكامل",
           "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love WorkflowLab! The software tools are beautifully designed and easy to implement, which makes building great applications a breeze."
+          "quote": "أنا أحب مختبر سير العمل! الأدوات البرمجية مصممة بشكل جميل وسهلة التنفيذ، مما يجعل بناء تطبيقات رائعة سهلاً."
         },
         "item-7": {
           "name": "David Kim",
-          "role": "Startup Founder",
+          "role": "مؤسس شركة ناشئة",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to discover tools that are as powerful as they are user-friendly."
+          "quote": "مختبر سير العمل هو الدمج المثالي بين البساطة والتنوع، مما يمكّننا من اكتشاف أدوات قوية ومريحة لمستخدميها."
         },
         "item-8": {
           "name": "Fatima Ahmed",
-          "role": "Engineering Manager",
+          "role": "مدير الهندسة",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "WorkflowLab has transformed the way I build applications. Their extensive catalog of software tools has significantly accelerated my development workflow."
+          "quote": "لقد غير مختبر سير العمل الطريقة التي أبني بها التطبيقات. دليلهم الشامل لأدوات البرمجيات قد سرّع بشكل كبير من سير عمل تطويري."
         },
         "item-9": {
           "name": "Robert Taylor",
-          "role": "DevOps Specialist",
+          "role": "متخصص DevOps",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "WorkflowLab is an elegant, comprehensive software catalog that's very helpful for finding the right tools to start your projects fast."
+          "quote": "مختبر سير العمل هو دليل أنيق وشامل جدًا مفيد جدًا للعثور على الأدوات المناسبة لبدء مشاريعك بسرعة."
         },
         "item-10": {
           "name": "Isabella Garcia",
-          "role": "Frontend Developer",
+          "role": "مطور الواجهة الأمامية",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love WorkflowLab ❤️. The software tools are well-structured, simple to implement, and beautifully designed. It makes finding the right solutions quick and easy."
+          "quote": "أحب مختبر سير العمل ❤️. الأدوات البرمجية منظمة بشكل جيد، وسهلة التنفيذ، وجميلة التصميم. يجعل العثور على الحلول الصحيحة سريعاً وسهلاً."
         },
         "item-11": {
           "name": "Kofi Mensah",
-          "role": "Tech Lead",
+          "role": "قائد التقنية",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "WorkflowLab is the perfect solution for anyone who wants to find powerful software tools without spending time researching."
+          "quote": "مختبر سير العمل هو الحل المثالي لأي شخص يريد العثور على أدوات برمجية قوية دون قضاء وقت في البحث."
         },
         "item-12": {
           "name": "Emma Thompson",
-          "role": "Solutions Architect",
+          "role": "مخطط الحلول",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "WorkflowLab has an impressive collection of tools that solve real problems. Let yourself be amazed by the quality of solutions available!"
+          "quote": "يحتوي مختبر سير العمل على مجموعة مثيرة للإعجاب من الأدوات التي تحل مشاكل حقيقية. دع نفسك تتعجب من جودة الحلول المتوفرة!"
         }
       }
     },
     "stats": {
-      "title": "Stats",
-      "subtitle": "WorkflowLab in numbers",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
+      "title": "الإحصائيات",
+      "subtitle": "مختبر سير العمل بالأرقام",
+      "description": "يوفر لك مختبر سير العمل أدوات برمجية أساسية لتعزيز سير عملك، ببساطة وسهولة",
       "items": {
         "item-1": {
-          "title": "Tools in Catalog"
+          "title": "الأدوات في الدليل"
         },
         "item-2": {
-          "title": "Active Users"
+          "title": "المستخدمون النشطون"
         },
         "item-3": {
-          "title": "Powered Workflows"
+          "title": "سير العمل المدعومة"
         }
       }
     },
     "calltoaction": {
-      "title": "Start Discovering",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
-      "primaryButton": "Explore Tools",
-      "secondaryButton": "See Demo"
+      "title": "ابدأ بالاكتشاف",
+      "description": "يوفر لك مختبر سير العمل أدوات برمجية أساسية لتعزيز سير عملك، ببساطة وسهولة",
+      "primaryButton": "استكشاف الأدوات",
+      "secondaryButton": "عرض العرض التوضيحي"
     }
   },
   "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "title": "عرض نص الذكاء الاصطناعي",
+    "description": "تحليل محتوى الويب بالذكاء الاصطناعي لاستخراج المعلومات الرئيسية والميزات والرؤى",
+    "content": "محلل محتوى الويب",
+    "subtitle": "أدخل رابط موقع ويب للحصول على تحليل مدعوم بالذكاء الاصطناعي لمحتواه",
     "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
+      "title": "محلل محتوى الويب",
+      "description": "تحليل أي محتوى موقع ويب باستخدام الذكاء الاصطناعي لاستخراج معلومات منظمة",
+      "placeholder": "أدخل رابط موقع ويب (مثلاً https://example.com)",
+      "button": "تحليل الموقع",
       "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
+        "scraping": "جاري سحب محتوى الموقع...",
+        "analyzing": "جاري تحليل المحتوى بالذكاء الاصطناعي..."
       },
       "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
+        "title": "نتائج التحليل",
+        "newAnalysis": "تحليل موقع آخر",
         "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
+          "title": "العنوان",
+          "description": "الوصف",
+          "introduction": "المقدمة",
+          "features": "الميزات",
+          "useCases": "حالات الاستخدام",
+          "screenshot": "لقطة شاشة للموقع"
         }
       },
       "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+        "invalidUrl": "الرجاء إدخال رابط صحيح يبدأ بـ http:// أو https://",
+        "analysisError": "فشل في تحليل الموقع. يرجى المحاولة مرة أخرى.",
+        "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك والمحاولة مرة أخرى.",
+        "insufficientCredits": "أرصدة غير كافية. يرجى شراء المزيد من الأرصدة للمتابعة."
       }
     },
     "features": {
       "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+        "title": "الجمع الذكي من الويب",
+        "description": "تجمع تقنية الجمع المتقدمة محتوى نظيف ومنظم من أي موقع ويب"
       },
       "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+        "title": "تحليل مدعوم بالذكاء الاصطناعي",
+        "description": "تحليل ذكي بالذكاء الاصطناعي يستخرج رؤى رئيسية ومعلومات منظمة"
       },
       "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+        "title": "نتائج منظمة",
+        "description": "الحصول على نتائج منظمة وسهلة القراءة بأقسام واضحة ورؤى قابلة للتنفيذ"
       }
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "Discover AI image tools in our software catalog to enhance your workflow"
+    "title": "صورة الذكاء الاصطناعي",
+    "description": "اكتشف أدوات صورة الذكاء الاصطناعي في دليل البرمجيات لدينا لتعزيز سير العمل الخاص بك"
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "Discover AI chat tools in our software catalog to enhance your workflow"
+    "title": "محادثة الذكاء الاصطناعي",
+    "description": "اكتشف أدوات محادثة الذكاء الاصطناعي في دليل البرمجيات لدينا لتعزيز سير العمل الخاص بك"
   },
   "AIVideoPage": {
-    "title": "AI Video",
-    "description": "Discover AI video tools in our software catalog to enhance your workflow"
+    "title": "فيديو الذكاء الاصطناعي",
+    "description": "اكتشف أدوات فيديو الذكاء الاصطناعي في دليل البرمجيات لدينا لتعزيز سير العمل الخاص بك"
   },
   "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "Discover AI audio tools in our software catalog to enhance your workflow"
+    "title": "صوت الذكاء الاصطناعي",
+    "description": "اكتشف أدوات صوت الذكاء الاصطناعي في دليل البرمجيات لدينا لتعزيز سير العمل الخاص بك"
   },
   "SoftwarePage": {
-    "title": "Software",
-    "description": "Discover amazing software tools and services"
+    "title": "البرمجيات",
+    "description": "اكتشف أدوات وخدمات برمجيات مذهلة"
   },
   "SoftwareDetailPage": {
-    "title": "Software Details"
+    "title": "تفاصيل البرمجيات"
   }
 }

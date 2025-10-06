@@ -1,582 +1,577 @@
 {
   "Metadata": {
-    "name": "WorkflowLab",
-    "title": "WorkflowLab - Your Catalog of Essential Software Tools & Services",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow."
+    "name": "ワークフローラボ",
+    "title": "ワークフローラボ - あなたのための必須ソフトウェアツールとサービスのカタログ",
+    "description": "ワークフローを合理化するように設計された、包括的なソフトウェアツールとサービスのカタログを発見して探索してください。"
   },
   "Common": {
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "signUp": "サインアップ",
+    "language": "言語の切り替え",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
+      "label": "モードの切り替え",
+      "light": "ライト",
+      "dark": "ダーク",
+      "system": "システム"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
-      "neutral": "Neutral"
+      "label": "テーマの切り替え",
+      "default": "デフォルト",
+      "blue": "青",
+      "green": "緑",
+      "amber": "アンバー",
+      "neutral": "ニュートラル"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "コピー",
+    "saving": "保存中...",
+    "save": "保存",
+    "loading": "読み込み中...",
+    "cancel": "キャンセル",
+    "logoutFailed": "ログアウトに失敗しました",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
+      "totalRecords": "合計 {count} 件のレコード",
+      "noResults": "結果がありません",
+      "loading": "読み込み中...",
+      "columns": "列",
+      "rowsPerPage": "ページあたりの行数",
+      "page": "ページ",
+      "firstPage": "最初のページ",
+      "lastPage": "最後のページ",
+      "nextPage": "次のページ",
+      "previousPage": "前のページ",
+      "ascending": "昇順",
+      "descending": "降順"
     }
   },
   "CreditPackages": {
     "basic": {
-      "name": "Basic",
-      "description": "Basic credits package description"
+      "name": "基本",
+      "description": "基本クレジットパッケージの説明"
     },
     "standard": {
-      "name": "Standard",
-      "description": "Standard credits package description"
+      "name": "スタンダード",
+      "description": "スタンダードクレジットパッケージの説明"
     },
     "enterprise": {
-      "name": "Enterprise",
-      "description": "Enterprise credits package description"
+      "name": "エンタープライズ",
+      "description": "エンタープライズクレジットパッケージの説明"
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "申し訳ありませんが、お探しのページは存在しません。",
+    "backToHome": "ホームに戻る"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "おっと！何か問題が発生しました！",
+    "tryAgain": "再試行",
+    "backToHome": "ホームに戻る"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity.",
-    "authorName": "WorkflowLab",
-    "authorBio": "Software Tools Catalog",
-    "introduction": "👋 Hi there! This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "title": "当社について",
+    "description": "ワークフローラボは、ワークフローを合理化し生産性を向上させるように設計された、包括的なソフトウェアツールとサービスのカタログです。",
+    "authorName": "ワークフローラボ",
+    "authorBio": "ソフトウェアツールカタログ",
+    "introduction": "👋 こんにちは！これはワークフローラボで、ワークフローを合理化し生産性を向上させるように設計された、包括的なソフトウェアツールとサービスのカタログです。ご質問がありましたら、お気軽にお問い合わせください。",
+    "talkWithMe": "私と話す",
+    "followMe": "Xでフォローする"
   },
   "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "title": "変更履歴",
+    "description": "弊社の製品の最新の変更点を把握してください",
+    "subtitle": "弊社の製品の最新の変更点を把握してください"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "title": "お問い合わせ",
+    "description": "お客様のビジネスに最適なプランをお手伝いいたします",
+    "subtitle": "お客様のビジネスに最適なプランをお手伝いいたします",
     "form": {
-      "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "submitting": "Submitting...",
-      "success": "Message sent successfully",
-      "fail": "Failed to send message",
-      "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must not exceed 30 characters",
-      "emailValidation": "Please enter a valid email address",
-      "messageMinLength": "Message must be at least 10 characters",
-      "messageMaxLength": "Message must not exceed 500 characters"
+      "title": "お問い合わせ",
+      "description": "ご質問やご意見がございましたら、弊社チームまでお気軽にお知らせください",
+      "name": "名前",
+      "email": "メール",
+      "message": "メッセージ",
+      "submit": "送信",
+      "submitting": "送信中...",
+      "success": "メッセージを送信しました",
+      "fail": "メッセージの送信に失敗しました",
+      "nameMinLength": "名前は3文字以上で入力してください",
+      "nameMaxLength": "名前は30文字以上で入力してください",
+      "emailValidation": "有効なメールアドレスを入力してください",
+      "messageMinLength": "メッセージは10文字以上で入力してください",
+      "messageMaxLength": "メッセージは500文字以内で入力してください"
     }
   },
   "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
+    "title": "ウェイティングリスト",
+    "description": "弊社の製品のリリースに向けてウェイティングリストに登録してください",
+    "subtitle": "弊社の製品のリリースに向けてウェイティングリストに登録してください",
     "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "title": "ウェイティングリストに参加",
+      "description": "製品がリリースされた際に通知します",
+      "email": "メール",
+      "subscribe": "登録",
+      "subscribing": "登録中...",
+      "success": "登録に成功しました",
+      "fail": "登録に失敗しました",
+      "emailValidation": "有効なメールアドレスを入力してください"
     }
   },
   "Newsletter": {
-    "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "title": "ニュースレター",
+    "subtitle": "コミュニティに参加",
+    "description": "最新のニュースやアップデートを受け取るためにニュースレターを購読してください",
     "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "email": "メール",
+      "subscribe": "購読",
+      "subscribing": "購読中...",
+      "success": "購読に成功しました",
+      "fail": "購読に失敗しました",
+      "emailValidation": "有効なメールアドレスを入力してください"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "signInWithGitHub": "Sign In with GitHub",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "ログイン",
+      "welcomeBack": "おかえりなさい",
+      "email": "メール",
+      "password": "パスワード",
+      "signIn": "サインイン",
+      "signUpHint": "アカウントをお持ちではありませんか？ サインアップ",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "signInWithGoogle": "Googleでサインイン",
+      "signInWithGitHub": "GitHubでサインイン",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを非表示",
+      "or": "または以下で続行",
+      "emailRequired": "メールアドレスを入力してください",
+      "passwordRequired": "パスワードを入力してください",
+      "captchaInvalid": "キャプチャ認証に失敗しました",
+      "captchaError": "キャプチャ認証エラー"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
-      "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "登録",
+      "createAccount": "アカウントを作成",
+      "name": "名前",
+      "email": "メール",
+      "password": "パスワード",
+      "signUp": "サインアップ",
+      "signInHint": "既にアカウントをお持ちですか？ サインイン",
+      "checkEmail": "メールボックスを確認してください",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを非表示",
+      "nameRequired": "名前を入力してください",
+      "emailRequired": "メールアドレスを入力してください",
+      "passwordRequired": "パスワードを入力してください",
+      "captchaInvalid": "キャプチャ認証に失敗しました",
+      "captchaError": "キャプチャ認証エラー"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox",
-      "emailRequired": "Please enter your email"
+      "title": "パスワードをお忘れですか",
+      "email": "メール",
+      "send": "リセットリンクを送信",
+      "backToLogin": "ログインに戻る",
+      "checkEmail": "メールボックスを確認してください",
+      "emailRequired": "メールアドレスを入力してください"
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "Password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters"
+      "title": "パスワードをリセット",
+      "password": "パスワード",
+      "reset": "パスワードをリセット",
+      "backToLogin": "ログインに戻る",
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを非表示",
+      "minLength": "パスワードは8文字以上で入力してください"
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "おっと！何か問題が発生しました！",
+      "tryAgain": "再度お試しください。",
+      "backToLogin": "ログインに戻る",
+      "checkEmail": "メールボックスを確認してください"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "利用規約",
+      "privacyPolicy": "プライバシーポリシー",
+      "byClickingContinue": "続行をクリックすることで、",
+      "and": "および"
     }
   },
   "BlogPage": {
-    "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
+    "title": "ブログ",
+    "description": "弊社チームからの最新のニュースとアップデート",
+    "subtitle": "弊社チームからの最新のニュースとアップデート",
+    "author": "著者",
+    "categories": "カテゴリ",
+    "tableOfContents": "目次",
+    "readTime": "{minutes} 分で読めます",
+    "all": "すべて",
+    "noPostsFound": "投稿が見つかりません",
+    "allPosts": "すべての投稿",
+    "morePosts": "もっと投稿を見る"
   },
   "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "WorkflowLab Docs",
-    "homepage": "Homepage"
+    "toc": "目次",
+    "search": "ドキュメント検索",
+    "lastUpdate": "最終更新日",
+    "searchNoResult": "結果がありません",
+    "previousPage": "前",
+    "nextPage": "次",
+    "chooseLanguage": "言語を選択",
+    "title": "ワークフローラボドキュメント",
+    "homepage": "ホームページ"
   },
   "Marketing": {
     "navbar": {
       "features": {
-        "title": "Features"
+        "title": "機能"
       },
       "blog": {
-        "title": "Blog"
-      },
-      "docs": {
-        "title": "Docs"
+        "title": "ブログ"
       },
       "ai": {
-        "title": "AI Tools",
+        "title": "AIツール",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "AIテキスト",
+            "description": "AIを使用して魅力的なテキストを書く方法を紹介する"
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "AI画像",
+            "description": "AIを使用して美しい画像を生成する方法を紹介する"
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "AIチャット",
+            "description": "AIを使用して顧客とチャットする方法を紹介する"
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "AIビデオ",
+            "description": "AIを使用して驚くべきビデオを生成する方法を紹介する"
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "AIオーディオ",
+            "description": "AIを使用して素晴らしいオーディオを生成する方法を紹介する"
           }
         }
       },
       "pages": {
-        "title": "Pages",
+        "title": "ページ",
         "items": {
           "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
+            "title": "当社について",
+            "description": "弊社の会社概要、ミッション、および価値観について詳しく知る"
           },
           "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
+            "title": "お問い合わせ",
+            "description": "サポートまたはお問い合わせについては弊社チームまでご連絡ください"
           },
           "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
+            "title": "ウェイティングリスト",
+            "description": "最新ニュースとアップデートのためのウェイティングリストにご登録ください"
           },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
-          },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
+          "software": {
+            "title": "カタログ",
+            "description": "素晴らしいツールを発見する"
           },
           "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
+            "title": "クッキーポリシー",
+            "description": "当社のウェブサイトでのクッキーの使用方法"
           },
           "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
+            "title": "プライバシーポリシー",
+            "description": "当社があなたのデータを保護および管理する方法"
           },
           "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
+            "title": "利用規約",
+            "description": "お客様と当社との間の法的合意"
           }
         }
       },
       "blocks": {
-        "title": "Blocks",
+        "title": "ブロック",
         "items": {
           "magicui": {
-            "title": "MagicUI Blocks"
+            "title": "マジックUIブロック"
           },
           "hero-section": {
-            "title": "Hero Blocks"
+            "title": "ヒーローセクションブロック"
           },
           "logo-cloud": {
-            "title": "Logo Cloud Blocks"
+            "title": "ロゴクラウドブロック"
           },
           "integrations": {
-            "title": "Integrations Blocks"
+            "title": "統合ブロック"
           },
           "features": {
-            "title": "Features Blocks"
+            "title": "機能ブロック"
           },
           "content": {
-            "title": "Content Blocks"
+            "title": "コンテンツブロック"
           },
           "stats": {
-            "title": "Stats Blocks"
+            "title": "統計ブロック"
           },
           "team": {
-            "title": "Team Blocks"
+            "title": "チームブロック"
           },
           "testimonials": {
-            "title": "Testimonials Blocks"
+            "title": " testimonialsブロック"
           },
           "callToAction": {
-            "title": "Call to Action Blocks"
+            "title": "行動喚起ブロック"
           },
           "footer": {
-            "title": "Footer Blocks"
+            "title": "フッターブロック"
           },
           "comparator": {
-            "title": "Comparator Blocks"
+            "title": "比較ブロック"
           },
           "faq": {
-            "title": "FAQ Blocks"
+            "title": "FAQブロック"
           },
           "login": {
-            "title": "Login Blocks"
+            "title": "ログインブロック"
           },
           "signup": {
-            "title": "Signup Blocks"
+            "title": "サインアップブロック"
           },
           "forgot-password": {
-            "title": "Forgot Password Blocks"
+            "title": "パスワードを忘れたブロック"
           },
           "contact": {
-            "title": "Contact Blocks"
+            "title": "お問い合わせブロック"
           }
         }
       }
     },
     "footer": {
-      "tagline": "Discover software tools to enhance your workflow, simply and effortlessly",
+      "tagline": "ワークフローを向上させるためのソフトウェアツールを発見し、簡単に、そして手軽に",
       "product": {
-        "title": "Product",
+        "title": "製品",
         "items": {
-          "features": "Features",
-          "faq": "FAQ"
+          "features": "機能",
+          "faq": "よくある質問"
         }
       },
       "resources": {
-        "title": "Resources",
+        "title": "リソース",
         "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "blog": "ブログ"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "会社",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "当社について",
+          "contact": "お問い合わせ",
+          "waitlist": "ウェイティングリスト"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "法的",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "クッキーポリシー",
+          "privacyPolicy": "プライバシーポリシー",
+          "termsOfService": "利用規約"
         }
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
-      "settings": "Settings"
+      "dashboard": "ダッシュボード",
+      "settings": "設定"
     }
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "ダッシュボード"
     },
     "admin": {
-      "title": "Admin",
+      "title": "管理者",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "ユーザー",
+        "fakeData": "注：デモ用のフェイクデータ、一部の機能は無効",
+        "error": "ユーザーの取得に失敗しました",
+        "search": "ユーザーを検索...",
         "columns": {
-          "columns": "Columns",
-          "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
-          "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "columns": "列",
+          "name": "名前",
+          "email": "メール",
+          "role": "役割",
+          "createdAt": "作成日時",
+          "customerId": "顧客ID",
+          "status": "ステータス",
+          "banReason": "禁止理由",
+          "banExpires": "禁止期限"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "管理者",
+        "user": "ユーザー",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "メール確認済み",
+          "unverified": "メール未確認"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "メールをクリップボードにコピーしました",
+        "banned": "禁止",
+        "active": "有効",
+        "joined": "参加日",
+        "updated": "更新日",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "reason": "禁止理由",
+          "reasonPlaceholder": "このユーザーを禁止する理由を入力してください",
+          "defaultReason": "スパム",
+          "never": "永久",
+          "expires": "禁止期限",
+          "selectDate": "日付を選択",
+          "button": "ユーザーを禁止",
+          "success": "ユーザーが禁止されました",
+          "error": "ユーザーの禁止に失敗しました"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "ユーザーの禁止を解除",
+          "success": "ユーザーの禁止が解除されました",
+          "error": "ユーザーの禁止解除に失敗しました"
         },
-        "close": "Close"
+        "close": "閉じる"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "設定",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "プロフィール",
+        "description": "アカウント情報を管理",
         "avatar": {
-          "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "title": "アバター",
+          "description": "カスタムアバターをアップロードするにはアップロードボタンをクリックしてください",
+          "recommendation": "アバターは任意ですが強く推奨します",
+          "uploading": "アップロード中...",
+          "uploadAvatar": "アバターをアップロード",
+          "success": "アバターを更新しました",
+          "fail": "アバターの更新に失敗しました"
         },
         "name": {
-          "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "名前",
+          "description": "表示名を入力してください",
+          "placeholder": "名前を入力",
+          "minLength": "少なくとも3文字を使用してください",
+          "maxLength": "少なくとも30文字を使用してください",
+          "hint": "名前は3〜30文字で入力してください",
+          "success": "名前を更新しました",
+          "fail": "名前の更新に失敗しました",
+          "saving": "保存中...",
+          "save": "保存"
         }
       },
       "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
+        "title": "通知",
+        "description": "通知設定を管理",
         "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
+          "title": "ニュースレター購読",
+          "description": "ニュースレター購読設定を管理",
+          "label": "ニュースレターを購読",
+          "hint": "購読設定はいつでも変更できます",
+          "emailRequired": "ニュースレター購読にはメールが必要です",
+          "subscribeSuccess": "ニュースレター購読に成功しました",
+          "subscribeFail": "ニュースレター購読に失敗しました",
+          "unsubscribeSuccess": "ニュースレター購読解除に成功しました",
+          "unsubscribeFail": "ニュースレター購読解除に失敗しました",
+          "error": "購読の更新中にエラーが発生しました"
         }
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "セキュリティ",
+        "description": "セキュリティ設定を管理",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "パスワード変更",
+          "description": "現在のパスワードと新しいパスワードを入力",
+          "currentPassword": "現在のパスワード",
+          "currentRequired": "現在のパスワードが必要です",
+          "newPassword": "新しいパスワード",
+          "newMinLength": "パスワードは8文字以上で入力してください",
+          "hint": "パスワードは少なくとも8文字を使用してください",
+          "showPassword": "パスワードを表示",
+          "hidePassword": "パスワードを非表示",
+          "success": "パスワードを更新しました",
+          "fail": "パスワードの更新に失敗しました",
+          "saving": "保存中...",
+          "save": "保存"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "パスワードリセット",
+          "description": "メールログインを有効にするパスワードリセット",
+          "info": "パスワードをリセットすると、ソーシャルログイン方法に加えて、メールとパスワードを使用してサインインできるようになります。パスワードリセット手順を記載したメールが届きます",
+          "button": "パスワードリセット"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "アカウント削除",
+          "description": "アカウントとそのすべてのコンテンツを永久に削除",
+          "warning": "この操作は元に戻せません。注意して続行してください",
+          "button": "アカウント削除",
+          "confirmTitle": "アカウント削除",
+          "confirmDescription": "本当にアカウントを削除しますか？この操作は元に戻せません。",
+          "confirm": "削除",
+          "cancel": "キャンセル",
+          "deleting": "削除中...",
+          "success": "アカウントを削除しました",
+          "fail": "アカウント削除に失敗しました"
         }
       }
     },
     "upgrade": {
-      "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
-      "button": "Upgrade"
+      "title": "アップグレード",
+      "description": "すべての機能にアクセスするにはプロ版にアップグレード",
+      "button": "アップグレード"
     }
   },
   "Mail": {
     "common": {
-      "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "team": "{name}チーム",
+      "copyright": "©️ {year} すべての権利が保護されています。"
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "こんにちは、{name}様。",
+      "body": "以下のリンクをクリックしてメールアドレスを確認してください。",
+      "confirmEmail": "メールを確認",
+      "subject": "メールアドレスを確認"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to reset your password.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your password"
+      "title": "こんにちは、{name}様。",
+      "body": "以下のリンクをクリックしてパスワードをリセットしてください。",
+      "resetPassword": "パスワードをリセット",
+      "subject": "パスワードをリセット"
     },
     "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "body": "ニュースレター購読ありがとうございます。最新のニュースとアップデートをお届けします。",
+      "subject": "購読ありがとうございます"
     },
     "contactMessage": {
-      "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "name": "名前: {name}",
+      "email": "メール: {email}",
+      "message": "メッセージ: {message}",
+      "subject": "ウェブサイトからのお問い合わせ"
     }
   },
   "HomePage": {
-    "title": "WorkflowLab",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow.",
+    "softwareCatalog": {
+      "title": "カタログ",
+      "subtitle": "素晴らしいツールを発見する",
+      "description": "私たちのソフトウェアツールとサービスのコレクションを探索"
+    },
+    "title": "ワークフローラボ",
+    "description": "ワークフローを合理化するように設計された、包括的なソフトウェアツールとサービスのカタログを発見して探索してください。",
     "hero": {
-      "title": "Your Catalog of Essential Software Tools",
-      "description": "A comprehensive marketplace of software tools and services to help you build, manage, and optimize your digital workflow. Find the right solution for every need.",
-      "introduction": "Introducing WorkflowLab",
-      "primary": "Explore Tools",
-      "secondary": "See Demo"
+      "title": "必須ソフトウェアツールのワークフローラボカタログ",
+      "description": "デジタルワークフローを構築、管理、最適化するための包括的な市場。あらゆるニーズに合った正しいソリューションを見つけてください。",
+      "introduction": "ワークフローラボの紹介",
+      "primary": "ツールを探索",
+      "secondary": "デモを見る"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "お気に入りの企業は当社のパートナーです"
     },
     "integration": {
-      "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
+      "title": "統合",
+      "subtitle": "お気に入りのツールと統合",
+      "description": "人気のプラットフォームやサービスとシームレスに接続してワークフローを強化します。",
+      "learnMore": "詳しく見る",
       "items": {
         "item-1": {
           "title": "Google Gemini",
@@ -605,270 +600,270 @@
       }
     },
     "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "お気に入りのツールと統合",
+      "description": "人気のプラットフォームやサービスとシームレスに接続してワークフローを強化します。",
+      "primaryButton": "開始する",
+      "secondaryButton": "デモを見る"
     },
     "features": {
-      "title": "Features",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "機能",
+      "subtitle": "製品の機能",
+      "description": "ここに製品の説明を書いてください",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here, make it as detailed as possible, make it more attractive to users"
+          "title": "製品機能1",
+          "description": "機能1の詳細な説明をここに書いてください。できるだけ詳細にしてください。ユーザーにとって魅力的にしてください"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here, make it as detailed as possible, make it more attractive to users"
+          "title": "製品機能2",
+          "description": "機能2の詳細な説明をここに書いてください。できるだけ詳細にしてください。ユーザーにとって魅力的にしてください"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here, make it as detailed as possible, make it more attractive to users"
+          "title": "製品機能3",
+          "description": "機能3の詳細な説明をここに書いてください。できるだけ詳細にしてください。ユーザーにとって魅力的にしてください"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here, make it as detailed as possible, make it more attractive to users"
+          "title": "製品機能4",
+          "description": "機能4の詳細な説明をここに書いてください。できるだけ詳細にしてください。ユーザーにとって魅力的にしてください"
         }
       }
     },
     "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
+      "title": "機能2",
+      "subtitle": "製品の機能",
+      "description": "ここに製品の説明を書いてください",
+      "feature-1": "製品機能1",
+      "feature-2": "製品機能2",
+      "feature-3": "製品機能3",
+      "feature-4": "製品機能4"
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "機能3",
+      "subtitle": "製品の機能",
+      "description": "ここに製品の説明を書いてください",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "製品機能1",
+          "description": "機能1の詳細な説明をここに書いてください"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "製品機能2",
+          "description": "機能2の詳細な説明をここに書いてください"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "製品機能3",
+          "description": "機能3の詳細な説明をここに書いてください"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "製品機能4",
+          "description": "機能4の詳細な説明をここに書いてください"
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "製品機能5",
+          "description": "機能5の詳細な説明をここに書いてください"
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "製品機能6",
+          "description": "機能6の詳細な説明をここに書いてください"
         }
       }
     },
     "faqs": {
-      "title": "FAQ",
-      "subtitle": "Frequently Asked Questions",
+      "title": "よくある質問",
+      "subtitle": "よくある質問",
       "items": {
         "item-1": {
-          "question": "How do I find the right software for my needs?",
-          "answer": "Use our search and filtering tools to browse our extensive catalog by category, functionality, and user ratings."
+          "question": "自分のニーズに合った正しいソフトウェアをどのように見つけますか？",
+          "answer": "検索およびフィルタリングツールを使用して、カテゴリ、機能、ユーザー評価別に包括的なカタログを閲覧してください。"
         },
         "item-2": {
-          "question": "Are the tools in your catalog free to use?",
-          "answer": "Our catalog includes both free and paid tools. Each tool listing clearly indicates its pricing model."
+          "question": "カタログ内のツールは無料で使用できますか？",
+          "answer": "カタログには無料ツールと有料ツールが含まれています。各ツールリストには価格モデルが明確に示されています。"
         },
         "item-3": {
-          "question": "How do I integrate tools from the catalog into my workflow?",
-          "answer": "Each tool listing includes detailed integration instructions and documentation for seamless setup."
+          "question": "ワークフローにカタログからツールを統合する方法は？",
+          "answer": "各ツールリストには、シームレスなセットアップのための詳細な統合手順とドキュメントが含まれています。"
         },
         "item-4": {
-          "question": "Can I contribute my own tools to the catalog?",
-          "answer": "Yes, we welcome contributions from developers. Please contact us through our partner program for more information."
+          "question": "自分のツールをカタログに提供できますか？",
+          "answer": "はい、開発者からの貢献を歓迎します。詳細については、パートナープログラム経由で弊社までお問い合わせください。"
         },
         "item-5": {
-          "question": "Can't find what you're looking for?",
-          "answer": "Please contact our customer support team at support@workflowlab.com"
+          "question": "お探しのものが見つかりませんか？",
+          "answer": "カスタマーサポートチームまで support@workflowlab.com までご連絡ください"
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
+      "title": " testimonial",
+      "subtitle": "お客様からの声",
       "items": {
         "item-1": {
           "name": "Alex Johnson",
-          "role": "Product Manager",
+          "role": "プロダクトマネージャー",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "WorkflowLab is really extraordinary and very practical, with an extensive catalog of tools to choose from. A real gold mine for developers."
+          "quote": "ワークフローラボは本当に傑出し、非常に実用的で、選べるツールの包括的なカタログがあります。開発者のための真の宝です。"
         },
         "item-2": {
           "name": "Sarah Chen",
-          "role": "DevOps Engineer",
+          "role": "DevOpsエンジニア",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With WorkflowLab's comprehensive software catalog, I found the perfect tools to streamline my development process."
+          "quote": "ワークフローラボの包括的なカタログのおかげで、開発プロセスを合理化するための完璧なツールが見つかりました。"
         },
         "item-3": {
           "name": "Marcus Williams",
           "role": "CTO",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on WorkflowLab's software catalog. It's one of the best curated collections of development tools I've seen so far :)"
+          "quote": "ワークフローラボのカタログは素晴らしいです。私がこれまでに見た中で最高の開発ツールのカタログの一つです :)"
         },
         "item-4": {
           "name": "Elena Rodriguez",
-          "role": "UX Designer",
+          "role": "UXデザイナー",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I found exactly the tools I needed in WorkflowLab's catalog which are very clear to understand and easy to integrate into my projects."
+          "quote": "ワークフローラボのカタログで必要なツールが見つかりました。理解しやすく、プロジェクトへの統合も簡単です。"
         },
         "item-5": {
           "name": "James Wilson",
-          "role": "Lead Developer",
+          "role": "リードデベロッパー",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "WorkflowLab is redefining the standard of software discovery, with their catalog providing an easy and efficient way to find tools for any development need."
+          "quote": "ワークフローラボはソフトウェア発見の基準を再定義しています。カタログはあらゆる開発ニーズに合うツールを見つけるための簡単で効率的な方法を提供します。"
         },
         "item-6": {
           "name": "Priya Sharma",
-          "role": "Fullstack Developer",
+          "role": "フルスタックデベロッパー",
           "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love WorkflowLab! The software tools are beautifully designed and easy to implement, which makes building great applications a breeze."
+          "quote": "ワークフローラボが大好きです！ソフトウェアツールは美しくデザインされており、実装も簡単で、素晴らしいアプリケーションの構築を容易にします。"
         },
         "item-7": {
           "name": "David Kim",
-          "role": "Startup Founder",
+          "role": "スタートアップ創業者",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to discover tools that are as powerful as they are user-friendly."
+          "quote": "ワークフローラボは、シンプルさと多機能性の完璧な融合で、強力でユーザーにやさしいツールを発見できます。"
         },
         "item-8": {
           "name": "Fatima Ahmed",
-          "role": "Engineering Manager",
+          "role": "エンジニアリングマネージャー",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "WorkflowLab has transformed the way I build applications. Their extensive catalog of software tools has significantly accelerated my development workflow."
+          "quote": "ワークフローラボは、アプリケーションの構築方法を変えてくれました。広範なソフトウェアツールカタログにより、開発ワークフローが大幅に加速しました。"
         },
         "item-9": {
           "name": "Robert Taylor",
-          "role": "DevOps Specialist",
+          "role": "DevOpsスペシャリスト",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "WorkflowLab is an elegant, comprehensive software catalog that's very helpful for finding the right tools to start your projects fast."
+          "quote": "ワークフローラボは、プロジェクトを素早く開始するのに非常に役立つ、エレガントで包括的なカタログです。"
         },
         "item-10": {
           "name": "Isabella Garcia",
-          "role": "Frontend Developer",
+          "role": "フロントエンドデベロッパー",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love WorkflowLab ❤️. The software tools are well-structured, simple to implement, and beautifully designed. It makes finding the right solutions quick and easy."
+          "quote": "ワークフローラボが大好きです❤️。ソフトウェアツールは構造がよく、実装が簡単で、デザインも美しい。正しいソリューションを見つけるのが素早くて簡単です。"
         },
         "item-11": {
           "name": "Kofi Mensah",
-          "role": "Tech Lead",
+          "role": "テックリード",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "WorkflowLab is the perfect solution for anyone who wants to find powerful software tools without spending time researching."
+          "quote": "ワークフローラボは、研究に時間をかけずに強力なソフトウェアツールを見つけることを望む人には完璧なソリューションです。"
         },
         "item-12": {
           "name": "Emma Thompson",
-          "role": "Solutions Architect",
+          "role": "ソリューションアーキテクト",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "WorkflowLab has an impressive collection of tools that solve real problems. Let yourself be amazed by the quality of solutions available!"
+          "quote": "ワークフローラボには、現実の問題を解決する素晴らしいツールのコレクションがあります。利用可能なソリューションの品質に驚かされます！"
         }
       }
     },
     "stats": {
-      "title": "Stats",
-      "subtitle": "WorkflowLab in numbers",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
+      "title": "統計",
+      "subtitle": "ワークフローラボの数字",
+      "description": "ワークフローラボは、ワークフローを強化するための基本的なソフトウェアツールを提供します。シンプルで、気軽に",
       "items": {
         "item-1": {
-          "title": "Tools in Catalog"
+          "title": "カタログ内のツール数"
         },
         "item-2": {
-          "title": "Active Users"
+          "title": "アクティブユーザー数"
         },
         "item-3": {
-          "title": "Powered Workflows"
+          "title": "サポートされるワークフロー"
         }
       }
     },
     "calltoaction": {
-      "title": "Start Discovering",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
-      "primaryButton": "Explore Tools",
-      "secondaryButton": "See Demo"
+      "title": "発見を開始",
+      "description": "ワークフローラボは、ワークフローを強化するための基本的なソフトウェアツールを提供します。シンプルで、気軽に",
+      "primaryButton": "ツールを探索",
+      "secondaryButton": "デモを見る"
     }
   },
   "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "title": "AIテキストデモ",
+    "description": "AIでウェブコンテンツを分析して、主要情報、特徴、洞察を抽出",
+    "content": "ウェブコンテンツアナライザー",
+    "subtitle": "AIによる分析結果を得るにはウェブサイトURLを入力してください",
     "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
+      "title": "ウェブコンテンツアナライザー",
+      "description": "AIを使用して任意のウェブサイトコンテンツを分析し、構造化された情報を抽出",
+      "placeholder": "ウェブサイトURLを入力してください（例：https://example.com）",
+      "button": "ウェブサイトを分析",
       "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
+        "scraping": "ウェブサイトコンテンツをスクレイピング中...",
+        "analyzing": "AIでコンテンツを分析中..."
       },
       "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
+        "title": "分析結果",
+        "newAnalysis": "別のウェブサイトを分析",
         "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
+          "title": "タイトル",
+          "description": "説明",
+          "introduction": "紹介",
+          "features": "特徴",
+          "useCases": "使用例",
+          "screenshot": "ウェブサイトスクリーンショット"
         }
       },
       "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+        "invalidUrl": "http:// または https:// で始まる有効なURLを入力してください",
+        "analysisError": "ウェブサイトの分析に失敗しました。もう一度お試しください。",
+        "networkError": "ネットワークエラー。接続を確認して、もう一度お試しください。",
+        "insufficientCredits": "クレジットが不足しています。続行するにはクレジットを購入してください。"
       }
     },
     "features": {
       "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+        "title": "スマートウェブスクレイピング",
+        "description": "高度なウェブスクレイピング技術を使用して、あらゆるウェブサイトからクリーンで構造化されたコンテンツを抽出"
       },
       "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+        "title": "AIによる分析",
+        "description": "インテリジェントなAI分析により、主要な洞察、特徴、構造化された情報を抽出"
       },
       "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+        "title": "構造化された結果",
+        "description": "明確なセクションと実行可能な洞察を持つ、整理された、読みやすい結果を取得"
       }
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "Discover AI image tools in our software catalog to enhance your workflow"
+    "title": "AI画像",
+    "description": "ワークフローを強化するために、ソフトウェアカタログでAI画像ツールを発見"
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "Discover AI chat tools in our software catalog to enhance your workflow"
+    "title": "AIチャット",
+    "description": "ワークフローを強化するために、ソフトウェアカタログでAIチャットツールを発見"
   },
   "AIVideoPage": {
-    "title": "AI Video",
-    "description": "Discover AI video tools in our software catalog to enhance your workflow"
+    "title": "AIビデオ",
+    "description": "ワークフローを強化するために、ソフトウェアカタログでAIビデオツールを発見"
   },
   "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "Discover AI audio tools in our software catalog to enhance your workflow"
+    "title": "AIオーディオ",
+    "description": "ワークフローを強化するために、ソフトウェアカタログでAIオーディオツールを発見"
   },
   "SoftwarePage": {
-    "title": "Software",
-    "description": "Discover amazing software tools and services"
+    "title": "ソフトウェア",
+    "description": "素晴らしいソフトウェアツールとサービスを発見"
   },
   "SoftwareDetailPage": {
-    "title": "Software Details"
+    "title": "ソフトウェアの詳細"
   }
 }

@@ -1,394 +1,386 @@
-{
+﻿{
   "Metadata": {
     "name": "WorkflowLab",
-    "title": "WorkflowLab - Your Catalog of Essential Software Tools & Services",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow."
+    "title": "WorkflowLab - Ihr Katalog an essentiellen Software-Tools & Diensten",
+    "description": "Entdecken und erkunden Sie einen umfassenden Katalog von Software-Tools und Diensten, die entwickelt wurden, um Ihren Arbeitsablauf zu optimieren."
   },
   "Common": {
-    "login": "Log in",
-    "logout": "Log out",
-    "signUp": "Sign up",
-    "language": "Switch language",
+    "login": "Einloggen",
+    "logout": "Ausloggen",
+    "signUp": "Anmelden",
+    "language": "Sprache wechseln",
     "mode": {
-      "label": "Toggle mode",
-      "light": "Light",
-      "dark": "Dark",
+      "label": "Modus wechseln",
+      "light": "Hell",
+      "dark": "Dunkel",
       "system": "System"
     },
     "theme": {
-      "label": "Toggle theme",
-      "default": "Default",
-      "blue": "Blue",
-      "green": "Green",
-      "amber": "Amber",
+      "label": "Theme wechseln",
+      "default": "Standard",
+      "blue": "Blau",
+      "green": "Grün",
+      "amber": "Bernstein",
       "neutral": "Neutral"
     },
-    "copy": "Copy",
-    "saving": "Saving...",
-    "save": "Save",
-    "loading": "Loading...",
-    "cancel": "Cancel",
-    "logoutFailed": "Failed to log out",
+    "copy": "Kopieren",
+    "saving": "Wird gespeichert...",
+    "save": "Speichern",
+    "loading": "Wird geladen...",
+    "cancel": "Abbrechen",
+    "logoutFailed": "Abmelden fehlgeschlagen",
     "table": {
-      "totalRecords": "Total {count} records",
-      "noResults": "No results",
-      "loading": "Loading...",
-      "columns": "Columns",
-      "rowsPerPage": "Rows per page",
-      "page": "Page",
-      "firstPage": "First Page",
-      "lastPage": "Last Page",
-      "nextPage": "Next Page",
-      "previousPage": "Previous Page",
-      "ascending": "Asc",
-      "descending": "Desc"
+      "totalRecords": "Insgesamt {count} Datensätze",
+      "noResults": "Keine Ergebnisse",
+      "loading": "Wird geladen...",
+      "columns": "Spalten",
+      "rowsPerPage": "Zeilen pro Seite",
+      "page": "Seite",
+      "firstPage": "Erste Seite",
+      "lastPage": "Letzte Seite",
+      "nextPage": "Nächste Seite",
+      "previousPage": "Vorherige Seite",
+      "ascending": "Aufsteigend",
+      "descending": "Absteigend"
     }
   },
   "CreditPackages": {
     "basic": {
-      "name": "Basic",
-      "description": "Basic credits package description"
+      "name": "Basis",
+      "description": "Beschreibung des Basis-Credits-Pakets"
     },
     "standard": {
       "name": "Standard",
-      "description": "Standard credits package description"
+      "description": "Beschreibung des Standard-Credits-Pakets"
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Enterprise credits package description"
+      "description": "Beschreibung des Enterprise-Credits-Pakets"
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
-    "backToHome": "Back to home"
+    "message": "Entschuldigung, die Seite, nach der Sie suchen, existiert nicht.",
+    "backToHome": "Zurück zur Startseite"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
-    "backToHome": "Back to home"
+    "title": "Ups! Etwas ist schiefgelaufen!",
+    "tryAgain": "Erneut versuchen",
+    "backToHome": "Zurück zur Startseite"
   },
   "AboutPage": {
-    "title": "About",
-    "description": "This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity.",
+    "title": "Über",
+    "description": "Dies ist WorkflowLab, ein umfassender Katalog von Software-Tools und Diensten, die entwickelt wurden, um Ihren Arbeitsablauf zu optimieren und die Produktivität zu steigern.",
     "authorName": "WorkflowLab",
-    "authorBio": "Software Tools Catalog",
-    "introduction": "👋 Hi there! This is WorkflowLab, a comprehensive catalog of software tools and services designed to streamline your workflow and enhance productivity. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "authorBio": "Software-Tools-Katalog",
+    "introduction": "👋 Hallo! Dies ist WorkflowLab, ein umfassender Katalog von Software-Tools und Diensten, die entwickelt wurden, um Ihren Arbeitsablauf zu optimieren und die Produktivität zu steigern. Wenn Sie Fragen haben, kontaktieren Sie mich gerne.",
+    "talkWithMe": "Sprechen Sie mit mir",
+    "followMe": "Folgen Sie mir auf X"
   },
   "ChangelogPage": {
-    "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "title": "Änderungsprotokoll",
+    "description": "Bleiben Sie mit den neuesten Änderungen in unserem Produkt auf dem Laufenden",
+    "subtitle": "Bleiben Sie mit den neuesten Änderungen in unserem Produkt auf dem Laufenden"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "title": "Kontakt",
+    "description": "Wir helfen Ihnen, den richtigen Plan für Ihr Unternehmen zu finden",
+    "subtitle": "Wir helfen Ihnen, den richtigen Plan für Ihr Unternehmen zu finden",
     "form": {
-      "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
+      "title": "Kontaktieren Sie uns",
+      "description": "Wenn Sie Fragen oder Feedback haben, wenden Sie sich bitte an unser Team",
       "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "submitting": "Submitting...",
-      "success": "Message sent successfully",
-      "fail": "Failed to send message",
-      "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must not exceed 30 characters",
-      "emailValidation": "Please enter a valid email address",
-      "messageMinLength": "Message must be at least 10 characters",
-      "messageMaxLength": "Message must not exceed 500 characters"
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "submitting": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet",
+      "fail": "Nachricht konnte nicht gesendet werden",
+      "nameMinLength": "Name muss mindestens 3 Zeichen enthalten",
+      "nameMaxLength": "Name darf 30 Zeichen nicht überschreiten",
+      "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "messageMinLength": "Nachricht muss mindestens 10 Zeichen enthalten",
+      "messageMaxLength": "Nachricht darf 500 Zeichen nicht überschreiten"
     }
   },
   "WaitlistPage": {
-    "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
+    "title": "Warteliste",
+    "description": "Treten Sie unserer Warteliste für den Start unseres Produkts bei",
+    "subtitle": "Treten Sie unserer Warteliste für den Start unseres Produkts bei",
     "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "title": "Treten Sie unserer Warteliste bei",
+      "description": "Wir benachrichtigen Sie, wenn wir unser Produkt starten",
+      "email": "E-Mail",
+      "subscribe": "Abonnieren",
+      "subscribing": "Wird abonniert...",
+      "success": "Erfolgreich abonniert",
+      "fail": "Abonnement fehlgeschlagen",
+      "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
     }
   },
   "Newsletter": {
     "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "subtitle": "Treten Sie der Community bei",
+    "description": "Abonnieren Sie unseren Newsletter für die neuesten Nachrichten und Updates",
     "form": {
-      "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "email": "E-Mail",
+      "subscribe": "Abonnieren",
+      "subscribing": "Wird abonniert...",
+      "success": "Erfolgreich abonniert",
+      "fail": "Abonnement fehlgeschlagen",
+      "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
-      "email": "Email",
-      "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "signInWithGitHub": "Sign In with GitHub",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "title": "Anmelden",
+      "welcomeBack": "Willkommen zurück",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "signIn": "Anmelden",
+      "signUpHint": "Sie haben kein Konto? Registrieren",
+      "forgotPassword": "Passwort vergessen?",
+      "signInWithGoogle": "Mit Google anmelden",
+      "signInWithGitHub": "Mit GitHub anmelden",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort ausblenden",
+      "or": "Oder fortfahren mit",
+      "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+      "passwordRequired": "Bitte geben Sie Ihr Passwort ein",
+      "captchaInvalid": "Captcha-Verifizierung fehlgeschlagen",
+      "captchaError": "Captcha-Verifizierungsfehler"
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
+      "title": "Registrieren",
+      "createAccount": "Konto erstellen",
       "name": "Name",
-      "email": "Email",
-      "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "email": "E-Mail",
+      "password": "Passwort",
+      "signUp": "Registrieren",
+      "signInHint": "Sie haben bereits ein Konto? Anmelden",
+      "checkEmail": "Bitte überprüfen Sie Ihren E-Mail-Posteingang",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort ausblenden",
+      "nameRequired": "Bitte geben Sie Ihren Namen ein",
+      "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+      "passwordRequired": "Bitte geben Sie Ihr Passwort ein",
+      "captchaInvalid": "Captcha-Verifizierung fehlgeschlagen",
+      "captchaError": "Captcha-Verifizierungsfehler"
     },
     "forgotPassword": {
-      "title": "Forgot Password",
-      "email": "Email",
-      "send": "Send reset link",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox",
-      "emailRequired": "Please enter your email"
+      "title": "Passwort vergessen",
+      "email": "E-Mail",
+      "send": "Link zum Zurücksetzen senden",
+      "backToLogin": "Zurück zur Anmeldung",
+      "checkEmail": "Bitte überprüfen Sie Ihren E-Mail-Posteingang",
+      "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein"
     },
     "resetPassword": {
-      "title": "Reset Password",
-      "password": "Password",
-      "reset": "Reset password",
-      "backToLogin": "Back to login",
-      "showPassword": "Show password",
-      "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters"
+      "title": "Passwort zurücksetzen",
+      "password": "Passwort",
+      "reset": "Passwort zurücksetzen",
+      "backToLogin": "Zurück zur Anmeldung",
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort ausblenden",
+      "minLength": "Passwort muss mindestens 8 Zeichen enthalten"
     },
     "error": {
-      "title": "Oops! Something went wrong!",
-      "tryAgain": "Please try again.",
-      "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "title": "Ups! Etwas ist schiefgelaufen!",
+      "tryAgain": "Bitte versuchen Sie es erneut.",
+      "backToLogin": "Zurück zur Anmeldung",
+      "checkEmail": "Bitte überprüfen Sie Ihren E-Mail-Posteingang"
     },
     "common": {
-      "termsOfService": "Terms of Service",
-      "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
-      "and": " and "
+      "termsOfService": "Nutzungsbedingungen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "byClickingContinue": "Durch Klicken auf Fortfahren stimmen Sie unseren ",
+      "and": " und "
     }
   },
   "BlogPage": {
     "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
-    "author": "Author",
-    "categories": "Categories",
-    "tableOfContents": "Table of Contents",
-    "readTime": "{minutes} min read",
-    "all": "All",
-    "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
+    "description": "Neueste Nachrichten und Updates von unserem Team",
+    "subtitle": "Neueste Nachrichten und Updates von unserem Team",
+    "author": "Autor",
+    "categories": "Kategorien",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "readTime": "{minutes} min Lesezeit",
+    "all": "Alle",
+    "noPostsFound": "Keine Beiträge gefunden",
+    "allPosts": "Alle Beiträge",
+    "morePosts": "Weitere Beiträge"
   },
   "DocsPage": {
-    "toc": "Table of Contents",
-    "search": "Search docs",
-    "lastUpdate": "Last updated on",
-    "searchNoResult": "No results",
-    "previousPage": "Previous",
-    "nextPage": "Next",
-    "chooseLanguage": "Select language",
-    "title": "WorkflowLab Docs",
-    "homepage": "Homepage"
+    "toc": "Inhaltsverzeichnis",
+    "search": "Dokumente suchen",
+    "lastUpdate": "Zuletzt aktualisiert am",
+    "searchNoResult": "Keine Ergebnisse",
+    "previousPage": "Vorherige",
+    "nextPage": "Nächste",
+    "chooseLanguage": "Sprache auswählen",
+    "title": "WorkflowLab Dokumentation",
+    "homepage": "Startseite"
   },
   "Marketing": {
     "navbar": {
       "features": {
-        "title": "Features"
+        "title": "Funktionen"
       },
       "blog": {
         "title": "Blog"
       },
-      "docs": {
-        "title": "Docs"
-      },
+
       "ai": {
-        "title": "AI Tools",
+        "title": "KI-Tools",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "KI-Text",
+            "description": "Zeigen Sie, wie KI verwendet wird, um beeindruckenden Text zu schreiben"
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "KI-Bild",
+            "description": "Zeigen Sie, wie KI verwendet wird, um wunderschöne Bilder zu generieren"
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "KI-Chat",
+            "description": "Zeigen Sie, wie KI verwendet wird, um mit Ihren Kunden zu chatten"
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "KI-Video",
+            "description": "Zeigen Sie, wie KI verwendet wird, um beeindruckende Videos zu generieren"
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "KI-Audio",
+            "description": "Zeigen Sie, wie KI verwendet wird, um wunderbares Audio zu generieren"
           }
         }
       },
       "pages": {
-        "title": "Pages",
+        "title": "Seiten",
         "items": {
           "about": {
-            "title": "About",
-            "description": "Learn more about our company, mission, and values"
+            "title": "Über",
+            "description": "Erfahren Sie mehr über unser Unternehmen, unsere Mission und Werte"
           },
           "contact": {
-            "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
+            "title": "Kontakt",
+            "description": "Kontaktieren Sie unser Team für Support oder Anfragen"
           },
           "waitlist": {
-            "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
+            "title": "Warteliste",
+            "description": "Treten Sie unserer Warteliste für die neuesten Nachrichten und Updates bei"
           },
-          "changelog": {
-            "title": "Changelog",
-            "description": "See the latest updates to our products"
+          "software": {
+            "title": "Katalog",
+            "description": "Entdecken Sie erstaunliche Tools"
           },
-          "roadmap": {
-            "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
-          },
+
           "cookiePolicy": {
-            "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
+            "title": "Cookie-Richtlinie",
+            "description": "Wie wir Cookies auf unserer Website verwenden"
           },
           "privacyPolicy": {
-            "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
+            "title": "Datenschutzrichtlinie",
+            "description": "Wie wir Ihre Daten schützen und verarbeiten"
           },
           "termsOfService": {
-            "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
+            "title": "Nutzungsbedingungen",
+            "description": "Die rechtliche Vereinbarung zwischen Ihnen und unserem Unternehmen"
           }
         }
       },
       "blocks": {
-        "title": "Blocks",
+        "title": "Blöcke",
         "items": {
           "magicui": {
-            "title": "MagicUI Blocks"
+            "title": "MagicUI Blöcke"
           },
           "hero-section": {
-            "title": "Hero Blocks"
+            "title": "Hero Blöcke"
           },
           "logo-cloud": {
-            "title": "Logo Cloud Blocks"
+            "title": "Logo-Cloud Blöcke"
           },
           "integrations": {
-            "title": "Integrations Blocks"
+            "title": "Integrations Blöcke"
           },
           "features": {
-            "title": "Features Blocks"
+            "title": "Funktions Blöcke"
           },
           "content": {
-            "title": "Content Blocks"
+            "title": "Inhalts Blöcke"
           },
           "stats": {
-            "title": "Stats Blocks"
+            "title": "Statistik Blöcke"
           },
           "team": {
-            "title": "Team Blocks"
+            "title": "Team Blöcke"
           },
           "testimonials": {
-            "title": "Testimonials Blocks"
+            "title": "Testimonials Blöcke"
           },
           "callToAction": {
-            "title": "Call to Action Blocks"
+            "title": "Call-to-Action Blöcke"
           },
           "footer": {
-            "title": "Footer Blocks"
+            "title": "Footer Blöcke"
           },
           "comparator": {
-            "title": "Comparator Blocks"
+            "title": "Vergleichs Blöcke"
           },
           "faq": {
-            "title": "FAQ Blocks"
+            "title": "FAQ Blöcke"
           },
           "login": {
-            "title": "Login Blocks"
+            "title": "Anmelde Blöcke"
           },
           "signup": {
-            "title": "Signup Blocks"
+            "title": "Registrierungs Blöcke"
           },
           "forgot-password": {
-            "title": "Forgot Password Blocks"
+            "title": "Passwort-Vergetn Blöcke"
           },
           "contact": {
-            "title": "Contact Blocks"
+            "title": "Kontakt Blöcke"
           }
         }
       }
     },
     "footer": {
-      "tagline": "Discover software tools to enhance your workflow, simply and effortlessly",
+      "tagline": "Entdecken Sie Software-Tools, um Ihren Workflow zu verbessern, einfach und mühelos",
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "items": {
-          "features": "Features",
+          "features": "Funktionen",
           "faq": "FAQ"
         }
       },
       "resources": {
-        "title": "Resources",
+        "title": "Ressourcen",
         "items": {
-          "blog": "Blog",
-          "docs": "Documentation",
-          "changelog": "Changelog",
-          "roadmap": "Roadmap"
+          "blog": "Blog"
         }
       },
       "company": {
-        "title": "Company",
+        "title": "Unternehmen",
         "items": {
-          "about": "About",
-          "contact": "Contact",
-          "waitlist": "Waitlist"
+          "about": "Über",
+          "contact": "Kontakt",
+          "waitlist": "Warteliste"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Rechtliches",
         "items": {
-          "cookiePolicy": "Cookie Policy",
-          "privacyPolicy": "Privacy Policy",
-          "termsOfService": "Terms of Service"
+          "cookiePolicy": "Cookie-Richtlinie",
+          "privacyPolicy": "Datenschutzrichtlinie",
+          "termsOfService": "Nutzungsbedingungen"
         }
       }
     },
     "avatar": {
       "dashboard": "Dashboard",
-      "settings": "Settings"
+      "settings": "Einstellungen"
     }
   },
   "Dashboard": {
@@ -396,187 +388,192 @@
       "title": "Dashboard"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Administrator",
       "users": {
-        "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "title": "Benutzer",
+        "fakeData": "Hinweis: Gefälschte Daten zur Demonstration, einige Funktionen sind deaktiviert",
+        "error": "Fehler beim Abrufen der Benutzer",
+        "search": "Benutzer suchen...",
         "columns": {
-          "columns": "Columns",
+          "columns": "Spalten",
           "name": "Name",
-          "email": "Email",
-          "role": "Role",
-          "createdAt": "Created At",
-          "customerId": "Customer ID",
+          "email": "E-Mail",
+          "role": "Rolle",
+          "createdAt": "Erstellt am",
+          "customerId": "Kunden-ID",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Sperrgrund",
+          "banExpires": "Sperrung läuft ab"
         },
-        "admin": "Admin",
-        "user": "User",
+        "admin": "Administrator",
+        "user": "Benutzer",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "E-Mail verifiziert",
+          "unverified": "E-Mail nicht verifiziert"
         },
-        "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
-        "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "emailCopied": "E-Mail-Adresse in Zwischenablage kopiert",
+        "banned": "Gesperrt",
+        "active": "Aktiv",
+        "joined": "Beigetreten am",
+        "updated": "Aktualisiert am",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
+          "reason": "Sperrgrund",
+          "reasonPlaceholder": "Geben Sie den Grund für die Sperrung dieses Benutzers ein",
           "defaultReason": "Spamming",
-          "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "never": "Nie",
+          "expires": "Sperrung läuft ab",
+          "selectDate": "Datum auswählen",
+          "button": "Benutzer sperren",
+          "success": "Benutzer wurde gesperrt",
+          "error": "Fehler beim Sperren des Benutzers"
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Benutzer entsperren",
+          "success": "Benutzer wurde entsperrt",
+          "error": "Fehler beim Entsperren des Benutzers"
         },
-        "close": "Close"
+        "close": "Schließen"
       }
     },
     "settings": {
-      "title": "Settings",
+      "title": "Einstellungen",
       "profile": {
-        "title": "Profile",
-        "description": "Manage your account information",
+        "title": "Profil",
+        "description": "Verwalten Sie Ihre Kontoinformationen",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
-          "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "description": "Klicken Sie auf die Upload-Schaltfläche, um einen benutzerdefinierten Avatar hochzuladen",
+          "recommendation": "Ein Avatar ist optional, aber wird dringend empfohlen",
+          "uploading": "Wird hochgeladen...",
+          "uploadAvatar": "Avatar hochladen",
+          "success": "Avatar erfolgreich aktualisiert",
+          "fail": "Fehler beim Aktualisieren des Avatars"
         },
         "name": {
           "title": "Name",
-          "description": "Please enter your display name",
-          "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
-          "saving": "Saving...",
-          "save": "Save"
+          "description": "Bitte geben Sie Ihren Anzeigenamen ein",
+          "placeholder": "Geben Sie Ihren Namen ein",
+          "minLength": "Bitte verwenden Sie mindestens 3 Zeichen",
+          "maxLength": "Bitte verwenden Sie maximal 30 Zeichen",
+          "hint": "Bitte verwenden Sie 3-30 Zeichen für Ihren Namen",
+          "success": "Name erfolgreich aktualisiert",
+          "fail": "Fehler beim Aktualisieren des Namens",
+          "saving": "Wird gespeichert...",
+          "save": "Speichern"
         }
       },
       "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
+        "title": "Benachrichtigung",
+        "description": "Verwalten Sie Ihre Benachrichtigungseinstellungen",
         "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
+          "title": "Newsletter-Abonnement",
+          "description": "Verwalten Sie Ihre Newsletter-Abonnement-Einstellungen",
+          "label": "Newsletter abonnieren",
+          "hint": "Sie können Ihre Abonnement-Einstellungen jederzeit ändern",
+          "emailRequired": "E-Mail-Adresse ist erforderlich, um den Newsletter zu abonnieren",
+          "subscribeSuccess": "Newsletter erfolgreich abonniert",
+          "subscribeFail": "Fehler beim Abonnieren des Newsletters",
+          "unsubscribeSuccess": "Newsletter-Abonnement erfolgreich gekündigt",
+          "unsubscribeFail": "Fehler beim Kündigen des Newsletter-Abonnements",
+          "error": "Beim Aktualisieren Ihres Abonnements ist ein Fehler aufgetreten"
         }
       },
       "security": {
-        "title": "Security",
-        "description": "Manage your security settings",
+        "title": "Sicherheit",
+        "description": "Verwalten Sie Ihre Sicherheitseinstellungen",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
-          "showPassword": "Show password",
-          "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
-          "saving": "Saving...",
-          "save": "Save"
+          "title": "Passwort ändern",
+          "description": "Geben Sie Ihr aktuelles Passwort und ein neues Passwort ein",
+          "currentPassword": "Aktuelles Passwort",
+          "currentRequired": "Aktuelles Passwort ist erforderlich",
+          "newPassword": "Neues Passwort",
+          "newMinLength": "Passwort muss mindestens 8 Zeichen enthalten",
+          "hint": "Bitte verwenden Sie mindestens 8 Zeichen für das Passwort",
+          "showPassword": "Passwort anzeigen",
+          "hidePassword": "Passwort ausblenden",
+          "success": "Passwort erfolgreich aktualisiert",
+          "fail": "Fehler beim Aktualisieren des Passworts",
+          "saving": "Wird gespeichert...",
+          "save": "Speichern"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Passwort zurücksetzen",
+          "description": "Passwort zurücksetzen, um E-Mail-Anmeldung zu aktivieren",
+          "info": "Durch das Zurücksetzen Ihres Passworts können Sie sich zusätzlich zu Ihren sozialen Anmeldemethoden mit Ihrer E-Mail-Adresse und Ihrem Passwort anmelden. Sie erhalten eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts",
+          "button": "Passwort zurücksetzen"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
-          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
-          "confirm": "Delete",
-          "cancel": "Cancel",
-          "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "title": "Konto löschen",
+          "description": "Ihr Konto und alle seine Inhalte dauerhaft entfernen",
+          "warning": "Diese Aktion ist nicht umkehrbar, fahren Sie daher mit Vorsicht fort",
+          "button": "Konto löschen",
+          "confirmTitle": "Konto löschen",
+          "confirmDescription": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+          "confirm": "Löschen",
+          "cancel": "Abbrechen",
+          "deleting": "Wird gelöscht...",
+          "success": "Konto erfolgreich gelöscht",
+          "fail": "Fehler beim Löschen des Kontos"
         }
       }
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
+      "description": "Upgraden Sie auf Pro, um auf alle Funktionen zuzugreifen",
       "button": "Upgrade"
     }
   },
   "Mail": {
     "common": {
       "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "copyright": "©️ {year} Alle Rechte vorbehalten."
     },
     "verifyEmail": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
-      "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "title": "Hallo, {name}.",
+      "body": "Bitte klicken Sie auf den unten stehenden Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "confirmEmail": "E-Mail bestätigen",
+      "subject": "Bestätigen Sie Ihre E-Mail"
     },
     "forgotPassword": {
-      "title": "Hi, {name}.",
-      "body": "Please click the link below to reset your password.",
-      "resetPassword": "Reset password",
-      "subject": "Reset your password"
+      "title": "Hallo, {name}.",
+      "body": "Bitte klicken Sie auf den unten stehenden Link, um Ihr Passwort zurückzusetzen.",
+      "resetPassword": "Passwort zurücksetzen",
+      "subject": "Setzen Sie Ihr Passwort zurück"
     },
     "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "body": "Vielen Dank, dass Sie unseren Newsletter abonniert haben. Wir halten Sie mit den neuesten Nachrichten und Updates auf dem Laufenden.",
+      "subject": "Vielen Dank für Ihr Abonnement"
     },
     "contactMessage": {
       "name": "Name: {name}",
-      "email": "Email: {email}",
-      "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "email": "E-Mail: {email}",
+      "message": "Nachricht: {message}",
+      "subject": "Kontaktnachricht von der Website"
     }
   },
   "HomePage": {
+    "softwareCatalog": {
+      "title": "Katalog",
+      "subtitle": "Entdecken Sie erstaunliche Tools",
+      "description": "Entdecken Sie unsere Sammlung an Software-Tools und -Diensten"
+    },
     "title": "WorkflowLab",
-    "description": "Discover and explore a comprehensive catalog of software tools and services designed to streamline your workflow.",
+    "description": "Entdecken und erkunden Sie einen umfassenden Katalog von Software-Tools und Diensten, die entwickelt wurden, um Ihren Arbeitsablauf zu optimieren.",
     "hero": {
-      "title": "Your Catalog of Essential Software Tools",
-      "description": "A comprehensive marketplace of software tools and services to help you build, manage, and optimize your digital workflow. Find the right solution for every need.",
-      "introduction": "Introducing WorkflowLab",
-      "primary": "Explore Tools",
-      "secondary": "See Demo"
+      "title": "Ihr Katalog an essentiellen Software-Tools",
+      "description": "Ein umfassender Marktplatz für Software-Tools und Dienste, die Ihnen helfen, Ihren digitalen Workflow zu erstellen, zu verwalten und zu optimieren. Finden Sie die richtige Lösung für jeden Bedarf.",
+      "introduction": "Einführung in WorkflowLab",
+      "primary": "Tools erkunden",
+      "secondary": "Demo ansehen"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "Ihre Lieblingsunternehmen sind unsere Partner"
     },
     "integration": {
-      "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
+      "title": "Integrationen",
+      "subtitle": "Integrieren Sie sich mit Ihren Lieblings-Tools",
+      "description": "Verbinden Sie sich nahtlos mit beliebten Plattformen und Diensten, um Ihren Arbeitsablauf zu verbessern.",
+      "learnMore": "Mehr erfahren",
       "items": {
         "item-1": {
           "title": "Google Gemini",
@@ -605,270 +602,270 @@
       }
     },
     "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "Integrieren Sie sich mit Ihren Lieblings-Tools",
+      "description": "Verbinden Sie sich nahtlos mit beliebten Plattformen und Diensten, um Ihren Arbeitsablauf zu verbessern.",
+      "primaryButton": "Loslegen",
+      "secondaryButton": "Demo ansehen"
     },
     "features": {
-      "title": "Features",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Funktionen",
+      "subtitle": "Die Funktionen Ihres Produkts",
+      "description": "Schreiben Sie hier die Beschreibung Ihres Produkts",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here, make it as detailed as possible, make it more attractive to users"
+          "title": "Produktfunktion Eins",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der ersten Funktion, machen Sie sie so detailliert wie möglich, machen Sie sie ansprechender für Benutzer"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here, make it as detailed as possible, make it more attractive to users"
+          "title": "Produktfunktion Zwei",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der zweiten Funktion, machen Sie sie so detailliert wie möglich, machen Sie sie ansprechender für Benutzer"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here, make it as detailed as possible, make it more attractive to users"
+          "title": "Produktfunktion Drei",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der dritten Funktion, machen Sie sie so detailliert wie möglich, machen Sie sie ansprechender für Benutzer"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here, make it as detailed as possible, make it more attractive to users"
+          "title": "Produktfunktion Vier",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der vierten Funktion, machen Sie sie so detailliert wie möglich, machen Sie sie ansprechender für Benutzer"
         }
       }
     },
     "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
+      "title": "Funktionen2",
+      "subtitle": "Die Funktionen Ihres Produkts",
+      "description": "Schreiben Sie hier die Beschreibung Ihres Produkts",
+      "feature-1": "Produktfunktion Eins",
+      "feature-2": "Produktfunktion Zwei",
+      "feature-3": "Produktfunktion Drei",
+      "feature-4": "Produktfunktion Vier"
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Funktionen3",
+      "subtitle": "Die Funktionen Ihres Produkts",
+      "description": "Schreiben Sie hier die Beschreibung Ihres Produkts",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "Produktfunktion Eins",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der ersten Funktion"
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "Produktfunktion Zwei",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der zweiten Funktion"
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "Produktfunktion Drei",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der dritten Funktion"
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "Produktfunktion Vier",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der vierten Funktion"
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "Produktfunktion Fünf",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der fünften Funktion"
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "Produktfunktion Sechs",
+          "description": "Bitte schreiben Sie hier die detaillierte Beschreibung der sechsten Funktion"
         }
       }
     },
     "faqs": {
       "title": "FAQ",
-      "subtitle": "Frequently Asked Questions",
+      "subtitle": "Häufig Gestellte Fragen",
       "items": {
         "item-1": {
-          "question": "How do I find the right software for my needs?",
-          "answer": "Use our search and filtering tools to browse our extensive catalog by category, functionality, and user ratings."
+          "question": "Wie finde ich die richtige Software für meine Bedürfnisse?",
+          "answer": "Verwenden Sie unsere Such- und Filtertools, um unseren umfangreichen Katalog nach Kategorie, Funktionalität und Benutzerbewertungen zu durchsuchen."
         },
         "item-2": {
-          "question": "Are the tools in your catalog free to use?",
-          "answer": "Our catalog includes both free and paid tools. Each tool listing clearly indicates its pricing model."
+          "question": "Sind die Tools in Ihrem Katalog kostenlos nutzbar?",
+          "answer": "Unser Katalog enthält sowohl kostenlose als auch kostenpflichtige Tools. Jede Tool-Auflistung zeigt klar das Preismodell an."
         },
         "item-3": {
-          "question": "How do I integrate tools from the catalog into my workflow?",
-          "answer": "Each tool listing includes detailed integration instructions and documentation for seamless setup."
+          "question": "Wie integriere ich Tools aus dem Katalog in meinen Arbeitsablauf?",
+          "answer": "Jede Tool-Auflistung enthält detaillierte Integrationsanweisungen und Dokumentation für eine nahtlose Einrichtung."
         },
         "item-4": {
-          "question": "Can I contribute my own tools to the catalog?",
-          "answer": "Yes, we welcome contributions from developers. Please contact us through our partner program for more information."
+          "question": "Kann ich meine eigenen Tools zum Katalog beitragen?",
+          "answer": "Ja, wir begrüßen Beiträge von Entwicklern. Bitte kontaktieren Sie uns über unser Partnerprogramm für weitere Informationen."
         },
         "item-5": {
-          "question": "Can't find what you're looking for?",
-          "answer": "Please contact our customer support team at support@workflowlab.com"
+          "question": "Können Sie nicht finden, wonach Sie suchen?",
+          "answer": "Bitte kontaktieren Sie unser Kundensupport-Team unter support@workflowlab.com"
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
+      "title": "Referenzen",
+      "subtitle": "Was unsere Kunden sagen",
       "items": {
         "item-1": {
           "name": "Alex Johnson",
-          "role": "Product Manager",
+          "role": "Produktmanager",
           "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "WorkflowLab is really extraordinary and very practical, with an extensive catalog of tools to choose from. A real gold mine for developers."
+          "quote": "WorkflowLab ist wirklich außergewöhnlich und sehr praktisch, mit einem umfangreichen Katalog an Tools zur Auswahl. Ein echter Goldschatz für Entwickler."
         },
         "item-2": {
           "name": "Sarah Chen",
-          "role": "DevOps Engineer",
+          "role": "DevOps-Ingenieur",
           "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With WorkflowLab's comprehensive software catalog, I found the perfect tools to streamline my development process."
+          "quote": "Mit Workflows umfassendem Softwarekatalog habe ich die perfekten Tools gefunden, um meinen Entwicklungsprozess zu optimieren."
         },
         "item-3": {
           "name": "Marcus Williams",
           "role": "CTO",
           "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on WorkflowLab's software catalog. It's one of the best curated collections of development tools I've seen so far :)"
+          "quote": "Großartige Arbeit am Softwarekatalog von WorkflowLab. Es ist eine der best kuratierten Sammlungen von Entwicklungstools, die ich bisher gesehen habe :)"
         },
         "item-4": {
           "name": "Elena Rodriguez",
-          "role": "UX Designer",
+          "role": "UX-Designer",
           "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I found exactly the tools I needed in WorkflowLab's catalog which are very clear to understand and easy to integrate into my projects."
+          "quote": "Ich habe genau die Tools gefunden, die ich in Workflows Katalog brauchte, die sehr klar zu verstehen sind und sich leicht in meine Projekte integrieren lassen."
         },
         "item-5": {
           "name": "James Wilson",
-          "role": "Lead Developer",
+          "role": "Lead-Entwickler",
           "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "WorkflowLab is redefining the standard of software discovery, with their catalog providing an easy and efficient way to find tools for any development need."
+          "quote": "WorkflowLab definiert den Standard der Softwareentdeckung neu, wobei ihr Katalog eine einfache und effiziente Möglichkeit bietet, Tools für jeden Entwicklungszweck zu finden."
         },
         "item-6": {
           "name": "Priya Sharma",
-          "role": "Fullstack Developer",
+          "role": "Fullstack-Entwickler",
           "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love WorkflowLab! The software tools are beautifully designed and easy to implement, which makes building great applications a breeze."
+          "quote": "Ich liebe WorkflowLab! Die Softwaretools sind wunderschön gestaltet und leicht zu implementieren, was den Aufbau großer Anwendungen zum Kinderspiel macht."
         },
         "item-7": {
           "name": "David Kim",
-          "role": "Startup Founder",
+          "role": "Startup-Gründer",
           "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "WorkflowLab is the perfect fusion of simplicity and versatility, enabling us to discover tools that are as powerful as they are user-friendly."
+          "quote": "WorkflowLab ist die perfekte Fusion aus Einfachheit und Vielseitigkeit, die es uns ermöglicht, Tools zu entdecken, die genauso leistungsstark wie benutzerfreundlich sind."
         },
         "item-8": {
           "name": "Fatima Ahmed",
-          "role": "Engineering Manager",
+          "role": "Engineering-Manager",
           "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "WorkflowLab has transformed the way I build applications. Their extensive catalog of software tools has significantly accelerated my development workflow."
+          "quote": "WorkflowLab hat die Art und Weise, wie ich Anwendungen erstelle, verändert. Ihr umfangreicher Katalog an Softwaretools hat meinen Entwicklungsworkflow erheblich beschleunigt."
         },
         "item-9": {
           "name": "Robert Taylor",
-          "role": "DevOps Specialist",
+          "role": "DevOps-Spezialist",
           "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "WorkflowLab is an elegant, comprehensive software catalog that's very helpful for finding the right tools to start your projects fast."
+          "quote": "WorkflowLab ist ein eleganter, umfassender Softwarekatalog, der sehr hilfreich ist, um die richtigen Tools zu finden, um Ihre Projekte schnell zu starten."
         },
         "item-10": {
           "name": "Isabella Garcia",
-          "role": "Frontend Developer",
+          "role": "Frontend-Entwickler",
           "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love WorkflowLab ❤️. The software tools are well-structured, simple to implement, and beautifully designed. It makes finding the right solutions quick and easy."
+          "quote": "Ich liebe WorkflowLab ❤️. Die Softwaretools sind gut strukturiert, einfach zu implementieren und wunderschön gestaltet. Es macht das Finden der richtigen Lösungen schnell und einfach."
         },
         "item-11": {
           "name": "Kofi Mensah",
           "role": "Tech Lead",
           "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "WorkflowLab is the perfect solution for anyone who wants to find powerful software tools without spending time researching."
+          "quote": "WorkflowLab ist die perfekte Lösung für jeden, der leistungsstarke Softwaretools finden möchte, ohne Zeit mit Recherche zu verbringen."
         },
         "item-12": {
           "name": "Emma Thompson",
-          "role": "Solutions Architect",
+          "role": "Lösungsarchitekt",
           "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "WorkflowLab has an impressive collection of tools that solve real problems. Let yourself be amazed by the quality of solutions available!"
+          "quote": "WorkflowLab hat eine beeindruckende Sammlung an Tools, die echte Probleme lösen. Lassen Sie sich von der Qualität der verfügbaren Lösungen beeindrucken!"
         }
       }
     },
     "stats": {
-      "title": "Stats",
-      "subtitle": "WorkflowLab in numbers",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
+      "title": "Statistiken",
+      "subtitle": "WorkflowLab in Zahlen",
+      "description": "WorkflowLab stellt Ihnen essentielle Softwaretools zur Verfügung, um Ihren Arbeitsablauf zu verbessern, einfach und mühelos",
       "items": {
         "item-1": {
-          "title": "Tools in Catalog"
+          "title": "Tools im Katalog"
         },
         "item-2": {
-          "title": "Active Users"
+          "title": "Aktive Benutzer"
         },
         "item-3": {
-          "title": "Powered Workflows"
+          "title": "Unterstützte Workflows"
         }
       }
     },
     "calltoaction": {
-      "title": "Start Discovering",
-      "description": "WorkflowLab provides you with essential software tools to enhance your workflow, simply and effortlessly",
-      "primaryButton": "Explore Tools",
-      "secondaryButton": "See Demo"
+      "title": "Beginnen Sie mit der Entdeckung",
+      "description": "WorkflowLab stellt Ihnen essentielle Softwaretools zur Verfügung, um Ihren Arbeitsablauf zu verbessern, einfach und mühelos",
+      "primaryButton": "Tools erkunden",
+      "secondaryButton": "Demo ansehen"
     }
   },
   "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "title": "KI-Text Demo",
+    "description": "Analysieren Sie Webinhalte mit KI, um wichtige Informationen, Funktionen und Erkenntnisse zu extrahieren",
+    "content": "Web-Inhaltsanalysator",
+    "subtitle": "Geben Sie eine Website-URL ein, um eine KI-gestützte Analyse ihres Inhalts zu erhalten",
     "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
+      "title": "Web-Inhaltsanalysator",
+      "description": "Analysieren Sie beliebige Website-Inhalte mit KI, um strukturierte Informationen zu extrahieren",
+      "placeholder": "Website-URL eingeben (z.B. https://beispiel.de)",
+      "button": "Website analysieren",
       "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
+        "scraping": "Website-Inhalt wird gescannt...",
+        "analyzing": "Inhalt wird mit KI analysiert..."
       },
       "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
+        "title": "Analyseergebnisse",
+        "newAnalysis": "Eine andere Website analysieren",
         "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
+          "title": "Titel",
+          "description": "Beschreibung",
+          "introduction": "Einführung",
+          "features": "Funktionen",
+          "useCases": "Anwendungsfälle",
+          "screenshot": "Website-Screenshot"
         }
       },
       "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+        "invalidUrl": "Bitte geben Sie eine gültige URL ein, die mit http:// oder https:// beginnt",
+        "analysisError": "Fehler bei der Analyse der Website. Bitte versuchen Sie es erneut.",
+        "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "insufficientCredits": "Unzureichende Credits. Bitte kaufen Sie weitere Credits, um fortzufahren."
       }
     },
     "features": {
       "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+        "title": "Intelligentes Web-Scraping",
+        "description": "Fortgeschrittene Web-Scraping-Technologie extrahiert saubere, strukturierte Inhalte von jeder Website"
       },
       "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+        "title": "KI-gestützte Analyse",
+        "description": "Intelligente KI-Analyse extrahiert wichtige Erkenntnisse, Funktionen und strukturierte Informationen"
       },
       "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+        "title": "Strukturierte Ergebnisse",
+        "description": "Erhalten Sie organisierte, leicht verständliche Ergebnisse mit klaren Abschnitten und handlungsorientierten Erkenntnissen"
       }
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "Discover AI image tools in our software catalog to enhance your workflow"
+    "title": "KI-Bild",
+    "description": "Entdecken Sie KI-Bild-Tools in unserem Softwarekatalog, um Ihren Workflow zu verbessern"
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "Discover AI chat tools in our software catalog to enhance your workflow"
+    "title": "KI-Chat",
+    "description": "Entdecken Sie KI-Chat-Tools in unserem Softwarekatalog, um Ihren Workflow zu verbessern"
   },
   "AIVideoPage": {
-    "title": "AI Video",
-    "description": "Discover AI video tools in our software catalog to enhance your workflow"
+    "title": "KI-Video",
+    "description": "Entdecken Sie KI-Video-Tools in unserem Softwarekatalog, um Ihren Workflow zu verbessern"
   },
   "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "Discover AI audio tools in our software catalog to enhance your workflow"
+    "title": "KI-Audio",
+    "description": "Entdecken Sie KI-Audio-Tools in unserem Softwarekatalog, um Ihren Workflow zu verbessern"
   },
   "SoftwarePage": {
     "title": "Software",
-    "description": "Discover amazing software tools and services"
+    "description": "Entdecken Sie erstaunliche Software-Tools und Dienste"
   },
   "SoftwareDetailPage": {
-    "title": "Software Details"
+    "title": "Software-Details"
   }
 }
