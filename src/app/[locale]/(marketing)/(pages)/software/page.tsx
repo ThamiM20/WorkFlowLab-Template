@@ -25,6 +25,8 @@ export default async function SoftwarePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'HomePage.softwareCatalog' });
+  
   // Fetch software listings from Strapi
   let softwareList: StrapiCollectionResponse<StrapiSoftware> | null = null;
   let error: string | null = null;
@@ -37,25 +39,27 @@ export default async function SoftwarePage({
   }
 
   return (
-    <div className="container py-8">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold">Software Catalog</h1>
-        <p className="text-muted-foreground mt-2">
-          Discover amazing software tools and services
-        </p>
-      </div>
+    <section className="px-4 py-16">
+      <div className="mx-auto max-w-5xl">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold">{t('title')}</h1>
+          <p className="text-muted-foreground mt-2">
+            {t('subtitle')}
+          </p>
+        </div>
 
-      {error ? (
-        <div className="rounded-lg border border-red-200 bg-red-50 p-4 text-red-800">
-          {error}
-        </div>
-      ) : softwareList && softwareList.data.length > 0 ? (
-        <SoftwareGrid softwareList={softwareList.data} locale={locale} />
-      ) : (
-        <div className="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center">
-          <p className="text-muted-foreground">No software listings found</p>
-        </div>
-      )}
-    </div>
+        {error ? (
+          <div className="rounded-lg border border-red-200 bg-red-50 p-4 text-red-800">
+            {error}
+          </div>
+        ) : softwareList && softwareList.data.length > 0 ? (
+          <SoftwareGrid softwareList={softwareList.data} locale={locale} />
+        ) : (
+          <div className="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center">
+            <p className="text-muted-foreground">No software listings found</p>
+          </div>
+        )}
+      </div>
+    </section>
   );
 }

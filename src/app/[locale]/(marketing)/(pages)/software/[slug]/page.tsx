@@ -43,6 +43,8 @@ export default async function SoftwareDetailPage({
   params,
 }: SoftwareDetailPageProps) {
   const { locale, slug } = await params;
+  const tCatalog = await getTranslations({ locale, namespace: 'HomePage.softwareCatalog' });
+  
   // Fetch software data from Strapi
   let software: StrapiSoftware | null = null;
   let error: string | null = null;
@@ -77,7 +79,7 @@ export default async function SoftwareDetailPage({
     <div className="container py-8">
       <div className="mb-6">
         <a href={`/${locale}/software`} className="text-primary hover:underline">
-          ← Back to Software Catalog
+          ← Back to {tCatalog('title')}
         </a>
       </div>
 
