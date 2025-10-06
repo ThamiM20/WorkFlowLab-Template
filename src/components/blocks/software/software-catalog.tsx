@@ -7,10 +7,11 @@ import { LocaleLink } from '@/i18n/navigation';
 import { strapiSoftware } from '@/lib/strapi/client';
 import type { StrapiSoftware } from '@/lib/strapi/types';
 import { ChevronRight, SquareCodeIcon } from 'lucide-react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
 export default function SoftwareCatalogSection() {
+  const t = useTranslations('HomePage');
   const locale = useLocale();
   const [softwareList, setSoftwareList] = useState<StrapiSoftware[]>([]);
   const [loading, setLoading] = useState(true);
@@ -42,9 +43,9 @@ export default function SoftwareCatalogSection() {
       <section id="software-catalog" className="px-4 py-16">
         <div className="mx-auto max-w-5xl">
           <HeaderSection
-            title="Software Catalog"
-            subtitle="Discover amazing tools"
-            description="Explore our collection of software tools and services"
+            title={t('softwareCatalog.title')}
+            subtitle={t('softwareCatalog.subtitle')}
+            description={t('softwareCatalog.description')}
             subtitleAs="h2"
             descriptionAs="p"
           />
@@ -72,9 +73,9 @@ export default function SoftwareCatalogSection() {
       <section id="software-catalog" className="px-4 py-16">
         <div className="mx-auto max-w-5xl">
           <HeaderSection
-            title="Software Catalog"
-            subtitle="Discover amazing tools"
-            description="Explore our collection of software tools and services"
+            title={t('softwareCatalog.title')}
+            subtitle={t('softwareCatalog.subtitle')}
+            description={t('softwareCatalog.description')}
             subtitleAs="h2"
             descriptionAs="p"
           />
@@ -90,9 +91,9 @@ export default function SoftwareCatalogSection() {
     <section id="software-catalog" className="px-4 py-16">
       <div className="mx-auto max-w-5xl">
         <HeaderSection
-          title="Software Catalog"
-          subtitle="Discover amazing tools"
-          description="Explore our collection of software tools and services"
+          title={t('softwareCatalog.title')}
+          subtitle={t('softwareCatalog.subtitle')}
+          description={t('softwareCatalog.description')}
           subtitleAs="h2"
           descriptionAs="p"
         />

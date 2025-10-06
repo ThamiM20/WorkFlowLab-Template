@@ -58,54 +58,50 @@ export const websiteConfig: WebsiteConfig = {
       en: {
         flag: '🇺🇸',
         name: 'English',
-      zh: {
-        flag: '🇨🇳',
-        name: 'Chinese',
-      es: {
-        flag: '🇪🇸',
-        name: 'Spanish',
-      ar: {
-        flag: '🇸🇦',
-        name: 'Arabic',
-      pt: {
-        flag: '🇧🇷',
-        name: 'Portuguese',
-      id: {
-        flag: '🇮🇩',
-        name: 'Indonesian',
-      fr: {
-        flag: '🇫🇷',
-        name: 'French',
-      ja: {
-        flag: '🇯🇵',
-        name: 'Japanese',
-      ru: {
-        flag: '🇷🇺',
-        name: 'Russian',
-      de: {
-        flag: '🇩🇪',
-        name: 'German',
-      it: {
-        flag: '🇮🇹',
-        name: 'Italian',
-      hi: {
-        flag: '🇮🇳',
-        name: 'Hindi',
-      },
-      },
-      },
-      },
-      },
-      },
-      },
-      },
-      },
-      },
-      },
       },
       zh: {
         flag: '🇨🇳',
         name: '中文',
+      },
+      es: {
+        flag: '🇪🇸',
+        name: 'Español',
+      },
+      ar: {
+        flag: '🇸🇦',
+        name: 'العربية',
+      },
+      pt: {
+        flag: '🇧🇷',
+        name: 'Português',
+      },
+      id: {
+        flag: '🇮🇩',
+        name: 'Bahasa Indonesia',
+      },
+      fr: {
+        flag: '🇫🇷',
+        name: 'Français',
+      },
+      ja: {
+        flag: '🇯🇵',
+        name: '日本語',
+      },
+      ru: {
+        flag: '🇷🇺',
+        name: 'Русский',
+      },
+      de: {
+        flag: '🇩🇪',
+        name: 'Deutsch',
+      },
+      it: {
+        flag: '🇮🇹',
+        name: 'Italiano',
+      },
+      hi: {
+        flag: '🇮🇳',
+        name: 'हिन्दी',
       },
     },
   },
@@ -115,7 +111,7 @@ export const websiteConfig: WebsiteConfig = {
     relatedPostsSize: 3,
   },
   docs: {
-    enable: true,
+    enable: false,
   },
   mail: {
     provider: 'resend',

@@ -13,15 +13,9 @@ export enum Routes {
   
   Blog = '/blog',
   Software = '/software',
-  Docs = '/docs',
   About = '/about',
   Contact = '/contact',
   Waitlist = '/waitlist',
-  Changelog = '/changelog',
-  Roadmap = 'https://workflowlab.link/roadmap',
-  CookiePolicy = '/cookie',
-  PrivacyPolicy = '/privacy',
-  TermsOfService = '/terms',
 
   
   // AI routes

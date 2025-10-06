@@ -47,25 +47,6 @@ export function useFooterLinks(): NestedMenuItem[] {
               },
             ]
           : []),
-        ...(websiteConfig.docs.enable
-          ? [
-              {
-                title: t('resources.items.docs'),
-                href: Routes.Docs,
-                external: false,
-              },
-            ]
-          : []),
-        {
-          title: t('resources.items.changelog'),
-          href: Routes.Changelog,
-          external: false,
-        },
-        {
-          title: t('resources.items.roadmap'),
-          href: Routes.Roadmap,
-          external: true,
-        },
       ],
     },
     {
@@ -88,25 +69,6 @@ export function useFooterLinks(): NestedMenuItem[] {
         },
       ],
     },
-    {
-      title: t('legal.title'),
-      items: [
-        {
-          title: t('legal.items.cookiePolicy'),
-          href: Routes.CookiePolicy,
-          external: false,
-        },
-        {
-          title: t('legal.items.privacyPolicy'),
-          href: Routes.PrivacyPolicy,
-          external: false,
-        },
-        {
-          title: t('legal.items.termsOfService'),
-          href: Routes.TermsOfService,
-          external: false,
-        },
-      ],
-    },
+
   ];
 }

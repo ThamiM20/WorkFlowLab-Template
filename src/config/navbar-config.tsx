@@ -24,7 +24,7 @@ export function useNavbarLinks(): NestedMenuItem[] {
 
   return [
     {
-      title: 'Software',
+      title: t('pages.items.software.title'),
       href: Routes.Software,
       external: false,
       icon: <SquareCodeIcon className="size-4 shrink-0" />,
