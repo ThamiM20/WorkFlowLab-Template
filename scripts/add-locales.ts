@@ -105,23 +105,40 @@ class LocaleAutomation {
     let configContent = await fs.readFile(this.configPath, 'utf-8');
     
     // Check if locale already exists in config
-    if (configContent.includes(`'${locale.code}': {`)) {
+    if (configContent.includes(`${locale.code}: {`)) {
       console.log(`Locale ${locale.code} already exists in config, skipping...`);
       return;
     }
     
-    // Find the i18n locales section and add the new locale
-    const localesRegex = /(i18n: \{[\s\S]*?locales: \{)([\s\S]*?)(\s*},)/;
-    const match = configContent.match(localesRegex);
+    // Find the section where locales are defined: between "locales: {" and the closing "}"
+    // that comes before the "blog:" section
+    const startMarker = 'locales: {';
+    const endMarker = '  blog: {';
     
-    if (!match) {
-      throw new Error('Could not find locales section in config file');
+    const startIndex = configContent.indexOf(startMarker);
+    if (startIndex === -1) {
+      throw new Error('Could not find locales section start in config file');
     }
     
+    const endIndex = configContent.indexOf(endMarker, startIndex);
+    if (endIndex === -1) {
+      throw new Error('Could not find locales section end in config file');
+    }
+    
+    // Extract the locales section to insert our new locale in the right place
+    const beforeLocales = configContent.substring(0, startIndex + startMarker.length);
+    const localesSection = configContent.substring(startIndex + startMarker.length, endIndex);
+    const afterLocales = configContent.substring(endIndex);
+    
+    // Find the last closing brace within the locales section to insert before
+    // We need to find the right place to insert our new locale
     const newLocaleEntry = `\n      ${locale.code}: {\n        flag: '${locale.flag}',\n        name: '${locale.name}',\n      },`;
     
-    // Insert the new locale entry
-    configContent = configContent.replace(localesRegex, `$1$2${newLocaleEntry}$3`);
+    // Insert the new locale entry before the closing brace of the locales object
+    const updatedLocalesSection = localesSection.replace(/\s*(\n\s*\},\s*\n\s*\},)$/, newLocaleEntry + '$1');
+    
+    // Reassemble the config
+    configContent = beforeLocales + updatedLocalesSection + afterLocales;
     
     // Write the updated config file
     await fs.writeFile(this.configPath, configContent);

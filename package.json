@@ -18,6 +18,7 @@
     "list-contacts": "tsx scripts/list-contacts.ts",
     "list-users": "tsx scripts/list-users.ts",
     "add-locales": "tsx scripts/add-locales.ts",
+    "translate-locales": "tsx scripts/translate-locales.ts",
     "content": "fumadocs-mdx",
     "email": "email dev --dir src/mail/templates --port 3333",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
